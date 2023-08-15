@@ -1,5 +1,5 @@
-import React, { useEffect, useRef, useState } from "react";
-import { cx, css } from "@emotion/css";
+import React, { useEffect, useRef, useState } from 'react';
+import { cx, css } from '@emotion/css';
 
 const wrapperStyles = css`
   display: inline-block;
@@ -23,9 +23,9 @@ interface H1Props extends React.HTMLProps<HTMLHeadingElement> {
   children: JSX.Element | string;
 }
 
-const H1 = ({ children, ...props } : H1Props) => {
+const SectionTitle = ({ children, ...props } : H1Props) => {
   const h1Ref = useRef<any>();
-  const [dividerWidth, setDividerWidth] = useState("0px");
+  const [dividerWidth, setDividerWidth] = useState('0px');
   useEffect(() => {
     if (h1Ref) {
       const clientWidth = h1Ref?.current?.clientWidth || 0;
@@ -48,4 +48,4 @@ const H1 = ({ children, ...props } : H1Props) => {
   );
 };
 
-export default H1;
+export default SectionTitle;

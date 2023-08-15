@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import H1 from "../../components/H1";
-import Button from "../../components/buttons/Button";
-import { css } from "@emotion/css";
-import WorkExperienceModal from "../../components/WorkExperienceModal";
+import React, { useState } from 'react';
+import SectionTitle from '../../components/SectionTitle';
+import Button from '../../components/buttons/Button';
+import { css } from '@emotion/css';
+import WorkExperienceModal from '../../components/WorkExperienceModal';
 
 const aboutMeContainerStyles = css`
   display: flex;
@@ -31,7 +31,7 @@ const AboutMeSection = () => {
   return (
     <>
       <div className={aboutMeContainerStyles}>
-        <H1>About Me</H1>
+        <SectionTitle>About Me</SectionTitle>
         <h3 className={aboutMeContentStyles}>
           My name is Dewyn Liriano, from the Dominican Republic. I am a highly
           passionate, dependable, self-reliant, and goal-driven person. My keen
