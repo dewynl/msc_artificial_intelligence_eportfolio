@@ -1,7 +1,6 @@
-/* eslint-disable react/no-unescaped-entities */
 import React, { useState } from "react";
 import H1 from "../../components/H1";
-import Button from "../../components/Button";
+import Button from "../../components/buttons/Button";
 import { css } from "@emotion/css";
 import WorkExperienceModal from "../../components/WorkExperienceModal";
 

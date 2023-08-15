@@ -5,6 +5,8 @@ import H1 from "../../components/H1";
 import { css } from "@emotion/css";
 import { whites } from "../../colors";
 import AboutMeSection from "./AboutMeSection";
+import TechStack from "./TechStack";
+import ModulesSection from "./ModulesSection";
 
 const h1Styles = css`
   color: ${whites[1]};
@@ -21,6 +23,8 @@ const HomePage = () => {
         </span>
       </div>
       <AboutMeSection />
+      <TechStack />
+      <ModulesSection />
     </div>
   );
 };
