@@ -1,18 +1,18 @@
-import React from "react";
-import Modal from "./Modal";
-import { css } from "@emotion/css";
+import React from 'react';
+import Modal from './Modal';
+import { css } from '@emotion/css';
 
-import { workExperience } from "../data/static-data";
+import { workExperience } from '../data/static-data';
 
 interface WorkExperienceModalProps {
-  onClose: () => void;
+	onClose: () => void;
 }
 
 interface WorkExperienceProps {
-  jobTitle: string;
-  company: string;
-  period: string;
-  achievements: string[];
+	jobTitle: string;
+	company: string;
+	period: string;
+	achievements: string[];
 }
 
 const modalContentWrapper = css`
@@ -55,53 +55,54 @@ const taskAndAchievementsWrapper = css`
 `;
 
 const WorkExperience = ({
-  jobTitle,
-  company,
-  period,
-  achievements
+	jobTitle,
+	company,
+	period,
+	achievements,
 }: WorkExperienceProps) => {
-  return (
-    <div className={workExperienceWrapper}>
-      <h6 className={jobTtile}>
-        {jobTitle}
-      </h6>
-      <span className={companyWrapper}>
-        {company}
-      </span>
-      <span className={periodWrapper}>
-        {period}
-      </span>
-      <div>
-        <p className={taskAndAchievementsWrapper}>
-          <i>Tasks/Achievements</i>
-        </p>
-        <ul style={{ margin: 0 }}>
-          {achievements.map(achievement =>
-            <li>
-              {achievement}
-            </li>
-          )}
-        </ul>
-      </div>
-    </div>
-  );
+	return (
+		<div className={workExperienceWrapper}>
+			<h6 className={jobTtile}>
+				{jobTitle}
+			</h6>
+			<span className={companyWrapper}>
+				{company}
+			</span>
+			<span className={periodWrapper}>
+				{period}
+			</span>
+			<div>
+				<p className={taskAndAchievementsWrapper}>
+					<i>Tasks/Achievements</i>
+				</p>
+				<ul style={{ margin: 0 }}>
+					{achievements.map((achievement, index) =>
+						<li key={index}>
+							{achievement}
+						</li>
+					)}
+				</ul>
+			</div>
+		</div>
+	);
 };
 
 const WorkExperienceModal = ({ onClose }: WorkExperienceModalProps) => {
-  return (
-    <Modal onClose={onClose} title="Work Experience">
-      <div className={modalContentWrapper}>
-        {workExperience.map(experience =>
-          <WorkExperience
-            jobTitle={experience.title}
-            company={experience.company}
-            period={experience.employmentTime}
-            achievements={experience.tasks}
-          />
-        )}
-      </div>
-    </Modal>
-  );
+	return (
+		<Modal onClose={onClose} title="Work Experience">
+			<div className={modalContentWrapper}>
+				{workExperience.map((experience, index) =>
+					<WorkExperience
+						key={index}
+						jobTitle={experience.title}
+						company={experience.company}
+						period={experience.employmentTime}
+						achievements={experience.tasks}
+					/>
+				)}
+			</div>
+		</Modal>
+	);
 };
 
 export default WorkExperienceModal;
