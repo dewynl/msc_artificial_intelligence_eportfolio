@@ -25,6 +25,7 @@ export const workExperience = [
 		company: 'Avathar Tech',
 		employmentTime: '11/18 - 03/19',
 		tasks: [
+			// eslint-disable-next-line quotes
 			"Enabled user's payment of household utilities like gas, electricity, and water.",
 			'Established connection with telecommunication companies to enable users payment of phone and internet services.',
 			'Stored users information that made easy for them to make this actions faster after the first time.',
