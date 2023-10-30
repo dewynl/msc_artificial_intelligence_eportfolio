@@ -28,12 +28,25 @@ const wrapper = css`
   }
 `;
 
+const moduleTitle = css`
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    background-size: cover;
+    background-position: center;
+`;
+
 const ModulePage = () => {
 	const { moduleId } = useParams();
 
 	return <div className={wrapper}>
 			<>
-      <h1 id="learning-outcomes">Machine Learning</h1>
+      <div className={moduleTitle} style={{backgroundImage: '869.jpg'}}>
+        <h1>Machine Learning</h1>
+      </div>  
       <h2>Learning Outcomes</h2>
       <ul>
         <li>Learn about the key paradigms and algorithms in machine learning.</li>
