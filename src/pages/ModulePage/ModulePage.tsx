@@ -31,8 +31,9 @@ const wrapper = css`
 const moduleTitle = css`
     display: flex;
     flex-direction: column;
-    height: 20vh;
-    align-items: center;
+    height: 30vh;
+    align-items: start;
+    padding-left: 128px;
     justify-content: center;
     background-color: lightgray;
     background-size: cover;
@@ -44,12 +45,12 @@ const moduleTitle = css`
 const ModulePage = () => {
 	const { moduleId } = useParams();
 
-	return <div className={wrapper}>
-			<>
-      <div className={moduleTitle}>
-        <h1>Machine Learning</h1>
-      </div>  
-      <h2>Learning Outcomes</h2>
+	return <div >
+        <div className={moduleTitle}>
+          <h1>Machine Learning</h1>
+        </div>
+        <div className={wrapper}>
+          <h2>Learning Outcomes</h2>
       <ul>
         <li>Learn about the key paradigms and algorithms in machine learning.</li>
         <li>
@@ -1557,7 +1558,7 @@ const ModulePage = () => {
         forward to what’s to come in the next modules.
       </p>
     </>
-</>
+        </div>
 
 		</div>;
 };
