@@ -1,18 +1,18 @@
 import React from 'react';
 import './App.css';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import HomePage from './pages/Homepage/HomePage';
 import ModulePage from './pages/ModulePage/ModulePage';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
 	{
 		path: '/',
-		element: <HomePage />,
+		element: <HomePage />
 	},
 	{
 		path: '/module/:moduleId',
-		element: <ModulePage />,
-	},
+		element: <ModulePage />
+	}
 ]);
 
 function App() {
