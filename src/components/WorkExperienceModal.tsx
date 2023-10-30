@@ -58,7 +58,7 @@ const WorkExperience = ({
 	jobTitle,
 	company,
 	period,
-	achievements,
+	achievements
 }: WorkExperienceProps) => {
 	return (
 		<div className={workExperienceWrapper}>
