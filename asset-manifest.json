@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/msc_artificial_intelligence_eportfolio/static/css/main.073c9b0a.css",
-    "main.js": "/msc_artificial_intelligence_eportfolio/static/js/main.e343f13a.js",
+    "main.js": "/msc_artificial_intelligence_eportfolio/static/js/main.0c0929a2.js",
     "static/js/787.79bd1db8.chunk.js": "/msc_artificial_intelligence_eportfolio/static/js/787.79bd1db8.chunk.js",
     "index.html": "/msc_artificial_intelligence_eportfolio/index.html",
     "main.073c9b0a.css.map": "/msc_artificial_intelligence_eportfolio/static/css/main.073c9b0a.css.map",
-    "main.e343f13a.js.map": "/msc_artificial_intelligence_eportfolio/static/js/main.e343f13a.js.map",
+    "main.0c0929a2.js.map": "/msc_artificial_intelligence_eportfolio/static/js/main.0c0929a2.js.map",
     "787.79bd1db8.chunk.js.map": "/msc_artificial_intelligence_eportfolio/static/js/787.79bd1db8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.e343f13a.js"
+    "static/js/main.0c0929a2.js"
   ]
 }
