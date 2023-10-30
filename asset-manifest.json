@@ -1,15 +1,25 @@
 {
   "files": {
     "main.css": "/msc_artificial_intelligence_eportfolio/static/css/main.073c9b0a.css",
-    "main.js": "/msc_artificial_intelligence_eportfolio/static/js/main.9318e551.js",
+    "main.js": "/msc_artificial_intelligence_eportfolio/static/js/main.43bb4c89.js",
     "static/js/787.79bd1db8.chunk.js": "/msc_artificial_intelligence_eportfolio/static/js/787.79bd1db8.chunk.js",
+    "static/media/Team_Presentation_Group_3_Transcript.pdf": "/msc_artificial_intelligence_eportfolio/static/media/Team_Presentation_Group_3_Transcript.9a2ea3aeb7ed40658e08.pdf",
+    "static/media/group3_report.docx": "/msc_artificial_intelligence_eportfolio/static/media/group3_report.2c63de170aeca74c9ab7.docx",
+    "static/media/Team_Presentation_Group_3_Code.ipynb": "/msc_artificial_intelligence_eportfolio/static/media/Team_Presentation_Group_3_Code.e7dcaed44e4915c6c2e8.ipynb",
+    "static/media/correlation_room_type.jpg": "/msc_artificial_intelligence_eportfolio/static/media/correlation_room_type.db9f2c331c93efda0e45.jpg",
+    "static/media/peer_report_code.ipynb": "/msc_artificial_intelligence_eportfolio/static/media/peer_report_code.e4414aa60fe5ff5a59b5.ipynb",
+    "static/media/less_data_pearson.png": "/msc_artificial_intelligence_eportfolio/static/media/less_data_pearson.d32e5cf62259a23d496f.png",
+    "static/media/default_pearson_result.png": "/msc_artificial_intelligence_eportfolio/static/media/default_pearson_result.e6309a16b1f0790cf45e.png",
+    "static/media/polynomial_regression.png": "/msc_artificial_intelligence_eportfolio/static/media/polynomial_regression.a2f8757ab5fe3764d606.png",
+    "static/media/default_pearson.png": "/msc_artificial_intelligence_eportfolio/static/media/default_pearson.73acd34a7b9a7595494a.png",
+    "static/media/linear_regression.png": "/msc_artificial_intelligence_eportfolio/static/media/linear_regression.f358b2e17a2de2c988c9.png",
     "index.html": "/msc_artificial_intelligence_eportfolio/index.html",
     "main.073c9b0a.css.map": "/msc_artificial_intelligence_eportfolio/static/css/main.073c9b0a.css.map",
-    "main.9318e551.js.map": "/msc_artificial_intelligence_eportfolio/static/js/main.9318e551.js.map",
+    "main.43bb4c89.js.map": "/msc_artificial_intelligence_eportfolio/static/js/main.43bb4c89.js.map",
     "787.79bd1db8.chunk.js.map": "/msc_artificial_intelligence_eportfolio/static/js/787.79bd1db8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.9318e551.js"
+    "static/js/main.43bb4c89.js"
   ]
 }
