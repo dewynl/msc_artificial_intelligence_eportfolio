@@ -147,7 +147,7 @@ const ModulesSection = () => {
 			<div className={moduleCardsWrapper}>
 				<ModuleCard
 					moduleId={'3'}
-					coverImage="/machine-learning-cover.gif"
+					coverImage="machine-learning-cover.gif"
 					name="Machine Learning"
 					status="in progress"
 					onClick={handleModuleCardClick}

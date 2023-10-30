@@ -1,5 +1,5 @@
-import { css } from "@emotion/css";
-import { whites } from "../../colors";
+import { css } from '@emotion/css';
+import { whites } from '../../colors';
 
 export const homepageWrapperStyles = css`
   display: flex;
@@ -13,7 +13,7 @@ export const headerStyles = css`
   height: 40vh;
   align-items: center;
   justify-content: center;
-  background-image: url("/869.jpg");
+  background-image: url("869.jpg");
   background-color: lightgray;
   background-size: cover;
   background-position: center;
