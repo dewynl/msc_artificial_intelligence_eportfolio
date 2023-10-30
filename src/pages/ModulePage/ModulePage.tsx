@@ -87,7 +87,7 @@ const ModulePage = () => {
         navigate this rapidly evolving landscape.
       </p>
       <p>
-        The <strong>Fourth Industrial Revolution (4IR)</strong> is a term used to
+        The <b>Fourth Industrial Revolution (4IR)</b> is a term used to
         describe the current era of technological change, which is characterized by
         the convergence of digital, physical, and biological technologies. It is
         also known as Industry 4.0, and is often seen as the next phase of the
@@ -338,24 +338,24 @@ const ModulePage = () => {
       </p>
       <ul>
         <li>
-          <strong>Weight coefficient</strong>: 0.00755095
+          <b>Weight coefficient</b>: 0.00755095
         </li>
         <li>
-          <strong>Volume coefficient</strong>: 0.00780526
+          <b>Volume coefficient</b>: 0.00780526
         </li>
       </ul>
       <p>
-        This means that for every <strong>1kg</strong> increase in weight, the CO2
-        emission is expected to increase by <strong>0.00755095g</strong>. For every{" "}
-        <strong>1cm3</strong> increase in volume, the CO2 emission is expected to
-        increase by <strong>0.00780526g</strong>.
+        This means that for every <b>1kg</b> increase in weight, the CO2
+        emission is expected to increase by <b>0.00755095g</b>. For every{" "}
+        <b>1cm3</b> increase in volume, the CO2 emission is expected to
+        increase by <b>0.00780526g</b>.
       </p>
       <p>
         If you change the values of the independent variables, the predicted CO2
         emission will change accordingly. For example, if you change the weight from{" "}
-        <strong>2300kg</strong> to <strong>3300kg</strong>, the predicted CO2
-        emission will increase from <strong>107.2087328g</strong> to{" "}
-        <strong>124.7182781g</strong>.
+        <b>2300kg</b> to <b>3300kg</b>, the predicted CO2
+        emission will increase from <b>107.2087328g</b> to{" "}
+        <b>124.7182781g</b>.
       </p>
       <p>
         This is because the linear regression model assumes that the relationship
@@ -497,12 +497,12 @@ const ModulePage = () => {
         aimed to quantify the similarity between their health profiles. For this we
         need to also consider that there are values that are represented differently
         in the table but for our purposes, they are the same. Specifically A and N
-        are equals, for our symmetric table, these will be both <strong>0</strong>.
+        are equals, for our symmetric table, these will be both <b>0</b>.
         As for the Y and P values, these are both going to have the value of{" "}
-        <strong>1</strong>.
+        <b>1</b>.
       </p>
       <p>
-        <strong>Original Table</strong>:
+        <b>Original Table</b>:
       </p>
       <table>
         <thead>
@@ -551,7 +551,7 @@ const ModulePage = () => {
         </tbody>
       </table>
       <p>
-        <strong>Symmetric Table</strong>:
+        <b>Symmetric Table</b>:
       </p>
       <table>
         <thead>
@@ -645,7 +645,7 @@ const ModulePage = () => {
       </h2>
       <p>
         For this assignment we were a team of 3. This reports aimed to make an
-        analysis of the <strong>AB_NYC_2019</strong> dataset, which contains a lot
+        analysis of the <b>AB_NYC_2019</b> dataset, which contains a lot
         of information encompassing listing activities and metrics for the year
         2019. The report should get key insights that will not only address a
         substantive issue for Airbnb but also pave the way for strategic
@@ -691,7 +691,7 @@ const ModulePage = () => {
       <p>Clustering was relevant in this report in two ways:</p>
       <ol>
         <li>
-          <strong>Identifying geographical price dispersion</strong>: Clustering was
+          <b>Identifying geographical price dispersion</b>: Clustering was
           used to group Airbnb listings into clusters with similar price patterns.
           This revealed that there is significant geographical price dispersion,
           with desirable locations commanding higher prices, limited availability,
@@ -700,7 +700,7 @@ const ModulePage = () => {
           about their pricing.
         </li>
         <li>
-          <strong>Assessing variable effects on price</strong>: Clustering was also
+          <b>Assessing variable effects on price</b>: Clustering was also
           used to group Airbnb listings into clusters with similar characteristics.
           This allowed the researchers to assess the impact of different variables
           on price within each cluster. For example, they found that the impact of
@@ -721,7 +721,7 @@ const ModulePage = () => {
         <img src={require('../../data/machine-learning/correlation_room_type.jpg')} alt="correlation_room_type" />
       </p>
       <p>
-        <strong>Recommendations</strong>:
+        <b>Recommendations</b>:
       </p>
       <ul>
         <li>
@@ -740,12 +740,12 @@ const ModulePage = () => {
         </li>
       </ul>
       <p>
-        <strong>Team Meetings</strong>:
+        <b>Team Meetings</b>:
       </p>
       <ul>
         <li>
           <p>
-            <strong>Team Structure and Meetings</strong>: The team adopted a
+            <b>Team Structure and Meetings</b>: The team adopted a
             structured weekly meeting schedule to discuss the assignment's progress.
             Each team member initially took an individual approach, creating their
             own implementations and generating ideas for measurement.
@@ -753,14 +753,14 @@ const ModulePage = () => {
         </li>
         <li>
           <p>
-            <strong>Individual Contributions</strong>: Team members took the
+            <b>Individual Contributions</b>: Team members took the
             initiative to independently work on the assignment, bringing diverse
             perspectives and ideas to the table.
           </p>
         </li>
         <li>
           <p>
-            <strong>Collaborative Discussions</strong>: The weekly meetings
+            <b>Collaborative Discussions</b>: The weekly meetings
             facilitated collaborative discussions, allowing team members to share
             thoughts, ideas, and rationales behind specific measurements. This
             ensured a comprehensive understanding of the assignment and its
@@ -769,14 +769,14 @@ const ModulePage = () => {
         </li>
         <li>
           <p>
-            <strong>Final Problem Definition</strong>: Through collaborative
+            <b>Final Problem Definition</b>: Through collaborative
             discussions, the team collectively decided on the final problem to
             solve, honing in on the price study aspect.
           </p>
         </li>
         <li>
           <p>
-            <strong>Data Exploration</strong>: The team engaged in hands-on data
+            <b>Data Exploration</b>: The team engaged in hands-on data
             exploration, actively working with the dataset until meaningful insights
             emerged. This iterative process allowed for a deeper understanding of
             the data and the identification of useful findings.
@@ -826,18 +826,18 @@ const ModulePage = () => {
         and one output.
       </p>
       <p>
-        <strong>How changes in the variables affect the outcomes</strong>
+        <b>How changes in the variables affect the outcomes</b>
         The output of the perceptron will change as we experiment changing the
         values of the weights and the threshold.
       </p>
       <ul>
         <li>
-          <strong>Weights:</strong> If we increase the value of a weight, then the
+          <b>Weights:</b> If we increase the value of a weight, then the
           output of the perceptron will be more sensitive to changes in the
           corresponding input.
         </li>
         <li>
-          <strong>Threshold:</strong> If we increase the threshold value, then the
+          <b>Threshold:</b> If we increase the threshold value, then the
           output of the perceptron will be more likely to be 0.
         </li>
       </ul>
@@ -849,8 +849,8 @@ const ModulePage = () => {
       <ul>
         <li>
           <p>
-            <strong>Example 1:</strong> Let's say we have a perceptron with the
-            following weights: <code>[0.5, 0.5]</code>
+            <b>Example 1:</b> Let's say we have a perceptron with the
+            following weights: <b>[0.5, 0.5]</b>
           </p>
           <p>
             {" "}
@@ -859,19 +859,19 @@ const ModulePage = () => {
           </p>
           <p>
             {" "}
-            <code>inputs = [4, 5]</code>
+            <b>inputs = [4, 5]</b>
           </p>
           <p>
             {" "}
-            The output of the perceptron will be <code>1</code>. This is because the
+            The output of the perceptron will be <b>1</b>. This is because the
             weighted sum of the inputs is greater than or equal to the threshold
-            value of <code>0</code>.
+            value of <b>0</b>.
           </p>
         </li>
         <li>
           <p>
-            <strong>Example 2:</strong> Now, let's say we increase the value of the
-            first weight to <strong>1</strong> <code>[1, 0.5]</code>:
+            <b>Example 2:</b> Now, let's say we increase the value of the
+            first weight to <b>1</b> <b>[1, 0.5]</b>:
           </p>
           <p>
             {" "}
@@ -880,11 +880,11 @@ const ModulePage = () => {
           </p>
           <p>
             {" "}
-            <code>inputs = [4, 5]</code>
+            <b>inputs = [4, 5]</b>
           </p>
           <p>
             {" "}
-            The output of the perceptron will now be <code>1</code>.
+            The output of the perceptron will now be <b>1</b>.
           </p>
           <p>
             {" "}
@@ -895,18 +895,18 @@ const ModulePage = () => {
         </li>
         <li>
           <p>
-            <strong>Example 3:</strong> Now, let's reduce the value of the first
-            input to <strong>2</strong>:
+            <b>Example 3:</b> Now, let's reduce the value of the first
+            input to <b>2</b>:
           </p>
           <p>
             {" "}
-            <code>inputs = [2, 5]</code>
+            <b>inputs = [2, 5]</b>
           </p>
           <p>
             {" "}
             The weighted sum of the inputs is now less than the threshold value of{" "}
-            <strong>0</strong>, even though the weights have not changed. Therefore,
-            the output of the perceptron will now be <strong>0</strong>.
+            <b>0</b>, even though the weights have not changed. Therefore,
+            the output of the perceptron will now be <b>0</b>.
           </p>
         </li>
       </ul>
@@ -922,18 +922,18 @@ const ModulePage = () => {
       <p>
         The provided Python code implements a simple perceptron, a fundamental unit
         in neural networks. The primary goal of the code is to train the perceptron
-        to perform the logical <strong>AND</strong> operation on binary inputs. The
+        to perform the logical <b>AND</b> operation on binary inputs. The
         perceptron is trained iteratively using a training loop, adjusting its
         weights based on the error in predictions until the total error becomes
         zero.
       </p>
       <p>
         We could easily do the same for the other logical operators, such as an{" "}
-        <strong>OR</strong> operator. We would only need to update the output
-        variable to <code>[0, 1, 1, 1]</code>.
+        <b>OR</b> operator. We would only need to update the output
+        variable to <b>[0, 1, 1, 1]</b>.
       </p>
       <p>
-        We could also update the <code>learning_rate</code> variable, this parameter
+        We could also update the <b>learning_rate</b> variable, this parameter
         controls how quickly the perceptron model updates its weights. A higher
         learning rate will cause the model to update its weights more quickly, while
         a lower learning rate will cause the model to update its weights more
@@ -951,7 +951,7 @@ const ModulePage = () => {
       </p>
       <h2 id="multilayered-perceptron">Multilayered Perceptron</h2>
       <p>
-        <strong>Multilayer perceptron (MLP)</strong>, also known as a feedforward
+        <b>Multilayer perceptron (MLP)</b>, also known as a feedforward
         neural network, is a type of artificial neural network (ANN) that consists
         of a set of interconnected neurons organized in layers. Each neuron in a
         layer is connected to all of the neurons in the next layer, and the weights
@@ -1023,14 +1023,14 @@ const ModulePage = () => {
       <ul>
         <li>
           <p>
-            <strong>Iterations</strong>: More iterations give the algorithm more
+            <b>Iterations</b>: More iterations give the algorithm more
             tries to find the best outcome. Yet, doing too many iterations can cause
             problems like overfitting or using too much computing power.
           </p>
         </li>
         <li>
           <p>
-            <strong>Learning Rate</strong>: A higher learning rate means the
+            <b>Learning Rate</b>: A higher learning rate means the
             algorithm takes bigger steps in figuring out the best values. This can
             make things faster, but if the rate is too high, the algorithm might
             miss the best result and not work well.
@@ -1057,7 +1057,7 @@ const ModulePage = () => {
       <ol>
         <li>
           <p>
-            <strong>Preprocessing</strong>: The first step is to load and preprocess
+            <b>Preprocessing</b>: The first step is to load and preprocess
             the data. This involves normalizing the images and converting the class
             labels to one-hot vectors. The pixel values of the images are normalized
             to the range [0, 1].
@@ -1065,7 +1065,7 @@ const ModulePage = () => {
         </li>
         <li>
           <p>
-            <strong>Building the model</strong>: The next step is to build the CNN
+            <b>Building the model</b>: The next step is to build the CNN
             model. The model consists of several convolutional layers, followed by
             max pooling layers and fully connected layers. The convolutional layers
             learn to extract features from the images, while the max pooling layers
@@ -1075,7 +1075,7 @@ const ModulePage = () => {
         </li>
         <li>
           <p>
-            <strong>Training the model</strong>: The model is trained on the
+            <b>Training the model</b>: The model is trained on the
             preprocessed dataset using the Adam optimizer and the categorical
             crossentropy loss function. Early stopping is implemented to stop
             training if there is no improvement in validation loss after a certain
@@ -1084,7 +1084,7 @@ const ModulePage = () => {
         </li>
         <li>
           <p>
-            <strong>Evaluating the model</strong>: Once the model is trained, it is
+            <b>Evaluating the model</b>: Once the model is trained, it is
             evaluated on a held-out test set. The accuracy of the model is
             calculated as the percentage of images that are correctly classified. In
             this case, the model had an accuracy of around 66%.
@@ -1092,7 +1092,7 @@ const ModulePage = () => {
         </li>
       </ol>
       <p>
-        <strong>Prediction</strong>
+        <b>Prediction</b>
       </p>
       <p>
         To make a prediction, the model is given an image as input. The model then
@@ -1101,12 +1101,12 @@ const ModulePage = () => {
         the class of the image.
       </p>
       <p>
-        <strong>Results</strong>
+        <b>Results</b>
       </p>
       <p>
-        To show the model in action, we iterated over the first <strong>15</strong>{" "}
+        To show the model in action, we iterated over the first <b>15</b>{" "}
         images in the test set to see what we would have as a result. Here is a
-        table showing the predictions of the model for the first <strong>15</strong>{" "}
+        table showing the predictions of the model for the first <b>15</b>{" "}
         images in the test set:
       </p>
       <table>
@@ -1199,9 +1199,9 @@ const ModulePage = () => {
     <>
       <p>
         There are a couple of misclassifications, like predicting{" "}
-        <code>automobile</code> instead of <code>ship</code> for{" "}
-        <strong>Image 2</strong>, and predicting <code>cat</code> instead of{" "}
-        <code>automobile</code> for <strong>Image 6</strong>. But overall, it's
+        <b>automobile</b> instead of <b>ship</b> for{" "}
+        <b>Image 2</b>, and predicting <b>cat</b> instead of{" "}
+        <b>automobile</b> for <b>Image 6</b>. But overall, it's
         getting many of them right. These discrepancies could be due to the
         complexity of the dataset or the need for further tuning of the model. It
         might be worth experimenting with different architectures, hyperparameters,
@@ -1215,17 +1215,17 @@ const ModulePage = () => {
       </p>
       <ul>
         <li>
-          <strong>Identify and fix problems with our models</strong>: By evaluating
+          <b>Identify and fix problems with our models</b>: By evaluating
           the performance of our models, we can identify areas where they are not
           performing well and make changes to improve them.
         </li>
         <li>
-          <strong>Compare different models</strong>: If we are considering using
+          <b>Compare different models</b>: If we are considering using
           multiple models for a given task, we can use performance metrics to
           compare them and choose the model that performs the best.
         </li>
         <li>
-          <strong>Set expectations for our models</strong>: By understanding the
+          <b>Set expectations for our models</b>: By understanding the
           performance of our models, we can set realistic expectations for what they
           can and cannot do.
         </li>
@@ -1254,21 +1254,21 @@ const ModulePage = () => {
       <p>The following parameters have a significant impact on AUC:</p>
       <ul>
         <li>
-          <strong>Choice of classifier</strong>: Some classifiers are better suited
+          <b>Choice of classifier</b>: Some classifiers are better suited
           for certain types of data than others. For example, support vector
           machines (SVMs) are often used for high-dimensional data with a few
           features, while logistic regression is often used for lower-dimensional
           data with more features.
         </li>
         <li>
-          <strong>Hyperparameter tuning</strong>: Hyperparameters are parameters
+          <b>Hyperparameter tuning</b>: Hyperparameters are parameters
           that control the learning process of a classifier. For example, the
           regularization parameter in SVMs controls how much the model should
           penalize complexity. Hyperparameter tuning can be done manually or using a
           grid search or random search algorithm.
         </li>
         <li>
-          <strong>Feature selection</strong>: Feature selection is the process of
+          <b>Feature selection</b>: Feature selection is the process of
           identifying and selecting the most important features for a given task.
           This can improve the performance of a classifier by reducing the amount of
           noise in the data.
@@ -1283,20 +1283,20 @@ const ModulePage = () => {
       <p>The following parameters have a significant impact on R2 error:</p>
       <ul>
         <li>
-          <strong>Choice of model</strong>: Some regression models are better suited
+          <b>Choice of model</b>: Some regression models are better suited
           for certain types of data than others. For example, linear regression is
           often used for linear data, while polynomial regression is often used for
           non-linear data.
         </li>
         <li>
-          <strong>Hyperparameter tuning</strong>: Hyperparameters are parameters
+          <b>Hyperparameter tuning</b>: Hyperparameters are parameters
           that control the learning process of a regression model. For example, the
           learning rate in stochastic gradient descent controls how quickly the
           model updates its parameters. Hyperparameter tuning can be done manually
           or using a grid search or random search algorithm.
         </li>
         <li>
-          <strong>Data preprocessing</strong>: Data preprocessing can improve the
+          <b>Data preprocessing</b>: Data preprocessing can improve the
           performance of a regression model by reducing the amount of noise in the
           data. For example, normalizing the data can improve the performance of
           models that are sensitive to the scale of the features.
@@ -1445,19 +1445,19 @@ const ModulePage = () => {
         need to carefully select optimization methods and training paradigms.
       </p>
       <p>
-        <strong>Team Meetings</strong>:
+        <b>Team Meetings</b>:
       </p>
       <ul>
         <li>
           <p>
-            <strong>Team Structure and Meetings</strong>: The team maintained the
+            <b>Team Structure and Meetings</b>: The team maintained the
             weekly meeting schedule from the previous project to discuss the
             assignment's progress.
           </p>
         </li>
         <li>
           <p>
-            <strong>Individual Contributions</strong>: We adopted the same approach
+            <b>Individual Contributions</b>: We adopted the same approach
             as last time, where each team member generated an initial simple
             solution to the problem at hand. This method allowed everyone to engage
             with the subject, become comfortable with Python implementation, and
@@ -1466,7 +1466,7 @@ const ModulePage = () => {
         </li>
         <li>
           <p>
-            <strong>Collaborative Discussions</strong>: Weekly, we conducted reviews
+            <b>Collaborative Discussions</b>: Weekly, we conducted reviews
             of individual work, identifying the most accurate models and sharing
             strategies. Discussions on next steps were documented to facilitate the
             synthesis of our findings.
@@ -1474,14 +1474,14 @@ const ModulePage = () => {
         </li>
         <li>
           <p>
-            <strong>Final Problem Definition</strong>: We established a final
+            <b>Final Problem Definition</b>: We established a final
             deadline for completing our solution, enabling us to compile all
             documentation and prepare for the presentation.
           </p>
         </li>
         <li>
           <p>
-            <strong>Team Presentation</strong>: Topics for the final presentation
+            <b>Team Presentation</b>: Topics for the final presentation
             video were assigned, and each team member prepared their segment. We
             scheduled a recording day to ensure everyone felt confident and
             satisfied with their presentation.
