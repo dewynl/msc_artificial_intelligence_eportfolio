@@ -11,21 +11,31 @@ const wrapper = css`
 	display: flex;
 	flex-direction: column;
 	text-align: start;
-  padding: 16px 180px;
+  padding: 16px 120px;
 
    p {
       margin: 8px;
     }
 
   table {
-    border: 1px solid black;
-    td, th {
-      border: 1px solid black;
-      padding: 0;
-      margin: 0;
-    }
-   
-  }
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
 `;
 
 const moduleTitle = css`
