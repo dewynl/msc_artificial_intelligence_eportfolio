@@ -37,6 +37,8 @@ const moduleTitle = css`
     background-color: lightgray;
     background-size: cover;
     background-position: center;
+    background-image: url('cover1.png');
+    color: white;
 `;
 
 const ModulePage = () => {
@@ -44,7 +46,7 @@ const ModulePage = () => {
 
 	return <div className={wrapper}>
 			<>
-      <div className={moduleTitle} style={{backgroundImage: '869.jpg'}}>
+      <div className={moduleTitle}>
         <h1>Machine Learning</h1>
       </div>  
       <h2>Learning Outcomes</h2>
