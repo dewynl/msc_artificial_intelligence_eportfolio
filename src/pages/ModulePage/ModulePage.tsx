@@ -1,11 +1,6 @@
 import { css } from '@emotion/css';
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import ReactMarkdown from 'react-markdown';
-import Markdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
-
-import default_pearson_result from './default_pearson_result.png'
 
 const wrapper = css`
 	display: flex;
