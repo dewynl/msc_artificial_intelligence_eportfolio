@@ -149,7 +149,7 @@ const ModulesSection = () => {
 					<ModuleCard
 						key={module.moduleId}
 						moduleId={module.moduleId}
-						coverImage={module.coverImage}
+						coverImage={module.moduleCoverImage}
 						name={module.title}
 						status={module.status as 'todo' | 'done' | 'in progress'}
 						onClick={() => handleModuleCardClick(module.moduleId)}
