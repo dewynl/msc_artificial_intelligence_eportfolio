@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/msc_artificial_intelligence_eportfolio/static/css/main.073c9b0a.css",
-    "main.js": "/msc_artificial_intelligence_eportfolio/static/js/main.f16be635.js",
-    "static/js/787.79bd1db8.chunk.js": "/msc_artificial_intelligence_eportfolio/static/js/787.79bd1db8.chunk.js",
+    "main.css": "/msc_artificial_intelligence_eportfolio/static/css/main.f855e6bc.css",
+    "main.js": "/msc_artificial_intelligence_eportfolio/static/js/main.4401e05d.js",
+    "static/js/787.d27c9a2b.chunk.js": "/msc_artificial_intelligence_eportfolio/static/js/787.d27c9a2b.chunk.js",
     "static/media/Team_Presentation_Group_3_Transcript.pdf": "/msc_artificial_intelligence_eportfolio/static/media/Team_Presentation_Group_3_Transcript.9a2ea3aeb7ed40658e08.pdf",
     "static/media/group3_report.docx": "/msc_artificial_intelligence_eportfolio/static/media/group3_report.2c63de170aeca74c9ab7.docx",
     "static/media/Team_Presentation_Group_3_Code.ipynb": "/msc_artificial_intelligence_eportfolio/static/media/Team_Presentation_Group_3_Code.e7dcaed44e4915c6c2e8.ipynb",
@@ -13,12 +13,12 @@
     "static/media/default_pearson.png": "/msc_artificial_intelligence_eportfolio/static/media/default_pearson.73acd34a7b9a7595494a.png",
     "static/media/linear_regression.png": "/msc_artificial_intelligence_eportfolio/static/media/linear_regression.f358b2e17a2de2c988c9.png",
     "index.html": "/msc_artificial_intelligence_eportfolio/index.html",
-    "main.073c9b0a.css.map": "/msc_artificial_intelligence_eportfolio/static/css/main.073c9b0a.css.map",
-    "main.f16be635.js.map": "/msc_artificial_intelligence_eportfolio/static/js/main.f16be635.js.map",
-    "787.79bd1db8.chunk.js.map": "/msc_artificial_intelligence_eportfolio/static/js/787.79bd1db8.chunk.js.map"
+    "main.f855e6bc.css.map": "/msc_artificial_intelligence_eportfolio/static/css/main.f855e6bc.css.map",
+    "main.4401e05d.js.map": "/msc_artificial_intelligence_eportfolio/static/js/main.4401e05d.js.map",
+    "787.d27c9a2b.chunk.js.map": "/msc_artificial_intelligence_eportfolio/static/js/787.d27c9a2b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.f16be635.js"
+    "static/css/main.f855e6bc.css",
+    "static/js/main.4401e05d.js"
   ]
 }
