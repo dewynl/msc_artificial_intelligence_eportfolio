@@ -68,7 +68,7 @@ export const modulesPageData = [
 	{
 		moduleId: '4',
 		title: 'Knowledge Representation and Reasoning',
-		background: 'krr-cover.png',
+		background: 'machine-learning-cover.png',
 		moduleCoverImage: 'machine-learning-cover.gif',
 		status: 'in progress',
 		content: <KnowledgeRepresentation />
