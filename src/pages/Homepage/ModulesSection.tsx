@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import SectionTitle from '../../components/SectionTitle';
 import { css, cx } from '@emotion/css';
 import { useNavigate } from 'react-router-dom';
+import { modulesPageData } from '../../data/static-data';
 
 interface ModuleCardProps {
 	moduleId: string;
@@ -129,7 +130,6 @@ const moduleCardsWrapper = css`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
   gap: 24px;
 `;
 
@@ -145,13 +145,16 @@ const ModulesSection = () => {
 				<SectionTitle>Modules</SectionTitle>
 			</div>
 			<div className={moduleCardsWrapper}>
-				<ModuleCard
-					moduleId={'3'}
-					coverImage="machine-learning-cover.gif"
-					name="Machine Learning"
-					status="in progress"
-					onClick={handleModuleCardClick}
-				/>
+				{modulesPageData.map(module =>
+					<ModuleCard
+						key={module.moduleId}
+						moduleId={module.moduleId}
+						coverImage={module.coverImage}
+						name={module.title}
+						status={module.status as 'todo' | 'done' | 'in progress'}
+						onClick={() => handleModuleCardClick(module.moduleId)}
+					/>
+				)}
 			</div>
 		</div>
 	);
