@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/msc_artificial_intelligence_eportfolio/static/css/main.f855e6bc.css",
-    "main.js": "/msc_artificial_intelligence_eportfolio/static/js/main.a8237f9b.js",
+    "main.js": "/msc_artificial_intelligence_eportfolio/static/js/main.767e0477.js",
     "static/js/787.d27c9a2b.chunk.js": "/msc_artificial_intelligence_eportfolio/static/js/787.d27c9a2b.chunk.js",
     "static/media/Team_Presentation_Group_3_Transcript.pdf": "/msc_artificial_intelligence_eportfolio/static/media/Team_Presentation_Group_3_Transcript.9a2ea3aeb7ed40658e08.pdf",
     "static/media/group3_report.docx": "/msc_artificial_intelligence_eportfolio/static/media/group3_report.2c63de170aeca74c9ab7.docx",
@@ -14,11 +14,11 @@
     "static/media/linear_regression.png": "/msc_artificial_intelligence_eportfolio/static/media/linear_regression.f358b2e17a2de2c988c9.png",
     "index.html": "/msc_artificial_intelligence_eportfolio/index.html",
     "main.f855e6bc.css.map": "/msc_artificial_intelligence_eportfolio/static/css/main.f855e6bc.css.map",
-    "main.a8237f9b.js.map": "/msc_artificial_intelligence_eportfolio/static/js/main.a8237f9b.js.map",
+    "main.767e0477.js.map": "/msc_artificial_intelligence_eportfolio/static/js/main.767e0477.js.map",
     "787.d27c9a2b.chunk.js.map": "/msc_artificial_intelligence_eportfolio/static/js/787.d27c9a2b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.a8237f9b.js"
+    "static/js/main.767e0477.js"
   ]
 }
