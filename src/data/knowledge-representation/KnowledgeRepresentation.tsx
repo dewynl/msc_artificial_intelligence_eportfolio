@@ -2,7 +2,8 @@ import React from "react";
 
 const KnowledgeRepresentation = () => {
 
-    return <></>
+    return <>
+    </>
 }
 
 export default KnowledgeRepresentation;
