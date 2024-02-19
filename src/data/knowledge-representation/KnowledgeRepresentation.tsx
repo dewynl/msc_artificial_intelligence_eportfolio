@@ -1800,7 +1800,7 @@ const KnowledgeRepresentation = () => {
           href={require("./library-ontology.rdf")}
           download={"library-ontology.rdf"}
         >
-          Download the Ontology in Protegé
+          Prototype Ontology File
         </a>
       </p>
       <h1 id="reflection">Reflection</h1>
