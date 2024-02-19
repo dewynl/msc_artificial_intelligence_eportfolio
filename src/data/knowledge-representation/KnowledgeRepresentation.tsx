@@ -1795,6 +1795,14 @@ const KnowledgeRepresentation = () => {
           Assessment Report
         </a>
       </p>
+      <p>
+        <a
+          href={require("./library-ontology.rdf")}
+          download={"library-ontology.rdf"}
+        >
+          Download the Ontology in Protegé
+        </a>
+      </p>
       <h1 id="reflection">Reflection</h1>
       <p>
         Delving into the realm of knowledge and reasoning representation has
