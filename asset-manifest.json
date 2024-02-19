@@ -1,11 +1,13 @@
 {
   "files": {
     "main.css": "/msc_artificial_intelligence_eportfolio/static/css/main.073c9b0a.css",
-    "main.js": "/msc_artificial_intelligence_eportfolio/static/js/main.323ac8f0.js",
+    "main.js": "/msc_artificial_intelligence_eportfolio/static/js/main.37001ee6.js",
     "static/js/787.79bd1db8.chunk.js": "/msc_artificial_intelligence_eportfolio/static/js/787.79bd1db8.chunk.js",
     "static/media/Team_Presentation_Group_3_Transcript.pdf": "/msc_artificial_intelligence_eportfolio/static/media/Team_Presentation_Group_3_Transcript.9a2ea3aeb7ed40658e08.pdf",
+    "static/media/Leveraging ontologies for efficient information retrieval in libraries.pdf": "/msc_artificial_intelligence_eportfolio/static/media/Leveraging ontologies for efficient information retrieval in libraries.048876bc2edd524b6061.pdf",
     "static/media/group3_report.docx": "/msc_artificial_intelligence_eportfolio/static/media/group3_report.2c63de170aeca74c9ab7.docx",
     "static/media/Team_Presentation_Group_3_Code.ipynb": "/msc_artificial_intelligence_eportfolio/static/media/Team_Presentation_Group_3_Code.e7dcaed44e4915c6c2e8.ipynb",
+    "static/media/Case Study Review Ontology Development for Agriculture Domain.pdf": "/msc_artificial_intelligence_eportfolio/static/media/Case Study Review Ontology Development for Agriculture Domain.366bccf5eacbc6c5996f.pdf",
     "static/media/venn-diagram.png": "/msc_artificial_intelligence_eportfolio/static/media/venn-diagram.078e1f22d2cb947b3dae.png",
     "static/media/library ontology.png": "/msc_artificial_intelligence_eportfolio/static/media/library ontology.cce2e0ec666eab77fddd.png",
     "static/media/supply-chain-ontology.png": "/msc_artificial_intelligence_eportfolio/static/media/supply-chain-ontology.82a30932c17e6a1630e5.png",
@@ -19,11 +21,11 @@
     "static/media/linear_regression.png": "/msc_artificial_intelligence_eportfolio/static/media/linear_regression.f358b2e17a2de2c988c9.png",
     "index.html": "/msc_artificial_intelligence_eportfolio/index.html",
     "main.073c9b0a.css.map": "/msc_artificial_intelligence_eportfolio/static/css/main.073c9b0a.css.map",
-    "main.323ac8f0.js.map": "/msc_artificial_intelligence_eportfolio/static/js/main.323ac8f0.js.map",
+    "main.37001ee6.js.map": "/msc_artificial_intelligence_eportfolio/static/js/main.37001ee6.js.map",
     "787.79bd1db8.chunk.js.map": "/msc_artificial_intelligence_eportfolio/static/js/787.79bd1db8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.323ac8f0.js"
+    "static/js/main.37001ee6.js"
   ]
 }
