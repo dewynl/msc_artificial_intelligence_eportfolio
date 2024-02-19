@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/msc_artificial_intelligence_eportfolio/static/css/main.073c9b0a.css",
-    "main.js": "/msc_artificial_intelligence_eportfolio/static/js/main.845b9083.js",
+    "main.js": "/msc_artificial_intelligence_eportfolio/static/js/main.b88e550d.js",
     "static/js/787.79bd1db8.chunk.js": "/msc_artificial_intelligence_eportfolio/static/js/787.79bd1db8.chunk.js",
     "static/media/Team_Presentation_Group_3_Transcript.pdf": "/msc_artificial_intelligence_eportfolio/static/media/Team_Presentation_Group_3_Transcript.9a2ea3aeb7ed40658e08.pdf",
     "static/media/Leveraging ontologies for efficient information retrieval in libraries.pdf": "/msc_artificial_intelligence_eportfolio/static/media/Leveraging ontologies for efficient information retrieval in libraries.048876bc2edd524b6061.pdf",
@@ -17,15 +17,16 @@
     "static/media/peer_report_code.ipynb": "/msc_artificial_intelligence_eportfolio/static/media/peer_report_code.e4414aa60fe5ff5a59b5.ipynb",
     "static/media/less_data_pearson.png": "/msc_artificial_intelligence_eportfolio/static/media/less_data_pearson.d32e5cf62259a23d496f.png",
     "static/media/polynomial_regression.png": "/msc_artificial_intelligence_eportfolio/static/media/polynomial_regression.a2f8757ab5fe3764d606.png",
+    "static/media/library-ontology.rdf": "/msc_artificial_intelligence_eportfolio/static/media/library-ontology.1e943155f9908890d7dd.rdf",
     "static/media/default_pearson.png": "/msc_artificial_intelligence_eportfolio/static/media/default_pearson.73acd34a7b9a7595494a.png",
     "static/media/linear_regression.png": "/msc_artificial_intelligence_eportfolio/static/media/linear_regression.f358b2e17a2de2c988c9.png",
     "index.html": "/msc_artificial_intelligence_eportfolio/index.html",
     "main.073c9b0a.css.map": "/msc_artificial_intelligence_eportfolio/static/css/main.073c9b0a.css.map",
-    "main.845b9083.js.map": "/msc_artificial_intelligence_eportfolio/static/js/main.845b9083.js.map",
+    "main.b88e550d.js.map": "/msc_artificial_intelligence_eportfolio/static/js/main.b88e550d.js.map",
     "787.79bd1db8.chunk.js.map": "/msc_artificial_intelligence_eportfolio/static/js/787.79bd1db8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.845b9083.js"
+    "static/js/main.b88e550d.js"
   ]
 }
