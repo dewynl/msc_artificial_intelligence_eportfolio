@@ -1,18 +1,17 @@
-import { css } from '@emotion/css';
-import React from 'react';
+import { css } from "@emotion/css";
+import React from "react";
 
 const KnowledgeRepresentation = () => {
-
-    const imgStyles = css`
+  const imgStyles = css`
         max-width: 100%;
     `;
 
   return (
     <>
-      <h1 id='knowledge-representation-and-reasoning'>
+      <h1 id="knowledge-representation-and-reasoning">
         Knowledge Representation and Reasoning
       </h1>
-      <h2 id='learning-outcomes'>Learning Outcomes</h2>
+      <h2 id="learning-outcomes">Learning Outcomes</h2>
       <ol>
         <li>
           Critique the need for formal approaches to knowledge representation
@@ -42,7 +41,7 @@ const KnowledgeRepresentation = () => {
         intricate ontologies, the goal is to build a knowledge base that
         computers can understand.
       </p>
-      <h2 id='knowledge-representation-a-historical-analysis-and-its-relationship-with-reasoning-discussion-forum-'>
+      <h2 id="knowledge-representation-a-historical-analysis-and-its-relationship-with-reasoning-discussion-forum-">
         Knowledge Representation: A Historical Analysis and Its Relationship
         with Reasoning (Discussion Forum)
       </h2>
@@ -80,16 +79,16 @@ const KnowledgeRepresentation = () => {
         knowledge.
       </p>
       <p>
-        <a href='https://www.my-course.co.uk/mod/forum/discuss.php?d=203597'>
+        <a href="https://www.my-course.co.uk/mod/forum/discuss.php?d=203597">
           Discussion Forum
         </a>
       </p>
       <p>
-        <a href='https://www.my-course.co.uk/mod/forum/discuss.php?d=212629'>
+        <a href="https://www.my-course.co.uk/mod/forum/discuss.php?d=212629">
           Summary Post
         </a>
       </p>
-      <h3 id='reference'>Reference</h3>
+      <h3 id="reference">Reference</h3>
       <p>
         Ancient civilizations and knowledge representation: Brachman, R. J.,
         &amp; Levesque, H. J. (1985). Knowledge representation in five
@@ -114,10 +113,10 @@ const KnowledgeRepresentation = () => {
       </p>
       <p>
         DeBellis, M. (2021) A Practical Guide to Building OWL Ontologies Using
-        Protégé 5.5 and Plugins. Available from:{' '}
-        <a href='https://www.researchgate.net/publication/351037551_A_Practical_Guide_to_Building_OWL_Ontologies_Using_Protege_55_and_Plugins'>
+        Protégé 5.5 and Plugins. Available from:{" "}
+        <a href="https://www.researchgate.net/publication/351037551_A_Practical_Guide_to_Building_OWL_Ontologies_Using_Protege_55_and_Plugins">
           https://www.researchgate.net/publication/351037551_A_Practical_Guide_to_Building_OWL_Ontologies_Using_Protege_55_and_Plugins
-        </a>{' '}
+        </a>{" "}
         [Accessed 15 December 2023].
       </p>
       <p>
@@ -128,13 +127,13 @@ const KnowledgeRepresentation = () => {
         Malik, N., Hijam, D. &amp; Sharan, A. (2021) Ontology based knowledge
         representation: Case study from agriculture domain, International
         Journal of Knowledge-Based and Intelligent Engineering Systems 25(1):
-        97–108. DOI:{' '}
-        <a href='https://doi.org/10.3233/KES-210055'>
+        97–108. DOI:{" "}
+        <a href="https://doi.org/10.3233/KES-210055">
           https://doi.org/10.3233/KES-210055
         </a>
         .
       </p>
-      <h2 id='data-information'>Data &amp; Information</h2>
+      <h2 id="data-information">Data &amp; Information</h2>
       <p>
         In the realm of knowledge representation and reasoning, the distinction
         between data and information is crucial. While often used
@@ -159,7 +158,7 @@ const KnowledgeRepresentation = () => {
           </p>
         </li>
       </ul>
-      <h2 id='knowledge-representation'>Knowledge Representation</h2>
+      <h2 id="knowledge-representation">Knowledge Representation</h2>
       <p>
         In the world of Knowledge Representation and Reasoning (KRR),
         understanding the interplay between knowledge and its representation is
@@ -192,7 +191,7 @@ const KnowledgeRepresentation = () => {
         knowledge in a way computers can understand. Imagine it as building a
         bridge between the human mind and the digital world.
       </p>
-      <h2 id='reasoning'>Reasoning</h2>
+      <h2 id="reasoning">Reasoning</h2>
       <p>
         The course text offers a technical definition of reasoning as the
         manipulation of symbols representing propositions to arrive at new ones.
@@ -212,7 +211,7 @@ const KnowledgeRepresentation = () => {
         knowledge to draw conclusions, establish truth, and ultimately, approach
         the elusive concept of &quot;thinking&quot; machines.
       </p>
-      <h2 id='why-do-we-need-krr-'>Why do we need KRR?</h2>
+      <h2 id="why-do-we-need-krr-">Why do we need KRR?</h2>
       <p>
         Internal Efficiency: Complex systems, like AI algorithms, operate based
         on internal representations of knowledge (symbolic structures,
@@ -239,7 +238,7 @@ const KnowledgeRepresentation = () => {
         system, it helps humans understand and interact with those intelligent
         systems.
       </p>
-      <h3 id='references'>References</h3>
+      <h3 id="references">References</h3>
       <p>
         Dennett, D. C. (1971). &quot;Intentional systems in cognitive
         science&quot;. Brain Research, 15(1): 173-202.
@@ -249,7 +248,7 @@ const KnowledgeRepresentation = () => {
         Black, J. (ed.), Philosophy of mind: A guide for the twenty-first
         century. Oxford University Press.
       </p>
-      <h2 id='ontologies'>Ontologies</h2>
+      <h2 id="ontologies">Ontologies</h2>
       <p>
         Ontologies play a crucial role as &quot;specifications of
         conceptualizations.&quot; This means they formalize how specific domains
@@ -270,15 +269,19 @@ const KnowledgeRepresentation = () => {
         between data and meaningful understanding, enabling the true potential
         of intelligent systems to reason and solve problems effectively.
       </p>
-      <h3 id='references'>References</h3>
+      <h3 id="references">References</h3>
       <p>
         McCarthy, J. (1987). &quot;Circumscription: An artificial intelligence
         approach to formal reasoning&quot;. Artificial Intelligence, 30(1-2),
         87-129.
       </p>
-      <h2 id='set-theory'>Set Theory</h2>
+      <h2 id="set-theory">Set Theory</h2>
       <p>
-        <img className={imgStyles} src={require('./venn-diagram.png')} alt='Ven Diagram' />
+        <img
+          className={imgStyles}
+          src={require("./venn-diagram.png")}
+          alt="Ven Diagram"
+        />
       </p>
       <p>
         Set theory is a branch of mathematics that deals with the properties of
@@ -291,7 +294,7 @@ const KnowledgeRepresentation = () => {
         of problems in mathematics, logic, and computer science. It is an
         essential part of the foundation of modern mathematics.
       </p>
-      <h2 id='zfc-axioms'>ZFC Axioms</h2>
+      <h2 id="zfc-axioms">ZFC Axioms</h2>
       <p>
         Set theory, once plagued by paradoxes, found stability through axioms,
         focusing on relationships and properties over the nature of sets. These
@@ -341,7 +344,7 @@ const KnowledgeRepresentation = () => {
           relationships.
         </li>
       </ul>
-      <h2 id='truth-tables'>Truth Tables</h2>
+      <h2 id="truth-tables">Truth Tables</h2>
       <p>
         Truth tables are tools used to analyze and evaluate logic statements.
         Developed in 1881 by Christine Ladd and popularized by Wittgenstein,
@@ -390,7 +393,7 @@ const KnowledgeRepresentation = () => {
         logical statements, making them valuable tools in various fields like
         mathematics, computer science, and philosophy.
       </p>
-      <h2 id='propositional-logic'>Propositional Logic</h2>
+      <h2 id="propositional-logic">Propositional Logic</h2>
       <p>
         Propositional logic, also known as sentential logic, analyzes how to
         combine and manipulate statements (propositions) to form more complex
@@ -428,7 +431,7 @@ const KnowledgeRepresentation = () => {
           is false.
         </li>
       </ul>
-      <h2 id='fol-logic-quantifiers'>FOL &amp; Logic Quantifiers</h2>
+      <h2 id="fol-logic-quantifiers">FOL &amp; Logic Quantifiers</h2>
       <p>
         Propositional logic lays the foundation, but First-Order Logic (FOL)
         opens up new possibilities for representing and reasoning about the
@@ -485,7 +488,7 @@ const KnowledgeRepresentation = () => {
         <li>Handles variables for generality and flexibility.</li>
         <li>Enables reasoning and proof systems for drawing conclusions.</li>
       </ul>
-      <h2 id='semantic-nets'>Semantic Nets</h2>
+      <h2 id="semantic-nets">Semantic Nets</h2>
       <p>
         Semantic nets are graphical structures like mind maps, used to represent
         knowledge as interconnected nodes (concepts) and arcs (relationships).
@@ -522,7 +525,7 @@ const KnowledgeRepresentation = () => {
           their focus on binary relationships.
         </li>
       </ul>
-      <h2 id='frames'>Frames</h2>
+      <h2 id="frames">Frames</h2>
       <p>
         Developed by Minsky in 1975, frames offer a knowledge representation
         method similar to the familiar object-oriented programming paradigm.
@@ -591,7 +594,7 @@ const KnowledgeRepresentation = () => {
           methods can be less efficient than other representations.
         </li>
       </ul>
-      <h2 id='horn-clauses'>Horn Clauses</h2>
+      <h2 id="horn-clauses">Horn Clauses</h2>
       <p>
         Horn clauses are a specific type of formula in First-Order Logic (FOL)
         with unique properties that make them valuable in logic programming
@@ -642,7 +645,7 @@ const KnowledgeRepresentation = () => {
           literals at all (rare).
         </li>
       </ul>
-      <h2 id='features-of-logic-programming-languages'>
+      <h2 id="features-of-logic-programming-languages">
         Features of Logic Programming Languages
       </h2>
       <p>
@@ -697,7 +700,7 @@ const KnowledgeRepresentation = () => {
         symbolic reasoning, problem-solving, and knowledge representation,
         particularly in domains like artificial intelligence.
       </p>
-      <h2 id='modeling'>Modeling</h2>
+      <h2 id="modeling">Modeling</h2>
       <p>
         Modeling is a tool to abstract, represent, and understand complex
         real-world systems. It involves creating a simpler version of reality
@@ -755,7 +758,7 @@ const KnowledgeRepresentation = () => {
           for knowledge sharing and reasoning.
         </li>
       </ul>
-      <h2 id='types-of-knowledge-models'>Types of Knowledge Models</h2>
+      <h2 id="types-of-knowledge-models">Types of Knowledge Models</h2>
       <ul>
         <li>
           <strong>Diagnostic models</strong>: Assist in diagnosis (e.g., medical
@@ -786,7 +789,7 @@ const KnowledgeRepresentation = () => {
           self-learning and adaptable solutions.
         </li>
       </ul>
-      <h2 id='knowledge-acquisition'>Knowledge Acquisition</h2>
+      <h2 id="knowledge-acquisition">Knowledge Acquisition</h2>
       <p>
         Scientific method is implemented: Observation, research, hypothesis,
         testing, analysis, reporting. Applicable to various domains for
@@ -828,7 +831,7 @@ const KnowledgeRepresentation = () => {
           : Extract trends from data, predict future behavior.
         </li>
       </ul>
-      <h2 id='rdf-ontologies-and-knowledge-modelling'>
+      <h2 id="rdf-ontologies-and-knowledge-modelling">
         RDF, Ontologies, and Knowledge Modelling
       </h2>
       <ul>
@@ -842,7 +845,7 @@ const KnowledgeRepresentation = () => {
           by existing ontologies like WordNet and DBpedia.
         </li>
       </ul>
-      <h2 id='semantic-web-ontologies-and-swrl'>
+      <h2 id="semantic-web-ontologies-and-swrl">
         Semantic Web, Ontologies, and SWRL
       </h2>
       <ul>
@@ -860,7 +863,7 @@ const KnowledgeRepresentation = () => {
           negotiations.
         </li>
       </ul>
-      <h2 id='statistical-and-probabilistic-modelling'>
+      <h2 id="statistical-and-probabilistic-modelling">
         Statistical and Probabilistic Modelling
       </h2>
       <ul>
@@ -875,12 +878,12 @@ const KnowledgeRepresentation = () => {
         <li>
           <strong>
             Bayes Theorem: Calculates probability of event A given event B
-            (conditional{' '}
+            (conditional{" "}
           </strong>
           probability). Useful for real-world applications.
         </li>
       </ul>
-      <h1 id='knowledge-elicitation-and-formalism'>
+      <h1 id="knowledge-elicitation-and-formalism">
         Knowledge Elicitation and Formalism
       </h1>
       <p>
@@ -898,7 +901,7 @@ const KnowledgeRepresentation = () => {
         of meaningful connections in transforming raw data into actionable
         understanding.
       </p>
-      <h2 id='types-of-knowledge'>Types of Knowledge</h2>
+      <h2 id="types-of-knowledge">Types of Knowledge</h2>
       <p>The realm of knowledge engineers encompasses three key types:</p>
       <ul>
         <li>
@@ -919,7 +922,7 @@ const KnowledgeRepresentation = () => {
           long journeys compared to footpaths or bicycles for shorter trips.
         </li>
       </ul>
-      <h2 id='knowledge-engineering'>Knowledge Engineering</h2>
+      <h2 id="knowledge-engineering">Knowledge Engineering</h2>
       <p>
         Transforming human knowledge into usable computer systems requires a
         structured approach. Knowledge engineering outlines five key steps:
@@ -950,7 +953,7 @@ const KnowledgeRepresentation = () => {
           transparency and building trust with users.
         </li>
       </ol>
-      <h2 id='knowledge-acquisition-sources'>Knowledge Acquisition: Sources</h2>
+      <h2 id="knowledge-acquisition-sources">Knowledge Acquisition: Sources</h2>
       <p>
         Building a smart system starts with acquiring knowledge from various
         sources. This text highlights several valuable resources:
@@ -978,7 +981,7 @@ const KnowledgeRepresentation = () => {
           through discussions and interactions.
         </li>
       </ul>
-      <h2 id='knowledge-acquisition-techniques'>
+      <h2 id="knowledge-acquisition-techniques">
         Knowledge Acquisition: Techniques
       </h2>
       <p>
@@ -1023,7 +1026,7 @@ const KnowledgeRepresentation = () => {
           direct insights into their knowledge and behavior.
         </li>
       </ol>
-      <h1 id='formalism'>Formalism</h1>
+      <h1 id="formalism">Formalism</h1>
       <p>
         Once we&#39;ve gathered valuable knowledge, the next step is to
         structure it in a way that allows computers to understand and utilize
@@ -1031,7 +1034,7 @@ const KnowledgeRepresentation = () => {
         acquired knowledge within a Knowledge-Based System (KBS) efficiently and
         effectively.
       </p>
-      <h2 id='the-five-roles-of-knowledge-representation'>
+      <h2 id="the-five-roles-of-knowledge-representation">
         The Five Roles of Knowledge Representation
       </h2>
       <p>
@@ -1088,7 +1091,7 @@ const KnowledgeRepresentation = () => {
         represent knowledge and build intelligent systems that are accurate,
         efficient, and understandable.
       </p>
-      <h2 id='formalism-the-process'>Formalism: The Process</h2>
+      <h2 id="formalism-the-process">Formalism: The Process</h2>
       <p>
         Formalizing knowledge, the process of structuring it for computers to
         understand, involves a journey in four key steps:
@@ -1136,7 +1139,7 @@ const KnowledgeRepresentation = () => {
           </p>
         </li>
       </ol>
-      <h2 id='formalism-elicitation-techniques'>
+      <h2 id="formalism-elicitation-techniques">
         Formalism &amp; Elicitation Techniques
       </h2>
       <p>
@@ -1197,7 +1200,7 @@ const KnowledgeRepresentation = () => {
           </ul>
         </li>
       </ol>
-      <h2 id='formalism-language'>Formalism: Language</h2>
+      <h2 id="formalism-language">Formalism: Language</h2>
       <p>
         Formalism leverages the power of language to structure knowledge
         precisely and reliably. Within this formal language, three key elements
@@ -1253,7 +1256,7 @@ const KnowledgeRepresentation = () => {
           other&#39;s knowledge, promoting collaboration and information flow.
         </li>
       </ul>
-      <h2 id='krr-languages'>KRR Languages</h2>
+      <h2 id="krr-languages">KRR Languages</h2>
       <p>
         The world of knowledge representation has a diverse set of tools at its
         disposal, each with its own strengths and weaknesses. Some
@@ -1294,7 +1297,7 @@ const KnowledgeRepresentation = () => {
         while <strong>OWL</strong> its better for reasoning power and
         complexity.
       </p>
-      <h1 id='case-study-review-ontology-development-for-agriculture-domain'>
+      <h1 id="case-study-review-ontology-development-for-agriculture-domain">
         Case Study Review: Ontology Development for Agriculture Domain
       </h1>
       <p>
@@ -1354,7 +1357,11 @@ const KnowledgeRepresentation = () => {
               </p>
               <p>
                 <em>Example Ontology</em>:
-                <img className={imgStyles} src={require('./supply-chain-ontology.png')} alt='Supply Chain' />
+                <img
+                  className={imgStyles}
+                  src={require("./supply-chain-ontology.png")}
+                  alt="Supply Chain"
+                />
               </p>
             </li>
           </ul>
@@ -1379,7 +1386,11 @@ const KnowledgeRepresentation = () => {
               </p>
               <p>
                 <em>Example Ontology</em>:
-                <img className={imgStyles} src={require('./equipment-maintenance.png')} alt='Supply Chain' />
+                <img
+                  className={imgStyles}
+                  src={require("./equipment-maintenance.png")}
+                  alt="Supply Chain"
+                />
               </p>
             </li>
           </ul>
@@ -1390,88 +1401,93 @@ const KnowledgeRepresentation = () => {
         Ontologies provide a common language for different stakeholders in the
         agricultural industry, facilitating communication and collaboration.
         They enable efficient data management, analysis, and decision-making,
-        leading to improved productivity, sustainability, and transparency.{' '}
+        leading to improved productivity, sustainability, and transparency.{" "}
       </p>
       <p>
         Challenges exist, including complexity, resistance to change, and
         resource needs. Careful planning, communication, and phased
         implementations are crucial.
       </p>
-      <h3 id='references'>References</h3>
+      <h3 id="references">References</h3>
       <p>
-        <em>The Organization Ontology</em> (no date){' '}
-        <em>The organization ontology</em>. Available at:{' '}
-        <a href='https://www.w3.org/TR/vocab-org/'>
+        <em>The Organization Ontology</em> (no date){" "}
+        <em>The organization ontology</em>. Available at:{" "}
+        <a href="https://www.w3.org/TR/vocab-org/">
           https://www.w3.org/TR/vocab-org/
-        </a>{' '}
+        </a>{" "}
         (Accessed: 10 January 2024).
       </p>
       <p>
-        Kulvatunyou, B. and Ameri, F. (2020){' '}
+        Kulvatunyou, B. and Ameri, F. (2020){" "}
         <em>
           Modeling a supply chain reference ontology based on a top-level
           ontology
         </em>
-        , <em>NIST</em>. Available at:{' '}
-        <a href='https://www.nist.gov/publications/modeling-supply-chain-reference-ontology-based-top-level-ontology'>
+        , <em>NIST</em>. Available at:{" "}
+        <a href="https://www.nist.gov/publications/modeling-supply-chain-reference-ontology-based-top-level-ontology">
           https://www.nist.gov/publications/modeling-supply-chain-reference-ontology-based-top-level-ontology
-        </a>{' '}
-        (Accessed: 12 January 2024).{' '}
+        </a>{" "}
+        (Accessed: 12 January 2024).{" "}
       </p>
       <p>
-        <em>Main page</em> (no date) <em>Protege Wiki</em>. Available at:{' '}
-        <a href='https://protegewiki.stanford.edu/wiki/Main_Page'>
+        <em>Main page</em> (no date) <em>Protege Wiki</em>. Available at:{" "}
+        <a href="https://protegewiki.stanford.edu/wiki/Main_Page">
           https://protegewiki.stanford.edu/wiki/Main_Page
-        </a>{' '}
-        (Accessed: 15 January 2024).{' '}
+        </a>{" "}
+        (Accessed: 15 January 2024).{" "}
       </p>
       <p>
-        Stone, J. and Rahimifard, S. (2018){' '}
+        Stone, J. and Rahimifard, S. (2018){" "}
         <em>
           Resilience in agri-food supply chains: A critical analysis of the
           literature and synthesis of a novel framework
         </em>
         , <em>Supply Chain Management: An International Journal</em>. Available
-        at:{' '}
-        <a href='https://www.emerald.com/insight/content/doi/10.1108/SCM-06-2017-0201/full/html'>
+        at:{" "}
+        <a href="https://www.emerald.com/insight/content/doi/10.1108/SCM-06-2017-0201/full/html">
           https://www.emerald.com/insight/content/doi/10.1108/SCM-06-2017-0201/full/html
-        </a>{' '}
-        (Accessed: 13 January 2024).{' '}
+        </a>{" "}
+        (Accessed: 13 January 2024).{" "}
       </p>
       <p>
-        Grubic, T. and Fan, I.-S. (2010){' '}
-        <em>Supply chain ontology: Review, analysis and synthesis</em>,{' '}
-        <em>Computers in Industry</em>. Available at:{' '}
-        <a href='https://www.sciencedirect.com/science/article/abs/pii/S0166361510000552'>
+        Grubic, T. and Fan, I.-S. (2010){" "}
+        <em>Supply chain ontology: Review, analysis and synthesis</em>,{" "}
+        <em>Computers in Industry</em>. Available at:{" "}
+        <a href="https://www.sciencedirect.com/science/article/abs/pii/S0166361510000552">
           https://www.sciencedirect.com/science/article/abs/pii/S0166361510000552
-        </a>{' '}
-        (Accessed: 15 January 2024).{' '}
+        </a>{" "}
+        (Accessed: 15 January 2024).{" "}
       </p>
       <p>
         Elsaleh, T., Enshaeifar, S., Rezvani, R., Acton, S.T., Janeiko, V. and
         Bermudez-Edo, M. (2020). IoT-Stream: A Lightweight Ontology for Internet
         of Things Data Streams and Its Use with Data Analytics and Event
         Detection Services. <em>Sensors</em>, 20(4), p.953. doi:
-        <a href='https://doi.org/10.3390/s20040953'>
+        <a href="https://doi.org/10.3390/s20040953">
           https://doi.org/10.3390/s20040953
         </a>
         .
       </p>
       <p>
-        Denis, N. <em>et al.</em> (2020){' '}
-        <em>Agriculture supply-chain optimization and Value Creation</em>,{' '}
-        <em>McKinsey &amp; Company</em>. Available at:{' '}
-        <a href='https://www.mckinsey.com/industries/agriculture/our-insights/agriculture-supply-chain-optimization-and-value-creation'>
+        Denis, N. <em>et al.</em> (2020){" "}
+        <em>Agriculture supply-chain optimization and Value Creation</em>,{" "}
+        <em>McKinsey &amp; Company</em>. Available at:{" "}
+        <a href="https://www.mckinsey.com/industries/agriculture/our-insights/agriculture-supply-chain-optimization-and-value-creation">
           https://www.mckinsey.com/industries/agriculture/our-insights/agriculture-supply-chain-optimization-and-value-creation
-        </a>{' '}
+        </a>{" "}
         (Accessed: 14 January 2024)
       </p>
       <p>
-        <a href='./Case%20Study%20Review%20Ontology%20Development%20for%20Agriculture%20Domain.pdf'>
+        <a
+          href={require("./Case Study Review Ontology Development for Agriculture Domain.pdf")}
+          download={
+            "Case Study Review Ontology Development for Agriculture Domain.pdf"
+          }
+        >
           Case Study File
         </a>
       </p>
-      <h1 id='formalism-techniques-and-applications'>
+      <h1 id="formalism-techniques-and-applications">
         Formalism Techniques and Applications
       </h1>
       <p>
@@ -1583,7 +1599,7 @@ const KnowledgeRepresentation = () => {
           OWL 2 Full is more expressive than OWL 1.
         </li>
       </ul>
-      <h1 id='choosing-the-right-language-for-www-software-agents-discussion-forum-'>
+      <h1 id="choosing-the-right-language-for-www-software-agents-discussion-forum-">
         Choosing the Right Language for WWW Software Agents (Discussion Forum)
       </h1>
       <p>
@@ -1626,50 +1642,50 @@ const KnowledgeRepresentation = () => {
         adventures.
       </p>
       <p>
-        <a href='https://www.my-course.co.uk/mod/forum/discuss.php?d=208779'>
+        <a href="https://www.my-course.co.uk/mod/forum/discuss.php?d=208779">
           Discussion Forum
         </a>
       </p>
       <p>
-        <a href='https://www.my-course.co.uk/mod/forum/discuss.php?d=212608'>
+        <a href="https://www.my-course.co.uk/mod/forum/discuss.php?d=212608">
           Summary Post
         </a>
       </p>
-      <h3 id='reference'>Reference</h3>
+      <h3 id="reference">Reference</h3>
       <p>
         Slimani, T. (2015) Ontology Development: A Comparing Study on Tools,
         Languages and Formalisms, Indian Journal of Science and Technology
-        8(24). DOI:{' '}
-        <a href='https://doi.org/10.17485/IJST/2015/V8I1/54249'>
+        8(24). DOI:{" "}
+        <a href="https://doi.org/10.17485/IJST/2015/V8I1/54249">
           https://doi.org/10.17485/IJST/2015/V8I1/54249
         </a>
         .
       </p>
       <p>
         Horridge, M., &amp; Bechhofer, S. (2011). The OWL 2 Web Ontology
-        Language Primer (Second Edition). W3C Recommendation. Retrieved from{' '}
-        <a href='https://www.w3.org/TR/owl2-primer'>
+        Language Primer (Second Edition). W3C Recommendation. Retrieved from{" "}
+        <a href="https://www.w3.org/TR/owl2-primer">
           https://www.w3.org/TR/owl2-primer
         </a>
       </p>
       <p>
         OWL 2 Web Ontology Language Document Overview (Second Edition) (2012)
         OWL 2 Web Ontology Language Document Overview (second edition).
-        Available at:{' '}
-        <a href='https://www.w3.org/TR/owl2-overview/'>
+        Available at:{" "}
+        <a href="https://www.w3.org/TR/owl2-overview/">
           https://www.w3.org/TR/owl2-overview/
-        </a>{' '}
+        </a>{" "}
         (Accessed: 28 January 2024).
       </p>
       <p>
         Cuenca Grau, B. et al. (2008) OWL 2: The Next Step for OWL, Journal of
-        Web Semantics 6(4): 309–322. DOI:{' '}
-        <a href='https://doi.org/https://doi.org/10.1016/j.websem.2008.05.001'>
+        Web Semantics 6(4): 309–322. DOI:{" "}
+        <a href="https://doi.org/https://doi.org/10.1016/j.websem.2008.05.001">
           https://doi.org/https://doi.org/10.1016/j.websem.2008.05.001
         </a>
         .
       </p>
-      <h1 id='knowledge-based-technologies-and-emerging-applications'>
+      <h1 id="knowledge-based-technologies-and-emerging-applications">
         Knowledge-based Technologies and Emerging Applications
       </h1>
       <p>
@@ -1680,7 +1696,7 @@ const KnowledgeRepresentation = () => {
         how ontologies, formal knowledge representations within specific
         domains, are spearheading this development.
       </p>
-      <h3 id='ontologies-bridging-the-gaps-in-engineering-systems'>
+      <h3 id="ontologies-bridging-the-gaps-in-engineering-systems">
         Ontologies: Bridging the Gaps in Engineering Systems
       </h3>
       <p>
@@ -1688,7 +1704,7 @@ const KnowledgeRepresentation = () => {
         integration, communication, and automation across engineering systems.
         This leads to improved efficiency and streamlined collaboration.
       </p>
-      <h3 id='diverse-applications-across-the-spectrum'>
+      <h3 id="diverse-applications-across-the-spectrum">
         Diverse Applications Across the Spectrum
       </h3>
       <p>
@@ -1699,7 +1715,7 @@ const KnowledgeRepresentation = () => {
         multi-domain applications like software test case generation and
         researcher collaboration further demonstrate their extensive reach.
       </p>
-      <h3 id='examples-illuminating-the-potential'>
+      <h3 id="examples-illuminating-the-potential">
         Examples Illuminating the Potential
       </h3>
       <p>
@@ -1711,7 +1727,7 @@ const KnowledgeRepresentation = () => {
         connecting researchers and the SEMA project recognizing objects in
         videos highlight the potential of multi-domain ontologies.
       </p>
-      <h3 id='the-future-of-krr-in-engineering'>
+      <h3 id="the-future-of-krr-in-engineering">
         The Future of KRR in Engineering
       </h3>
       <p>
@@ -1720,7 +1736,7 @@ const KnowledgeRepresentation = () => {
         enhance engineering systems. Their impact can be expected to grow as
         more innovative applications emerge across diverse domains.
       </p>
-      <h1 id='leveraging-ontologies-for-efficient-information-retrieval-in-libraries'>
+      <h1 id="leveraging-ontologies-for-efficient-information-retrieval-in-libraries">
         Leveraging ontologies for efficient information retrieval in libraries
       </h1>
       <p>
@@ -1739,8 +1755,16 @@ const KnowledgeRepresentation = () => {
         used a query language called SPARQL to test its capabilities.
       </p>
       <p>
-        <img className={imgStyles} src={require('./library ontology.png')} alt='Library Ontology' />
-        <img className={imgStyles} src={require('./5.png')} alt='Test SPAQL Query' />
+        <img
+          className={imgStyles}
+          src={require("./library ontology.png")}
+          alt="Library Ontology"
+        />
+        <img
+          className={imgStyles}
+          src={require("./5.png")}
+          alt="Test SPAQL Query"
+        />
       </p>
       <p>
         The results were promising. I was able to perform complex searches that
@@ -1760,7 +1784,18 @@ const KnowledgeRepresentation = () => {
         valuable tools for libraries, empowering them to better serve their
         communities and foster a love of learning.
       </p>
-      <h1 id='reflection'>Reflection</h1>
+
+      <p>
+        <a
+          href={require("./Leveraging ontologies for efficient information retrieval in libraries.pdf")}
+          download={
+            "Leveraging ontologies for efficient information retrieval in libraries.pdf"
+          }
+        >
+          Assessment Report
+        </a>
+      </p>
+      <h1 id="reflection">Reflection</h1>
       <p>
         Delving into the realm of knowledge and reasoning representation has
         been a profoundly inspiring experience. While propositional logic
