@@ -142,7 +142,7 @@ const KnowledgeRepresentation = () => {
       <ul>
         <li>
           <p>
-            <strong>Data</strong>: The raw, unprocessed material forming the
+            <b>Data</b>: The raw, unprocessed material forming the
             foundation. Think of it as individual bricks, numbers, symbols, or
             characters awaiting meaning. Data may be stored and transmitted
             within systems but holds no inherent significance on its own.
@@ -150,7 +150,7 @@ const KnowledgeRepresentation = () => {
         </li>
         <li>
           <p>
-            <strong>Information</strong>: The processed and contextualized
+            <b>Information</b>: The processed and contextualized
             understanding derived from data. Imagine the bricks arranged into a
             complex structure, forming a meaningful picture. Information emerges
             from applying operations, analysis, and interpretation to data,
@@ -167,7 +167,7 @@ const KnowledgeRepresentation = () => {
       <ul>
         <li>
           <p>
-            <strong>Knowledge</strong>: This isn&#39;t simply information.
+            <b>Knowledge</b>: This isn&#39;t simply information.
             It&#39;s the deeper understanding derived from processing and
             integrating information. It&#39;s the &quot;how&quot; and
             &quot;why&quot; behind the &quot;what,&quot; the connections and
@@ -178,7 +178,7 @@ const KnowledgeRepresentation = () => {
         </li>
         <li>
           <p>
-            <strong>Representation</strong>: This involves expressing knowledge
+            <b>Representation</b>: This involves expressing knowledge
             in a form computers can understand and manipulate. It&#39;s like
             choosing the best language to convey a complex idea. We might use
             logic statements, graphs, or even visual symbols, depending on the
@@ -302,7 +302,7 @@ const KnowledgeRepresentation = () => {
         intuitive &quot;naive&quot; set theory.
       </p>
       <p>
-        <strong>Key Axioms</strong>:
+        <b>Key Axioms</b>:
       </p>
       <ul>
         <li>
@@ -358,15 +358,15 @@ const KnowledgeRepresentation = () => {
         final truth value. Benefits:
       </p>
       <p>
-        <strong>Evaluate truth</strong>: Determine the truth value of complex
+        <b>Evaluate truth</b>: Determine the truth value of complex
         logic statements based on individual propositions.
       </p>
       <p>
-        <strong>Identify patterns</strong>: Understand how different logical
+        <b>Identify patterns</b>: Understand how different logical
         operations interact with various truth combinations.
       </p>
       <p>
-        <strong>Simplify expressions</strong>: Rewrite complex statements into
+        <b>Simplify expressions</b>: Rewrite complex statements into
         equivalent, easier-to-understand forms. Example:
       </p>
       <p>Imagine statements P and Q:</p>
@@ -379,14 +379,14 @@ const KnowledgeRepresentation = () => {
         </li>
       </ul>
       <p>
-        A truth table can show how &quot;<strong>P AND Q</strong>&quot; (it is
+        A truth table can show how &quot;<b>P AND Q</b>&quot; (it is
         both sunny and raining) evaluates differently across various scenarios:
         | P | Q | P AND Q | |---|---|---| | True | True | True | | True | False
         | False | | False | True | False | | False | False | False |
       </p>
       <p>
-        This helps clarify that &quot;<strong>P AND Q</strong>&quot; is only
-        true when both <strong>P</strong> and <strong>Q</strong> are true.
+        This helps clarify that &quot;<b>P AND Q</b>&quot; is only
+        true when both <b>P</b> and <b>Q</b> are true.
       </p>
       <p>
         Truth tables offer a clear and systematic way to analyze and understand
@@ -405,29 +405,29 @@ const KnowledgeRepresentation = () => {
         handling lengthy statements themselves.
       </p>
       <p>
-        <strong>Key Operators</strong>:
+        <b>Key Operators</b>:
       </p>
       <ul>
         <li>
-          <strong>AND</strong>: Both statements must be true for the overall
+          <b>AND</b>: Both statements must be true for the overall
           statement to be true.
         </li>
         <li>
-          <strong>OR</strong>: At least one statement must be true for the
+          <b>OR</b>: At least one statement must be true for the
           overall statement to be true.
         </li>
         <li>
-          <strong>NOT</strong>: Reverses the truth value of a statement.
+          <b>NOT</b>: Reverses the truth value of a statement.
         </li>
       </ul>
       <p>Rules of Inference:</p>
       <ul>
         <li>
-          <strong>Modus Ponens</strong>: If P implies Q, and P is true, then Q
+          <b>Modus Ponens</b>: If P implies Q, and P is true, then Q
           is true.
         </li>
         <li>
-          <strong>Modus Tollens</strong>: If P implies Q, and Q is false, then P
+          <b>Modus Tollens</b>: If P implies Q, and Q is false, then P
           is false.
         </li>
       </ul>
@@ -439,33 +439,33 @@ const KnowledgeRepresentation = () => {
         relationships and properties of objects.
       </p>
       <p>
-        <strong>Key Differences:</strong>
+        <b>Key Differences:</b>
       </p>
       <p>
-        <strong>Atomic Formulas</strong>: While propositions are indivisible
+        <b>Atomic Formulas</b>: While propositions are indivisible
         units, FOL allows atomic formulas expressing relationships. Imagine a
         simple statement like &quot;It rained yesterday.&quot; In FOL, we could
         represent this as Rain(Yesterday), showing the relation &quot;Rain&quot;
         holds for the object &quot;Yesterday&quot;.
       </p>
       <p>
-        <strong>Variables and Quantification</strong>: FOL introduces variables,
+        <b>Variables and Quantification</b>: FOL introduces variables,
         making statements more general. Instead of saying
         &quot;Rain(Monday)&quot;, we could use Rain(X) where X represents any
         day of the week. This allows quantification:
       </p>
       <ul>
         <li>
-          <strong>Universal Quantifier (∀)</strong>: &quot;For all&quot;
+          <b>Universal Quantifier (∀)</b>: &quot;For all&quot;
           instances. Like: ∀X Rain(X) meaning it rains on every day.
         </li>
         <li>
-          <strong>Existential Quantifier (∃)</strong>: &quot;There exists&quot;
+          <b>Existential Quantifier (∃)</b>: &quot;There exists&quot;
           some instance. Like: ∃X Rain(X) meaning it rains on at least one day.
         </li>
       </ul>
       <p>
-        <strong>Example:</strong>
+        <b>Example:</b>
       </p>
       <p>
         Imagine a rule: &quot;Students must pass all exams to graduate.&quot;
@@ -481,7 +481,7 @@ const KnowledgeRepresentation = () => {
         </li>
       </ul>
       <p>
-        <strong>Benefits of FOL:</strong>
+        <b>Benefits of FOL:</b>
       </p>
       <ul>
         <li>Expresses complex relationships and rules.</li>
@@ -496,31 +496,31 @@ const KnowledgeRepresentation = () => {
         various fields.
       </p>
       <p>
-        <strong>Advantages:</strong>
+        <b>Advantages:</b>
       </p>
       <ol>
         <li>
-          <strong>Easy inheritance</strong>: Semantic nets naturally depict
+          <b>Easy inheritance</b>: Semantic nets naturally depict
           inheritance relationships between concepts, making them intuitive for
           representing taxonomic hierarchies like &quot;cat is a mammal.&quot;
         </li>
         <li>
-          <strong>Visual appeal</strong>: The graphical layout provides a clear
+          <b>Visual appeal</b>: The graphical layout provides a clear
           visual representation of connections, aiding human understanding and
           knowledge organization.
         </li>
       </ol>
       <p>
-        <strong>Limitations:</strong>
+        <b>Limitations:</b>
       </p>
       <ul>
         <li>
-          <strong>Precision</strong>: Compared to logic-based representations
+          <b>Precision</b>: Compared to logic-based representations
           (like predicate logic), semantic nets offer less precision in
           expressing complex relationship.
         </li>
         <li>
-          <strong>Multiple inheritance</strong>: Representing concepts with
+          <b>Multiple inheritance</b>: Representing concepts with
           multiple parents can be cumbersome in traditional semantic nets due to
           their focus on binary relationships.
         </li>
@@ -532,7 +532,7 @@ const KnowledgeRepresentation = () => {
         They serve as an alternative to semantic nets and predicate logic.
       </p>
       <p>
-        <strong>Structure</strong>:
+        <b>Structure</b>:
       </p>
       <ul>
         <li>
@@ -545,52 +545,52 @@ const KnowledgeRepresentation = () => {
         </li>
       </ul>
       <p>
-        <strong>Key Features:</strong>
+        <b>Key Features:</b>
       </p>
       <ul>
         <li>
-          <strong>Defaults</strong>: Slots can have default values, which can be
+          <b>Defaults</b>: Slots can have default values, which can be
           overridden with new information. Example: A car&#39;s default status
           might be &quot;OK,&quot; but it changes to &quot;Broken&quot; if a
           flat tire is discovered.
         </li>
         <li>
-          <strong>Inheritance</strong>: Frames can inherit properties and values
+          <b>Inheritance</b>: Frames can inherit properties and values
           from other related frames.
         </li>
         <li>
-          <strong>Reasoning</strong>: Associated languages like KRL and KL-ONE
+          <b>Reasoning</b>: Associated languages like KRL and KL-ONE
           enable inferences and reasoning based on frame knowledge.
         </li>
       </ul>
       <p>
-        <strong>Advantages</strong>:
+        <b>Advantages</b>:
       </p>
       <ul>
         <li>
-          <strong>Natural representation</strong>: Frames offer a way to
+          <b>Natural representation</b>: Frames offer a way to
           organize knowledge in a way that aligns with how humans perceive and
           reason about the world.
         </li>
         <li>
-          <strong>Flexibility</strong>: Default values and inheritance make
+          <b>Flexibility</b>: Default values and inheritance make
           frames adaptable to different situations and contexts.
         </li>
         <li>
-          <strong>Reasoning capabilities</strong>: Associated languages allow
+          <b>Reasoning capabilities</b>: Associated languages allow
           inferencing and drawing conclusions based on frame relationships.
         </li>
       </ul>
       <p>
-        <strong>Limitations</strong>:
+        <b>Limitations</b>:
       </p>
       <ul>
         <li>
-          <strong>Complexity</strong>: Designing and managing complex frame
+          <b>Complexity</b>: Designing and managing complex frame
           systems can be challenging.
         </li>
         <li>
-          <strong>Efficiency</strong>: Implementing frames using traditional
+          <b>Efficiency</b>: Implementing frames using traditional
           methods can be less efficient than other representations.
         </li>
       </ul>
@@ -602,7 +602,7 @@ const KnowledgeRepresentation = () => {
         offer a concise way to represent knowledge.
       </p>
       <p>
-        <strong>Key Characteristics</strong>:
+        <b>Key Characteristics</b>:
       </p>
       <p>
         Single positive literal: Each clause contains at most one literal
@@ -615,7 +615,7 @@ const KnowledgeRepresentation = () => {
       <p>R ← U ∨ V (read as: R is true if U or V is true)</p>
       <p>Q and V are facts (assumed true).</p>
       <p>
-        <strong>Benefits</strong>:
+        <b>Benefits</b>:
       </p>
       <p>
         Efficiency: Horn clauses enable efficient automated theorem proving due
@@ -625,7 +625,7 @@ const KnowledgeRepresentation = () => {
         Horn clauses to define logic programs and reason about knowledge.
       </p>
       <p>
-        <strong>Converting statements</strong>
+        <b>Converting statements</b>
       </p>
       <p>
         Equations can be transformed into Horn clauses (e.g.,
@@ -633,15 +633,15 @@ const KnowledgeRepresentation = () => {
         Quantifiers can be adjusted to fit the Horn clause format.
       </p>
       <p>
-        <strong>Types of Horn clauses:</strong>
+        <b>Types of Horn clauses:</b>
       </p>
       <ul>
         <li>
-          <strong>Positive/Definite</strong>: Contains one positive literal
+          <b>Positive/Definite</b>: Contains one positive literal
           (e.g., P ← Q ∧ R).
         </li>
         <li>
-          <strong>Negative</strong>: No positive literals (all negated) or no
+          <b>Negative</b>: No positive literals (all negated) or no
           literals at all (rare).
         </li>
       </ul>
@@ -657,18 +657,18 @@ const KnowledgeRepresentation = () => {
       <p>Several key features characterize good logic programming languages:</p>
       <ol>
         <li>
-          <strong>Support for Symbolic Computation</strong>: They handle various
+          <b>Support for Symbolic Computation</b>: They handle various
           data structures like Horn clauses, lists, and sets, enabling symbolic
           reasoning.
         </li>
         <li>
-          <strong>Flexible Control:</strong> Features like pattern matching,
+          <b>Flexible Control:</b> Features like pattern matching,
           dynamic rule execution, message passing, and dynamic binding allow for
           flexible problem-solving approaches.
         </li>
         <li>
           <p>
-            <strong>Alternative Programming Methods:</strong> They excel at
+            <b>Alternative Programming Methods:</b> They excel at
             solving complex AI problems that may lack complete specifications
             initially, often utilizing domain-specific approaches and
             heuristics.
@@ -676,19 +676,19 @@ const KnowledgeRepresentation = () => {
         </li>
         <li>
           <p>
-            <strong>Modularity and Extensibility</strong>: Modular code with
+            <b>Modularity and Extensibility</b>: Modular code with
             localized scope and clear boundaries (functions, recursion) enhances
             maintainability and allows for easier extensibility through
             techniques like pattern matching and domain-specific languages.
           </p>
         </li>
         <li>
-          <strong>Dynamic Binding and Constraint Propagation</strong>: Variables
+          <b>Dynamic Binding and Constraint Propagation</b>: Variables
           can be bound during program execution, enabling constraint propagation
           and flexible reasoning.
         </li>
         <li>
-          <strong>Clear and Well-Defined Semantics</strong>: Many logic
+          <b>Clear and Well-Defined Semantics</b>: Many logic
           programming languages are based on well-defined mathematical
           principles like predicate logic, leading to clear semantics and
           suitability for knowledge representation, correctness proofs, and
@@ -725,67 +725,67 @@ const KnowledgeRepresentation = () => {
         </li>
       </ul>
       <p>
-        <strong>Modeling Process:</strong>
+        <b>Modeling Process:</b>
       </p>
       <ul>
         <li>
-          <strong>Observe and measure</strong>: Study the real-world system,
+          <b>Observe and measure</b>: Study the real-world system,
           gather data on its behavior.
         </li>
         <li>
-          <strong>Theorize</strong>: Develop a model based on the observations
+          <b>Theorize</b>: Develop a model based on the observations
           and understanding.
         </li>
         <li>
-          <strong>Compare and refine</strong>: Run the model alongside the real
+          <b>Compare and refine</b>: Run the model alongside the real
           system, compare outputs, and update the model based on discrepancies.
         </li>
       </ul>
       <p>
-        <strong>Benefits of Modeling:</strong>&#39;
+        <b>Benefits of Modeling:</b>&#39;
       </p>
       <ul>
         <li>
-          <strong>Improved understanding</strong>: Simplifies complexity,
+          <b>Improved understanding</b>: Simplifies complexity,
           enabling deeper analysis.
         </li>
         <li>
-          <strong>Simulation and prediction</strong>: Allows experimentation and
+          <b>Simulation and prediction</b>: Allows experimentation and
           testing under controlled conditions.
         </li>
         <li>
-          <strong>Knowledge representation</strong>: Provides a formal structure
+          <b>Knowledge representation</b>: Provides a formal structure
           for knowledge sharing and reasoning.
         </li>
       </ul>
       <h2 id="types-of-knowledge-models">Types of Knowledge Models</h2>
       <ul>
         <li>
-          <strong>Diagnostic models</strong>: Assist in diagnosis (e.g., medical
+          <b>Diagnostic models</b>: Assist in diagnosis (e.g., medical
           diagnosis, equipment fault finding).
         </li>
         <li>
-          <strong>Explorative models</strong>: Analyze geological structures for
+          <b>Explorative models</b>: Analyze geological structures for
           resource exploration.
         </li>
         <li>
-          <strong>Selective models</strong>: Recommend products based on user
+          <b>Selective models</b>: Recommend products based on user
           data (e.g., e-commerce).
         </li>
         <li>
-          <strong>Analytic models</strong>: Evaluate options based on criteria
+          <b>Analytic models</b>: Evaluate options based on criteria
           (e.g., semantic web agents).
         </li>
         <li>
-          <strong>Instructive models</strong>: Train users through feedback
+          <b>Instructive models</b>: Train users through feedback
           loops (e.g., variations of expert systems).
         </li>
         <li>
-          <strong>Constructive models</strong>: Machine learning systems
+          <b>Constructive models</b>: Machine learning systems
           learning based on data feedback.
         </li>
         <li>
-          <strong>Hybrid models</strong>: Combine multiple types for
+          <b>Hybrid models</b>: Combine multiple types for
           self-learning and adaptable solutions.
         </li>
       </ul>
@@ -796,38 +796,38 @@ const KnowledgeRepresentation = () => {
         modelling, problem-solving, and verification.
       </p>
       <p>
-        <strong>Modelling Technology and Techniques:</strong>
+        <b>Modelling Technology and Techniques:</b>
       </p>
       <ul>
         <li>
           <p>
-            <strong>Choice depends on desired outcome</strong>: abstraction,
+            <b>Choice depends on desired outcome</b>: abstraction,
             simulation, conceptualization, derivation, or proof.
           </p>
         </li>
         <li>
           <p>
-            <strong>Formal languages (Z notation)</strong>: Mathematical proofs
+            <b>Formal languages (Z notation)</b>: Mathematical proofs
             via logic formulas.
           </p>
         </li>
         <li>
           <p>
-            <strong>Programming languages</strong>: Simulation of complex
+            <b>Programming languages</b>: Simulation of complex
             systems.
           </p>
         </li>
         <li>
           <p>
-            <strong>Ontologies and Semantic Web (OWL, SWRL)</strong>: Conceptual
+            <b>Ontologies and Semantic Web (OWL, SWRL)</b>: Conceptual
             models.
           </p>
         </li>
         <li>
-          <strong>
+          <b>
             Probabilistic and statistical techniques (Monte Carlo simulations,
             Bayesian methods)
-          </strong>
+          </b>
           : Extract trends from data, predict future behavior.
         </li>
       </ul>
@@ -836,11 +836,11 @@ const KnowledgeRepresentation = () => {
       </h2>
       <ul>
         <li>
-          <strong>Ontologies</strong>: Define concepts and relationships for
+          <b>Ontologies</b>: Define concepts and relationships for
           conceptual models.
         </li>
         <li>
-          <strong>RDF</strong>: Describes resources using URLs/URIs for unique
+          <b>RDF</b>: Describes resources using URLs/URIs for unique
           identification. Ontologies created with tools like Protégé, supported
           by existing ontologies like WordNet and DBpedia.
         </li>
@@ -868,18 +868,18 @@ const KnowledgeRepresentation = () => {
       </h2>
       <ul>
         <li>
-          <strong>Abductive reasoning</strong>: Inferring P from &quot;if P
+          <b>Abductive reasoning</b>: Inferring P from &quot;if P
           implies Q and Q is true&quot;.
         </li>
         <li>
-          <strong>Monte Carlo Simulation (MCS)</strong>: Generates random
+          <b>Monte Carlo Simulation (MCS)</b>: Generates random
           inputs, performs calculations, aggregates results for analysis.
         </li>
         <li>
-          <strong>
+          <b>
             Bayes Theorem: Calculates probability of event A given event B
             (conditional{" "}
-          </strong>
+          </b>
           probability). Useful for real-world applications.
         </li>
       </ul>
@@ -905,18 +905,18 @@ const KnowledgeRepresentation = () => {
       <p>The realm of knowledge engineers encompasses three key types:</p>
       <ul>
         <li>
-          <strong>Declarative Knowledge</strong>: This factual cornerstone deals
+          <b>Declarative Knowledge</b>: This factual cornerstone deals
           with &quot;what is,&quot; holding statements like &quot;a light bulb
           needs electricity to glow.&quot;
         </li>
         <li>
-          <strong>Procedural Knowledge</strong>: It builds upon factual
+          <b>Procedural Knowledge</b>: It builds upon factual
           foundations, providing &quot;how to&quot; approaches based on those
           facts. It guides actions, like the individual who checks water before
           boiling, adding it if insufficient.
         </li>
         <li>
-          <strong>Meta-Knowledge</strong>: This type goes beyond, asking
+          <b>Meta-Knowledge</b>: This type goes beyond, asking
           &quot;what do I know about what I know?&quot; It helps understand how
           experts leverage knowledge, such as preferring planes or trains for
           long journeys compared to footpaths or bicycles for shorter trips.
@@ -929,26 +929,26 @@ const KnowledgeRepresentation = () => {
       </p>
       <ol>
         <li>
-          <strong>Knowledge Acquisition</strong>: Gathering knowledge from
+          <b>Knowledge Acquisition</b>: Gathering knowledge from
           diverse sources like experts, documents, databases, and even the
           internet.
         </li>
         <li>
-          <strong>Knowledge Validation</strong>: Ensuring the acquired knowledge
+          <b>Knowledge Validation</b>: Ensuring the acquired knowledge
           is accurate and relevant, often through testing and verification.
         </li>
         <li>
-          <strong>Knowledge Representation</strong>: Structuring the knowledge
+          <b>Knowledge Representation</b>: Structuring the knowledge
           into a form understandable by the computer, like building a map of
           concepts and relationships.
         </li>
         <li>
-          <strong>Knowledge Reasoning</strong>: Enabling the system to use the
+          <b>Knowledge Reasoning</b>: Enabling the system to use the
           knowledge for decision-making or providing advice by drawing
           inferences and making connections.
         </li>
         <li>
-          <strong>Explanation</strong>: Increasingly important, this step allows
+          <b>Explanation</b>: Increasingly important, this step allows
           the system to explain its reasoning and conclusions, offering
           transparency and building trust with users.
         </li>
@@ -960,23 +960,23 @@ const KnowledgeRepresentation = () => {
       </p>
       <ul>
         <li>
-          Procedure Manuals: Step-by-step instructions and detailed descriptions
+          <b>Procedure Manuals</b>ep instructions and detailed descriptions
           found in user manuals offer insights into business processes.
         </li>
         <li>
-          Past Case Studies: These provide valuable data, information, and
+          <b>Past Case Studies</b>: These provide valuable data, information, and
           knowledge along with practical applications for actionable decisions.
         </li>
         <li>
-          Standards Documentation: Established standards and documentation offer
+          <b>Standards Documentation</b>: Established standards and documentation offer
           reliable knowledge about specific systems and procedures.
         </li>
         <li>
-          Human Expertise: Experts, non-experts, and even various actors within
+          <b>Human Expertise</b>: Experts, non-experts, and even various actors within
           a system can contribute valuable knowledge for building a KBS.
         </li>
         <li>
-          Expert Systems: For systems designed to mimic human experts, knowledge
+          <b>Expert Systems</b>: For systems designed to mimic human experts, knowledge
           acquisition heavily relies on extracting knowledge from those experts
           through discussions and interactions.
         </li>
@@ -991,37 +991,37 @@ const KnowledgeRepresentation = () => {
       </p>
       <ol>
         <li>
-          <strong>Interviews</strong>:
+          <b>Interviews</b>:
           <ul>
             <li>
-              <strong>Structured Interviews</strong>: Standardized approach with
+              <b>Structured Interviews</b>: Standardized approach with
               pre-defined questions, ensuring consistency and ease of analysis
               across interviewees.
             </li>
             <li>
-              <strong>Unstructured Interviews</strong>: Open-ended discussions
+              <b>Unstructured Interviews</b>: Open-ended discussions
               allowing for flexible exploration of knowledge, but potentially
               missing key details.
             </li>
             <li>
-              <strong>Thinking Out Loud/Event Recall</strong>: Encourages
+              <b>Thinking Out Loud/Event Recall</b>: Encourages
               reflection on past experiences and solutions, but might not
               comprehensively cover all relevant aspects.
             </li>
           </ul>
         </li>
         <li>
-          <strong>Questionnaires</strong>: Structured sets of pre-defined
+          <b>Questionnaires</b>: Structured sets of pre-defined
           questions distributed to targeted individuals for efficient data
           collection.
         </li>
         <li>
-          <strong>Repertory Grid Technique</strong>: Explores personal and
+          <b>Repertory Grid Technique</b>: Explores personal and
           interpersonal meaning systems, particularly useful in clinical
           domains.
         </li>
         <li>
-          <strong>Observation</strong>: Critically observing system actors in
+          <b>Observation</b>: Critically observing system actors in
           action to understand their processes and interactions, providing
           direct insights into their knowledge and behavior.
         </li>
@@ -1045,7 +1045,7 @@ const KnowledgeRepresentation = () => {
       <ol>
         <li>
           <p>
-            <strong>Surrogate</strong>: Representing things in the world inside
+            <b>Surrogate</b>: Representing things in the world inside
             a system, raising questions about identity and accuracy. Perfect
             representation is impossible, but we strive for close enough to
             avoid misleading inferences.
@@ -1053,7 +1053,7 @@ const KnowledgeRepresentation = () => {
         </li>
         <li>
           <p>
-            <strong>Ontological Commitment</strong>: Choosing a perspective on
+            <b>Ontological Commitment</b>: Choosing a perspective on
             the world by selecting an ontology. Each choice shapes how the
             system sees and reasons about the task at hand, requiring careful
             consideration of what entities and relationships matter most.
@@ -1061,7 +1061,7 @@ const KnowledgeRepresentation = () => {
         </li>
         <li>
           <p>
-            <strong>Fragmentary Theory of Reasoning</strong>: Reflecting
+            <b>Fragmentary Theory of Reasoning</b>: Reflecting
             insights about intelligent reasoning, but only partially. KR
             captures some aspects of how humans think, but acknowledges the full
             picture is much more complex.
@@ -1069,7 +1069,7 @@ const KnowledgeRepresentation = () => {
         </li>
         <li>
           <p>
-            <strong>Efficient Computation</strong>: Balancing representation
+            <b>Efficient Computation</b>: Balancing representation
             power with computational feasibility. Building fast systems is
             important, but not at the expense of sacrificing the ability to
             represent and reason about the world effectively.
@@ -1077,7 +1077,7 @@ const KnowledgeRepresentation = () => {
         </li>
         <li>
           <p>
-            <strong>Human Expression</strong>: Facilitating communication with
+            <b>Human Expression</b>: Facilitating communication with
             machines and other people. KR acts as a shared language for
             expressing knowledge, enabling information exchange and
             understanding.
@@ -1099,7 +1099,7 @@ const KnowledgeRepresentation = () => {
       <ol>
         <li>
           <p>
-            <strong>Scoping</strong>: This initial stage sets the stage. It
+            <b>Scoping</b>: This initial stage sets the stage. It
             defines the specific task at hand and the desired outcome of the
             knowledge representation process. What problem are we trying to
             solve? What knowledge do we need to capture to achieve that goal?
@@ -1109,7 +1109,7 @@ const KnowledgeRepresentation = () => {
         </li>
         <li>
           <p>
-            <strong>Pre-representation</strong>: Now, we dive into the domain
+            <b>Pre-representation</b>: Now, we dive into the domain
             itself. This step involves collecting relevant terms and organizing
             them into a set of core concepts. Think of it like gathering
             ingredients for a recipe. By identifying key terms and establishing
@@ -1119,7 +1119,7 @@ const KnowledgeRepresentation = () => {
         </li>
         <li>
           <p>
-            <strong>Post-representation</strong>: We&#39;ve gathered the
+            <b>Post-representation</b>: We&#39;ve gathered the
             ingredients, now it&#39;s time to prepare them. This phase involves
             refining the collected terms. Normalization ensures consistency and
             reduces ambiguity. Identifying hierarchies and relationships among
@@ -1131,7 +1131,7 @@ const KnowledgeRepresentation = () => {
         </li>
         <li>
           <p>
-            <strong>Evaluation</strong>: The final step ensures we&#39;ve
+            <b>Evaluation</b>: The final step ensures we&#39;ve
             accurately captured and represented the knowledge. Collaborating
             with domain experts is crucial at this stage. They provide valuable
             insights to verify the captured knowledge reflects real-world
@@ -1149,7 +1149,7 @@ const KnowledgeRepresentation = () => {
       </p>
       <ol>
         <li>
-          <strong>Hierarchy Generation</strong>:
+          <b>Hierarchy Generation</b>:
           <ul>
             <li>
               Laddering (Corbridge et al., 1994): Ask &quot;why&quot; questions
@@ -1164,7 +1164,7 @@ const KnowledgeRepresentation = () => {
           </ul>
         </li>
         <li>
-          <strong>Sorting Techniques</strong>:
+          <b>Sorting Techniques</b>:
           <ul>
             <li>
               Comparative Sorting: Present the expert with concepts and ask them
@@ -1175,7 +1175,7 @@ const KnowledgeRepresentation = () => {
           </ul>
         </li>
         <li>
-          <strong>Matrix-Based Techniques</strong>:
+          <b>Matrix-Based Techniques</b>:
           <ul>
             <li>
               Decision Tables: Construct grids listing problems in rows and
@@ -1185,7 +1185,7 @@ const KnowledgeRepresentation = () => {
           </ul>
         </li>
         <li>
-          <strong>Limit-Information and Constraint Processing</strong>:
+          <b>Limit-Information and Constraint Processing</b>:
           <ul>
             <li>
               Limited Time or Information: Restrict the information or time
@@ -1209,7 +1209,7 @@ const KnowledgeRepresentation = () => {
       <ol>
         <li>
           <p>
-            <strong>Syntax</strong>: It defines the rules and principles
+            <b>Syntax</b>: It defines the rules and principles
             governing how words and symbols are combined to form valid
             expressions. Imagine building sentences with Lego blocks - syntax
             dictates which blocks connect and in what order, ensuring
@@ -1218,7 +1218,7 @@ const KnowledgeRepresentation = () => {
         </li>
         <li>
           <p>
-            <strong>Semantics</strong>: This element goes beyond the structure,
+            <b>Semantics</b>: This element goes beyond the structure,
             diving into the meaning behind the symbols and expressions. Like a
             dictionary for the language, semantics defines the meaning
             associated with each term and how they relate to each other. This
@@ -1228,7 +1228,7 @@ const KnowledgeRepresentation = () => {
         </li>
         <li>
           <p>
-            <strong>Proof Theory</strong>: It provides methods for reasoning and
+            <b>Proof Theory</b>: It provides methods for reasoning and
             manipulating expressions within the defined syntax and semantics.
             It&#39;s like having a set of rules to draw valid conclusions based
             on the knowledge represented. This allows the system to reason
@@ -1242,16 +1242,16 @@ const KnowledgeRepresentation = () => {
       </p>
       <ul>
         <li>
-          <strong>Prevent ambiguity</strong>: Precise rules eliminate confusion
+          <b>Prevent ambiguity</b>: Precise rules eliminate confusion
           and ensure everyone interprets the knowledge the same way.
         </li>
         <li>
-          <strong>Enable automated reasoning</strong>: The logical structure
+          <b>Enable automated reasoning</b>: The logical structure
           allows computers to manipulate and draw inferences from the knowledge,
           mimicking human reasoning.
         </li>
         <li>
-          <strong>Facilitate knowledge sharing</strong>: By using a common
+          <b>Facilitate knowledge sharing</b>: By using a common
           language, different systems can exchange and understand each
           other&#39;s knowledge, promoting collaboration and information flow.
         </li>
@@ -1264,37 +1264,37 @@ const KnowledgeRepresentation = () => {
       </p>
       <ul>
         <li>
-          Predicate logic: The workhorse of logic, allowing complex expressions
+          <b>Predicate logic</b>: The workhorse of logic, allowing complex expressions
           and reasoning about objects and their properties. Think of it as
           building intricate sentences with well-defined rules.
         </li>
         <li>
-          Propositional logic: Deals with truth values of statements, focusing
+          <b>Propositional logic</b>: Deals with truth values of statements, focusing
           on simpler relationships between propositions. Imagine working with
           building blocks of true or false statements.
         </li>
         <li>
-          Descriptive logic: A subset of predicate logic designed specifically
+          <b>Descriptive logic</b>: A subset of predicate logic designed specifically
           for representing knowledge in ontologies. It excels at defining
           concepts, their relationships, and hierarchies, like drawing a family
           tree of knowledge.
         </li>
         <li>
-          Web Ontology Language (OWL): The reigning champion of knowledge
+          <b>Web Ontology Language (OWL)</b>: The reigning champion of knowledge
           representation languages. Built on descriptive logic, OWL offers
           powerful reasoning capabilities, allowing machines to analyze and
           infer knowledge, just like a Sherlock Holmes of the information world.
         </li>
         <li>
-          Resource Description Framework Schema (RDFS): Considered a
+          <b>Resource Description Framework Schema (RDFS)</b>: Considered a
           beginner-friendly language, RDFS offers a simpler syntax but less
           expressiveness than OWL. It&#39;s good for basic knowledge
           organization, like labeling information cards in a library.
         </li>
       </ul>
       <p>
-        Within this toolbox, <strong>RDFS</strong> is known for its ease of use,
-        while <strong>OWL</strong> its better for reasoning power and
+        Within this toolbox, <b>RDFS</b> is known for its ease of use,
+        while <b>OWL</b> its better for reasoning power and
         complexity.
       </p>
       <h1 id="case-study-review-ontology-development-for-agriculture-domain">
@@ -1307,31 +1307,31 @@ const KnowledgeRepresentation = () => {
       </p>
       <ul>
         <li>
-          Collaboration with domain experts: Their insights ensure the
+          <b>Collaboration with domain experts</b>: Their insights ensure the
           ontology&#39;s accuracy and relevance.
         </li>
         <li>
-          Adaptability: The ontology can be tailored to specific needs, like
+          <b>Adaptability</b>: The ontology can be tailored to specific needs, like
           supply chain management or farm equipment optimization.
         </li>
       </ul>
       <p>Key benefits of using ontologies in agriculture:</p>
       <ul>
         <li>
-          Enhanced knowledge representation: Organize and structure complex
+          <b>Enhanced knowledge representation</b>: Organize and structure complex
           agricultural knowledge, making it easier to understand, share, and
           utilize.
         </li>
         <li>
-          Improved data integration: Connect and harmonize data from diverse
+          <b>Improved data integration</b>: Connect and harmonize data from diverse
           sources, including sensors, databases, and expert knowledge.
         </li>
         <li>
-          Streamlined processes: Automate tasks and decision-making based on the
+          <b>Streamlined processes</b>: Automate tasks and decision-making based on the
           structured knowledge within the ontology.
         </li>
         <li>
-          Transparency and traceability: Track the journey of agricultural
+          <b>Transparency and traceability</b>: Track the journey of agricultural
           products, ensuring quality control and regulatory compliance.
         </li>
       </ul>
@@ -1339,20 +1339,20 @@ const KnowledgeRepresentation = () => {
       <ol>
         <li>
           <p>
-            <strong>Supply Chain Management</strong>:
+            <b>Supply Chain Management</b>:
           </p>
           <ul>
             <li>
-              Traceability: Track product movement from farm to consumer,
+              <b>Traceability</b>: Track product movement from farm to consumer,
               ensuring food safety and transparency.
             </li>
             <li>
-              Quality control: Define and monitor quality parameters throughout
+              <b>Quality control</b>: Define and monitor quality parameters throughout
               the supply chain.
             </li>
             <li>
               <p>
-                Resource management: Optimize resource allocation based on crop
+                <b>Resource management</b>: Optimize resource allocation based on crop
                 growth cycles and equipment usage.
               </p>
               <p>
@@ -1368,20 +1368,20 @@ const KnowledgeRepresentation = () => {
         </li>
         <li>
           <p>
-            <strong>Farm Equipment Optimization</strong>:
+            <b>Farm Equipment Optimization</b>:
           </p>
           <ul>
             <li>
-              Match equipment to crops: Identify the optimal equipment for
+              <b>Match equipment to crops</b>: Identify the optimal equipment for
               specific crops and tasks.
             </li>
             <li>
-              Predictive maintenance: Schedule maintenance based on equipment
+              <b>Predictive maintenance</b>: Schedule maintenance based on equipment
               usage and sensor data.
             </li>
             <li>
               <p>
-                Resource optimization: Utilize equipment efficiently and
+                <b>Resource optimization</b>: Utilize equipment efficiently and
                 minimize operational costs.
               </p>
               <p>
@@ -1491,22 +1491,22 @@ const KnowledgeRepresentation = () => {
         Formalism Techniques and Applications
       </h1>
       <p>
-        <strong>Logic-based vs. Non-logic-based</strong>:
+        <b>Logic-based vs. Non-logic-based</b>:
       </p>
       <ul>
         <li>
-          <strong>Logic-based</strong>: Rooted in First Order Logic (FOL),
+          <b>Logic-based</b>: Rooted in First Order Logic (FOL),
           offering precise rules and consistency but can be complex. Examples
           include Description Logic (DL) and Horn Logic Programs.
         </li>
         <li>
-          <strong>Non-logic-based</strong>: More intuitive and easier to grasp,
+          <b>Non-logic-based</b>: More intuitive and easier to grasp,
           like semantic networks and frame-based representations. However, lack
           formal semantics and might lead to inconsistencies.
         </li>
       </ul>
       <p>
-        <strong>Description Logic (DL):</strong>
+        <b>Description Logic (DL):</b>
       </p>
       <ul>
         <li>
@@ -1523,32 +1523,32 @@ const KnowledgeRepresentation = () => {
         <li>Forms the foundation for the Semantic Web and OWL.</li>
       </ul>
       <p>
-        <strong>DL Architecture:</strong>
+        <b>DL Architecture:</b>
       </p>
       <ul>
         <li>
           <p>
-            TBox (terminological knowledge box): Defines properties of concepts
+            <b>TBox (terminological knowledge box)</b>: Defines properties of concepts
             and roles, like a schema in databases.
           </p>
         </li>
         <li>
           <p>
-            ABox (assertional knowledge box): Describes individual entities and
+            <b>ABox (assertional knowledge box)</b>: Describes individual entities and
             their properties, like data in databases.
           </p>
         </li>
         <li>
-          RBox (role-centric knowledge box): Defines knowledge about roles and
+          <b>RBox (role-centric knowledge box)</b>: Defines knowledge about roles and
           their interdependencies.
         </li>
         <li>
-          Reasoning engine: Draws inferences from the knowledge base, ensuring
+          <b>Reasoning engine</b>: Draws inferences from the knowledge base, ensuring
           consistency and discovering new knowledge.
         </li>
       </ul>
       <p>
-        <strong>ALC DL:</strong>
+        <b>ALC DL:</b>
       </p>
       <ul>
         <li>A simplified and complete subset of DLs.</li>
@@ -1558,7 +1558,7 @@ const KnowledgeRepresentation = () => {
         </li>
       </ul>
       <p>
-        <strong>DL Reasoning:</strong>
+        <b>DL Reasoning:</b>
       </p>
       <ul>
         <li>
@@ -1575,7 +1575,7 @@ const KnowledgeRepresentation = () => {
         </li>
       </ul>
       <p>
-        <strong>Other Formalisms:</strong>
+        <b>Other Formalisms:</b>
       </p>
       <ul>
         <li>
@@ -1589,12 +1589,12 @@ const KnowledgeRepresentation = () => {
         </li>
       </ul>
       <p>
-        <strong>OWL Hierarchy:</strong>
+        <b>OWL Hierarchy:</b>
       </p>
       <ul>
-        <li>OWL 1: Older standard with limited expressivity.</li>
+        <li><b>OWL 1</b>: Older standard with limited expressivity.</li>
         <li>
-          OWL 2: Newer standard with various profiles (EL, RL, QL, Full)
+          <b>OWL 2</b>: Newer standard with various profiles (EL, RL, QL, Full)
           offering different levels of expressivity and reasoning capabilities.
           OWL 2 Full is more expressive than OWL 1.
         </li>
