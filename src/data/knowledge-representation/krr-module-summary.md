@@ -13,7 +13,7 @@ KRR is a fascinating subfield of Artificial Intelligence (AI) that delves into t
 Knowledge Representation it's like creating a dictionary for computers. KRR devises formal languages and structures to capture facts, relationships, and concepts about the world. From simple rules to intricate ontologies, the goal is to build a knowledge base that computers can understand.
 
 
-## Knowledge Representation: A Historical Analysis and Its Relationship with Reasoning (Forum Discussion 1)
+## Knowledge Representation: A Historical Analysis and Its Relationship with Reasoning (Discussion Forum)
 
 As we were introduced into the realm of knowledge representation and reasoning (KRR), we started a conversation on whether or not KRR is a recent phenomenon and if it only became a topic of discussion with the development of computing technology and the need to represent knowledge in computer systems.
 
@@ -22,6 +22,10 @@ The discussion forum revolves around the historical significance and evolution o
 Maria's insightful response effectively reinforced the value of structured knowledge beyond reasoning with the indigenous petroglyph example. Their personal experience with OWL grounded the discussion in concrete terms and prompted a deeper exploration of reasoning through the intriguing example of Egyptian hieroglyphics and their deciphering process. While their observation of the "lost knowledge" period sparked my curiosity, exploring the socio-cultural context could enrich my understanding.
 
 This collaborative interaction has highlighted the multifaceted nature of Knowledge Representation, prompting me to delve deeper into the intricate interplay between representation and reasoning. I invite further exploration of this captivating topic, where questions and contributions from diverse perspectives can illuminate new avenues of knowledge.
+
+[Discussion Forum](https://www.my-course.co.uk/mod/forum/discuss.php?d=203597)
+
+[Summary Post](https://www.my-course.co.uk/mod/forum/discuss.php?d=212629)
 
 ### Reference
 Ancient civilizations and knowledge representation: Brachman, R. J., & Levesque, H. J. (1985). Knowledge representation in five paradigms. AI Magazine, 1(4), 10-30.
