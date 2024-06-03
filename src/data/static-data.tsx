@@ -1,6 +1,7 @@
 import React from 'react';
 import MachineLearningBody from './machine-learning/MachineLearningBody';
 import KnowledgeRepresentation from './knowledge-representation/KnowledgeRepresentation';
+import IntelligentAgents from './intelligent-agents/IntelligentAgents';
 
 export const workExperience = [
 	{
@@ -72,5 +73,13 @@ export const modulesPageData = [
 		moduleCoverImage: 'ontology-cover.gif',
 		status: 'done',
 		content: <KnowledgeRepresentation />
+	},
+	{
+		moduleId: '5',
+		title: 'Intelligent Agents',
+		background: 'intelligent-agents-bg.jpg',
+		moduleCoverImage: 'intelligent-agents-gif.gif',
+		status: 'done',
+		content: <IntelligentAgents />
 	}
 ];
