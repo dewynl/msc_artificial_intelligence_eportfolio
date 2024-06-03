@@ -508,8 +508,7 @@ The  raised NN  rates
             embrace the challenges and opportunities that lie ahead. I can't
             wait to see where this journey takes me next, and I'm committed to
             continuing my growth and making a positive impact through the
-            development of intelligent systems. The future is bright, and I'm
-            excited to be a part of it.
+            development of intelligent systems.
           </p>
         </div>
 
