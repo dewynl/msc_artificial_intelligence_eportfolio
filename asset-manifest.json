@@ -1,18 +1,22 @@
 {
   "files": {
     "main.css": "/msc_artificial_intelligence_eportfolio/static/css/main.073c9b0a.css",
-    "main.js": "/msc_artificial_intelligence_eportfolio/static/js/main.bbfbbd65.js",
+    "main.js": "/msc_artificial_intelligence_eportfolio/static/js/main.ecfd82c9.js",
     "static/js/787.79bd1db8.chunk.js": "/msc_artificial_intelligence_eportfolio/static/js/787.79bd1db8.chunk.js",
     "static/media/Team_Presentation_Group_3_Transcript.pdf": "/msc_artificial_intelligence_eportfolio/static/media/Team_Presentation_Group_3_Transcript.9a2ea3aeb7ed40658e08.pdf",
     "static/media/Leveraging ontologies for efficient information retrieval in libraries.pdf": "/msc_artificial_intelligence_eportfolio/static/media/Leveraging ontologies for efficient information retrieval in libraries.048876bc2edd524b6061.pdf",
     "static/media/group3_report.docx": "/msc_artificial_intelligence_eportfolio/static/media/group3_report.2c63de170aeca74c9ab7.docx",
     "static/media/Team_Presentation_Group_3_Code.ipynb": "/msc_artificial_intelligence_eportfolio/static/media/Team_Presentation_Group_3_Code.e7dcaed44e4915c6c2e8.ipynb",
     "static/media/Case Study Review Ontology Development for Agriculture Domain.pdf": "/msc_artificial_intelligence_eportfolio/static/media/Case Study Review Ontology Development for Agriculture Domain.366bccf5eacbc6c5996f.pdf",
+    "static/media/Intelligent Research Assistant Application for Online Academic Research.pdf": "/msc_artificial_intelligence_eportfolio/static/media/Intelligent Research Assistant Application for Online Academic Research.f525e474f74867f8681e.pdf",
     "static/media/venn-diagram.png": "/msc_artificial_intelligence_eportfolio/static/media/venn-diagram.078e1f22d2cb947b3dae.png",
     "static/media/library ontology.png": "/msc_artificial_intelligence_eportfolio/static/media/library ontology.cce2e0ec666eab77fddd.png",
     "static/media/supply-chain-ontology.png": "/msc_artificial_intelligence_eportfolio/static/media/supply-chain-ontology.82a30932c17e6a1630e5.png",
     "static/media/equipment-maintenance.png": "/msc_artificial_intelligence_eportfolio/static/media/equipment-maintenance.10e3fd4a7fbd242da355.png",
+    "static/media/Intelligent Research Assistant.png": "/msc_artificial_intelligence_eportfolio/static/media/Intelligent Research Assistant.96f046a661c6ef21b1aa.png",
+    "static/media/user-diagram.png": "/msc_artificial_intelligence_eportfolio/static/media/user-diagram.f1dbb530c515b1f03476.png",
     "static/media/5.png": "/msc_artificial_intelligence_eportfolio/static/media/5.40380dd2a85c8000b3c7.png",
+    "static/media/sequence-diagram.png": "/msc_artificial_intelligence_eportfolio/static/media/sequence-diagram.5c252f3d708ce747ffa5.png",
     "static/media/correlation_room_type.jpg": "/msc_artificial_intelligence_eportfolio/static/media/correlation_room_type.db9f2c331c93efda0e45.jpg",
     "static/media/peer_report_code.ipynb": "/msc_artificial_intelligence_eportfolio/static/media/peer_report_code.e4414aa60fe5ff5a59b5.ipynb",
     "static/media/less_data_pearson.png": "/msc_artificial_intelligence_eportfolio/static/media/less_data_pearson.d32e5cf62259a23d496f.png",
@@ -22,11 +26,11 @@
     "static/media/linear_regression.png": "/msc_artificial_intelligence_eportfolio/static/media/linear_regression.f358b2e17a2de2c988c9.png",
     "index.html": "/msc_artificial_intelligence_eportfolio/index.html",
     "main.073c9b0a.css.map": "/msc_artificial_intelligence_eportfolio/static/css/main.073c9b0a.css.map",
-    "main.bbfbbd65.js.map": "/msc_artificial_intelligence_eportfolio/static/js/main.bbfbbd65.js.map",
+    "main.ecfd82c9.js.map": "/msc_artificial_intelligence_eportfolio/static/js/main.ecfd82c9.js.map",
     "787.79bd1db8.chunk.js.map": "/msc_artificial_intelligence_eportfolio/static/js/787.79bd1db8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.bbfbbd65.js"
+    "static/js/main.ecfd82c9.js"
   ]
 }
