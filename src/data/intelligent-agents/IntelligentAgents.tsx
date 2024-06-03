@@ -4,9 +4,6 @@ import { css } from '@emotion/css';
 const IntelligentAgents = () => {
   return (
     <div className={styles.entryContainer}>
-      <h1 className={styles.entryTitle}>
-        Intelligent Agents Module Reflection
-      </h1>
       <div className={styles.entryContent}>
         <div className={styles.introduction}>
           <p>
