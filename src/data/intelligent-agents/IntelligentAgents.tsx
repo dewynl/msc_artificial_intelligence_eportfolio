@@ -168,9 +168,9 @@ const IntelligentAgents = () => {
         </div>
 
         <div className={styles.section}>
-          <h2 className={styles.sectionTitle}>
+          <h4>
             Related Work and Development Tools
-          </h2>
+          </h4>
           <p>
             Several existing research tools, such as reference management
             software (Zotero, Mendeley) and academic search engines (Google
