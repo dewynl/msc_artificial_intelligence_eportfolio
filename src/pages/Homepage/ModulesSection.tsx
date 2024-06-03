@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useRef } from 'react';
 import SectionTitle from '../../components/SectionTitle';
 import { css, cx } from '@emotion/css';
 import { useNavigate } from 'react-router-dom';

@@ -1,9 +1,9 @@
-import { css } from "@emotion/css";
-import React from "react";
-import XIcon from "./icons/XIcon";
+import { css } from '@emotion/css';
+import React from 'react';
+import XIcon from './icons/XIcon';
 
 interface ModalProps {
-  children: any;
+  children: React.ReactNode;
   zIndex?: number;
   onClose: () => void;
   title?: string;
@@ -66,7 +66,7 @@ const modalContentStyles = css`
   overflow-y: scroll;
 `;
 
-const Modal = ({ onClose, title, children, ...props }: ModalProps) => {
+const Modal = ({ onClose, title, children }: ModalProps) => {
   return (
     <div className={modalOverlayStyles} onClick={onClose}>
       <div className={modalWrapperStyles} onClick={e => e.stopPropagation()}>

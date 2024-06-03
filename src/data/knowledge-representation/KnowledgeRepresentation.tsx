@@ -1,5 +1,5 @@
-import { css } from "@emotion/css";
-import React from "react";
+import { css } from '@emotion/css';
+import React from 'react';
 
 const KnowledgeRepresentation = () => {
   const imgStyles = css`
@@ -113,10 +113,10 @@ const KnowledgeRepresentation = () => {
       </p>
       <p>
         DeBellis, M. (2021) A Practical Guide to Building OWL Ontologies Using
-        Protégé 5.5 and Plugins. Available from:{" "}
+        Protégé 5.5 and Plugins. Available from:{' '}
         <a href="https://www.researchgate.net/publication/351037551_A_Practical_Guide_to_Building_OWL_Ontologies_Using_Protege_55_and_Plugins">
           https://www.researchgate.net/publication/351037551_A_Practical_Guide_to_Building_OWL_Ontologies_Using_Protege_55_and_Plugins
-        </a>{" "}
+        </a>{' '}
         [Accessed 15 December 2023].
       </p>
       <p>
@@ -127,7 +127,7 @@ const KnowledgeRepresentation = () => {
         Malik, N., Hijam, D. &amp; Sharan, A. (2021) Ontology based knowledge
         representation: Case study from agriculture domain, International
         Journal of Knowledge-Based and Intelligent Engineering Systems 25(1):
-        97–108. DOI:{" "}
+        97–108. DOI:{' '}
         <a href="https://doi.org/10.3233/KES-210055">
           https://doi.org/10.3233/KES-210055
         </a>
@@ -279,7 +279,7 @@ const KnowledgeRepresentation = () => {
       <p>
         <img
           className={imgStyles}
-          src={require("./venn-diagram.png")}
+          src={require('./venn-diagram.png')}
           alt="Ven Diagram"
         />
       </p>
@@ -878,7 +878,7 @@ const KnowledgeRepresentation = () => {
         <li>
           <b>
             Bayes Theorem: Calculates probability of event A given event B
-            (conditional{" "}
+            (conditional{' '}
           </b>
           probability). Useful for real-world applications.
         </li>
@@ -1359,7 +1359,7 @@ const KnowledgeRepresentation = () => {
                 <em>Example Ontology</em>:
                 <img
                   className={imgStyles}
-                  src={require("./supply-chain-ontology.png")}
+                  src={require('./supply-chain-ontology.png')}
                   alt="Supply Chain"
                 />
               </p>
@@ -1388,7 +1388,7 @@ const KnowledgeRepresentation = () => {
                 <em>Example Ontology</em>:
                 <img
                   className={imgStyles}
-                  src={require("./equipment-maintenance.png")}
+                  src={require('./equipment-maintenance.png')}
                   alt="Supply Chain"
                 />
               </p>
@@ -1401,7 +1401,7 @@ const KnowledgeRepresentation = () => {
         Ontologies provide a common language for different stakeholders in the
         agricultural industry, facilitating communication and collaboration.
         They enable efficient data management, analysis, and decision-making,
-        leading to improved productivity, sustainability, and transparency.{" "}
+        leading to improved productivity, sustainability, and transparency.{' '}
       </p>
       <p>
         Challenges exist, including complexity, resistance to change, and
@@ -1410,53 +1410,53 @@ const KnowledgeRepresentation = () => {
       </p>
       <h3 id="references">References</h3>
       <p>
-        <em>The Organization Ontology</em> (no date){" "}
-        <em>The organization ontology</em>. Available at:{" "}
+        <em>The Organization Ontology</em> (no date){' '}
+        <em>The organization ontology</em>. Available at:{' '}
         <a href="https://www.w3.org/TR/vocab-org/">
           https://www.w3.org/TR/vocab-org/
-        </a>{" "}
+        </a>{' '}
         (Accessed: 10 January 2024).
       </p>
       <p>
-        Kulvatunyou, B. and Ameri, F. (2020){" "}
+        Kulvatunyou, B. and Ameri, F. (2020){' '}
         <em>
           Modeling a supply chain reference ontology based on a top-level
           ontology
         </em>
-        , <em>NIST</em>. Available at:{" "}
+        , <em>NIST</em>. Available at:{' '}
         <a href="https://www.nist.gov/publications/modeling-supply-chain-reference-ontology-based-top-level-ontology">
           https://www.nist.gov/publications/modeling-supply-chain-reference-ontology-based-top-level-ontology
-        </a>{" "}
-        (Accessed: 12 January 2024).{" "}
+        </a>{' '}
+        (Accessed: 12 January 2024).{' '}
       </p>
       <p>
-        <em>Main page</em> (no date) <em>Protege Wiki</em>. Available at:{" "}
+        <em>Main page</em> (no date) <em>Protege Wiki</em>. Available at:{' '}
         <a href="https://protegewiki.stanford.edu/wiki/Main_Page">
           https://protegewiki.stanford.edu/wiki/Main_Page
-        </a>{" "}
-        (Accessed: 15 January 2024).{" "}
+        </a>{' '}
+        (Accessed: 15 January 2024).{' '}
       </p>
       <p>
-        Stone, J. and Rahimifard, S. (2018){" "}
+        Stone, J. and Rahimifard, S. (2018){' '}
         <em>
           Resilience in agri-food supply chains: A critical analysis of the
           literature and synthesis of a novel framework
         </em>
         , <em>Supply Chain Management: An International Journal</em>. Available
-        at:{" "}
+        at:{' '}
         <a href="https://www.emerald.com/insight/content/doi/10.1108/SCM-06-2017-0201/full/html">
           https://www.emerald.com/insight/content/doi/10.1108/SCM-06-2017-0201/full/html
-        </a>{" "}
-        (Accessed: 13 January 2024).{" "}
+        </a>{' '}
+        (Accessed: 13 January 2024).{' '}
       </p>
       <p>
-        Grubic, T. and Fan, I.-S. (2010){" "}
-        <em>Supply chain ontology: Review, analysis and synthesis</em>,{" "}
-        <em>Computers in Industry</em>. Available at:{" "}
+        Grubic, T. and Fan, I.-S. (2010){' '}
+        <em>Supply chain ontology: Review, analysis and synthesis</em>,{' '}
+        <em>Computers in Industry</em>. Available at:{' '}
         <a href="https://www.sciencedirect.com/science/article/abs/pii/S0166361510000552">
           https://www.sciencedirect.com/science/article/abs/pii/S0166361510000552
-        </a>{" "}
-        (Accessed: 15 January 2024).{" "}
+        </a>{' '}
+        (Accessed: 15 January 2024).{' '}
       </p>
       <p>
         Elsaleh, T., Enshaeifar, S., Rezvani, R., Acton, S.T., Janeiko, V. and
@@ -1469,19 +1469,19 @@ const KnowledgeRepresentation = () => {
         .
       </p>
       <p>
-        Denis, N. <em>et al.</em> (2020){" "}
-        <em>Agriculture supply-chain optimization and Value Creation</em>,{" "}
-        <em>McKinsey &amp; Company</em>. Available at:{" "}
+        Denis, N. <em>et al.</em> (2020){' '}
+        <em>Agriculture supply-chain optimization and Value Creation</em>,{' '}
+        <em>McKinsey &amp; Company</em>. Available at:{' '}
         <a href="https://www.mckinsey.com/industries/agriculture/our-insights/agriculture-supply-chain-optimization-and-value-creation">
           https://www.mckinsey.com/industries/agriculture/our-insights/agriculture-supply-chain-optimization-and-value-creation
-        </a>{" "}
+        </a>{' '}
         (Accessed: 14 January 2024)
       </p>
       <p>
         <a
-          href={require("./Case Study Review Ontology Development for Agriculture Domain.pdf")}
+          href={require('./Case Study Review Ontology Development for Agriculture Domain.pdf')}
           download={
-            "Case Study Review Ontology Development for Agriculture Domain.pdf"
+            'Case Study Review Ontology Development for Agriculture Domain.pdf'
           }
         >
           Case Study File
@@ -1655,7 +1655,7 @@ const KnowledgeRepresentation = () => {
       <p>
         Slimani, T. (2015) Ontology Development: A Comparing Study on Tools,
         Languages and Formalisms, Indian Journal of Science and Technology
-        8(24). DOI:{" "}
+        8(24). DOI:{' '}
         <a href="https://doi.org/10.17485/IJST/2015/V8I1/54249">
           https://doi.org/10.17485/IJST/2015/V8I1/54249
         </a>
@@ -1663,7 +1663,7 @@ const KnowledgeRepresentation = () => {
       </p>
       <p>
         Horridge, M., &amp; Bechhofer, S. (2011). The OWL 2 Web Ontology
-        Language Primer (Second Edition). W3C Recommendation. Retrieved from{" "}
+        Language Primer (Second Edition). W3C Recommendation. Retrieved from{' '}
         <a href="https://www.w3.org/TR/owl2-primer">
           https://www.w3.org/TR/owl2-primer
         </a>
@@ -1671,15 +1671,15 @@ const KnowledgeRepresentation = () => {
       <p>
         OWL 2 Web Ontology Language Document Overview (Second Edition) (2012)
         OWL 2 Web Ontology Language Document Overview (second edition).
-        Available at:{" "}
+        Available at:{' '}
         <a href="https://www.w3.org/TR/owl2-overview/">
           https://www.w3.org/TR/owl2-overview/
-        </a>{" "}
+        </a>{' '}
         (Accessed: 28 January 2024).
       </p>
       <p>
         Cuenca Grau, B. et al. (2008) OWL 2: The Next Step for OWL, Journal of
-        Web Semantics 6(4): 309–322. DOI:{" "}
+        Web Semantics 6(4): 309–322. DOI:{' '}
         <a href="https://doi.org/https://doi.org/10.1016/j.websem.2008.05.001">
           https://doi.org/https://doi.org/10.1016/j.websem.2008.05.001
         </a>
@@ -1757,12 +1757,12 @@ const KnowledgeRepresentation = () => {
       <p>
         <img
           className={imgStyles}
-          src={require("./library ontology.png")}
+          src={require('./library ontology.png')}
           alt="Library Ontology"
         />
         <img
           className={imgStyles}
-          src={require("./5.png")}
+          src={require('./5.png')}
           alt="Test SPAQL Query"
         />
       </p>
@@ -1787,9 +1787,9 @@ const KnowledgeRepresentation = () => {
 
       <p>
         <a
-          href={require("./Leveraging ontologies for efficient information retrieval in libraries.pdf")}
+          href={require('./Leveraging ontologies for efficient information retrieval in libraries.pdf')}
           download={
-            "Leveraging ontologies for efficient information retrieval in libraries.pdf"
+            'Leveraging ontologies for efficient information retrieval in libraries.pdf'
           }
         >
           Assessment Report
@@ -1797,8 +1797,8 @@ const KnowledgeRepresentation = () => {
       </p>
       <p>
         <a
-          href={require("./library-ontology.rdf")}
-          download={"library-ontology.rdf"}
+          href={require('./library-ontology.rdf')}
+          download={'library-ontology.rdf'}
         >
           Prototype Ontology File
         </a>

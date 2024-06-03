@@ -1,8 +1,8 @@
-import { css } from "@emotion/css";
-import React from "react";
-import WebIcon from "../../components/icons/WebIcon";
-import CodeIcon from "../../components/icons/CodeIcon";
-import CloudComputingIcon from "../../components/icons/CloudComputingIcon";
+import React from 'react';
+import { css } from '@emotion/css';
+import CloudComputingIcon from '../../components/icons/CloudComputingIcon';
+import CodeIcon from '../../components/icons/CodeIcon';
+import WebIcon from '../../components/icons/WebIcon';
 
 const techStackWrapper = css`
     display: flex;
