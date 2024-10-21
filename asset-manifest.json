@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/msc_artificial_intelligence_eportfolio/static/css/main.073c9b0a.css",
-    "main.js": "/msc_artificial_intelligence_eportfolio/static/js/main.fad06322.js",
+    "main.js": "/msc_artificial_intelligence_eportfolio/static/js/main.96ff2609.js",
     "static/js/787.79bd1db8.chunk.js": "/msc_artificial_intelligence_eportfolio/static/js/787.79bd1db8.chunk.js",
     "static/media/Team_Presentation_Group_3_Transcript.pdf": "/msc_artificial_intelligence_eportfolio/static/media/Team_Presentation_Group_3_Transcript.9a2ea3aeb7ed40658e08.pdf",
     "static/media/Leveraging ontologies for efficient information retrieval in libraries.pdf": "/msc_artificial_intelligence_eportfolio/static/media/Leveraging ontologies for efficient information retrieval in libraries.048876bc2edd524b6061.pdf",
@@ -19,6 +19,8 @@
     "static/media/sequence-diagram.png": "/msc_artificial_intelligence_eportfolio/static/media/sequence-diagram.5c252f3d708ce747ffa5.png",
     "static/media/correlation_room_type.jpg": "/msc_artificial_intelligence_eportfolio/static/media/correlation_room_type.db9f2c331c93efda0e45.jpg",
     "static/media/peer_report_code.ipynb": "/msc_artificial_intelligence_eportfolio/static/media/peer_report_code.e4414aa60fe5ff5a59b5.ipynb",
+    "static/media/Literature Review - Ethical Challenges of Dark UX Patterns in Web Design.pdf": "/msc_artificial_intelligence_eportfolio/static/media/Literature Review - Ethical Challenges of Dark UX Patterns in Web Design.966fc796266b182fa389.pdf",
+    "static/media/Research Proposal Presentation - Ethical Challenges of Dark UX Patterns in Web Design.pdf": "/msc_artificial_intelligence_eportfolio/static/media/Research Proposal Presentation - Ethical Challenges of Dark UX Patterns in Web Design.956bd9069e4e4cc6178e.pdf",
     "static/media/less_data_pearson.png": "/msc_artificial_intelligence_eportfolio/static/media/less_data_pearson.d32e5cf62259a23d496f.png",
     "static/media/polynomial_regression.png": "/msc_artificial_intelligence_eportfolio/static/media/polynomial_regression.a2f8757ab5fe3764d606.png",
     "static/media/library-ontology.rdf": "/msc_artificial_intelligence_eportfolio/static/media/library-ontology.1e943155f9908890d7dd.rdf",
@@ -26,11 +28,11 @@
     "static/media/linear_regression.png": "/msc_artificial_intelligence_eportfolio/static/media/linear_regression.f358b2e17a2de2c988c9.png",
     "index.html": "/msc_artificial_intelligence_eportfolio/index.html",
     "main.073c9b0a.css.map": "/msc_artificial_intelligence_eportfolio/static/css/main.073c9b0a.css.map",
-    "main.fad06322.js.map": "/msc_artificial_intelligence_eportfolio/static/js/main.fad06322.js.map",
+    "main.96ff2609.js.map": "/msc_artificial_intelligence_eportfolio/static/js/main.96ff2609.js.map",
     "787.79bd1db8.chunk.js.map": "/msc_artificial_intelligence_eportfolio/static/js/787.79bd1db8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.fad06322.js"
+    "static/js/main.96ff2609.js"
   ]
 }
