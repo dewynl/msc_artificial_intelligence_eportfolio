@@ -86,8 +86,8 @@ export const modulesPageData = [
 	{
 		moduleId: '6',
 		title: 'Research Methods and Professional Practices',
-		background: 'rmpp-bg.png',
-		moduleCoverImage: 'rmpp-bg.png',
+		background: 'rmpp-bg.webp',
+		moduleCoverImage: 'rmpp-bg.webp',
 		status: 'done',
 		content: <ResearchMethodsAndProfessionalPractices />
 	}
