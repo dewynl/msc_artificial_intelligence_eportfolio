@@ -206,12 +206,6 @@ const ResearchMethodsAndProfessionalPractices = () => {
 
         <div className={styles.section}>
           <h2 className={styles.sectionTitle}>Critical Reflection on Research Methods and Professional Practice in AI</h2>
-          <p>
-            As I conclude my Master's Degree in Artificial Intelligence, I find myself critically examining the impact of the Research Methods
-            and Professional Practice module on my development as an AI professional. This reflection will focus on three key areas: my
-            statistical analysis skills, the research methods process, and the impact on my personal and professional experience, as
-            evidenced by my professional skills matrix and SWOT analysis.
-          </p>
         </div>
 
         <div className={styles.section}>
@@ -220,20 +214,17 @@ const ResearchMethodsAndProfessionalPractices = () => {
             The module's emphasis on quantitative methods, descriptive and inferential statistics has significantly enhanced my statistical
             analysis capabilities. However, I recognize that this area still presents challenges and opportunities for growth.
           </p>
-          <h3>Strengths and Improvements</h3>
           <p>
             I've developed a solid understanding of hypothesis testing and can now confidently apply techniques like t-tests, ANOVA, and
             regression analysis. This knowledge is crucial in AI, where evaluating model performance and drawing meaningful conclusions
             from data is paramount. I've improved in selecting appropriate statistical tests based on data characteristics and research
             questions, a skill I lacked before this module.
           </p>
-          <h3>Critical Analysis of Limitations</h3>
           <p>
             Despite these improvements, I critically acknowledge that my skills in advanced statistical techniques, such as multivariate
             analysis and machine learning-specific statistical methods (e.g., cross-validation strategies), remain underdeveloped. This
             limitation could potentially hinder my ability to conduct sophisticated analyses required in cutting-edge AI research.
           </p>
-          <h3>Future Development</h3>
           <p>
             To address this, I plan to pursue additional specialized courses in advanced statistics for machine learning. I also aim to gain
             practical experience by applying these methods to real-world datasets, perhaps through online competitions or open-source
@@ -247,26 +238,22 @@ const ResearchMethodsAndProfessionalPractices = () => {
           <p>
             The module has provided a comprehensive overview of the research methods process, from formulating research questions to designing studies and analyzing results. This knowledge has fundamentally altered my approach to problem-solving in AI.
           </p>
-          <h3>Strengths in Methodology</h3>
           <p>
             I've developed a strong grasp of both qualitative and quantitative research methodologies. The ability to design mixed-
             methods studies, combining techniques like surveys, interviews, and experimental designs, has broadened my research toolkit.
             This versatility is particularly valuable in AI, where understanding both the technical aspects and human factors is crucial.
           </p>
-          <h3>Critical Analysis of the Process</h3>
           <p>
             However, I've come to realize that the research process in AI often requires adaptations to traditional methods. For instance,
             the rapid pace of AI development can make literature reviews quickly outdated. I've learned to critically assess the currency
             and relevance of sources, a skill not explicitly taught but crucial in our field.
           </p>
-          <h3>Ethical Considerations: A Critical Perspective</h3>
           <p>
             The module's coverage of research ethics has been eye-opening, particularly in relation to AI. I now understand the critical
             importance of considering potential biases in AI systems and the ethical implications of data collection and use. However, I also
             recognize that the ethical frameworks we studied may not fully address the unique challenges posed by AI, such as the long-
             term societal impacts of autonomous systems or the ethical considerations in developing artificial general intelligence.
           </p>
-          <h3>Adapting Methods for AI Research</h3>
           <p>
             Moving forward, I see a need to critically adapt traditional research methods to the specific needs of AI development. This
             might involve developing new frameworks for rapid literature reviews in fast-evolving fields, or creating ethical guidelines
@@ -335,7 +322,7 @@ const ResearchMethodsAndProfessionalPractices = () => {
         </div>
 
         <div className={styles.section}>
-          <h2 className={styles.sectionTitle}>Conclusion: A Critical Perspective on Future Readiness</h2>
+          <h2 className={styles.sectionTitle}>Conclusion</h2>
           <p>
             This Research Methods and Professional Practice module has undoubtedly enhanced my capabilities as an aspiring AI
             professional. However, I critically recognize that this is just the beginning of a lifelong learning journey. The field of AI is rapidly
@@ -360,7 +347,7 @@ const ResearchMethodsAndProfessionalPractices = () => {
 
 const styles = {
   entryContainer: css`
-    max-width: 100%;
+    max-width: 80%;
     margin: 0 auto;
     padding: 20px;
     background-color: #f5f5f5;
@@ -375,7 +362,6 @@ const styles = {
     font-size: 28px;
     color: #333;
     margin-bottom: 20px;
-    text-align: center;
   `,
   section: css`
     margin-bottom: 30px;
