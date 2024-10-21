@@ -2,6 +2,7 @@ import React from 'react';
 import MachineLearningBody from './machine-learning/MachineLearningBody';
 import KnowledgeRepresentation from './knowledge-representation/KnowledgeRepresentation';
 import IntelligentAgents from './intelligent-agents/IntelligentAgents';
+import ResearchMethodsAndProfessionalPractices from './research_methods_and_professional_practices/ResearchMethodsAndProfessionalPractices';
 
 export const workExperience = [
 	{
@@ -81,5 +82,13 @@ export const modulesPageData = [
 		moduleCoverImage: 'intelligent-agents-gif.gif',
 		status: 'done',
 		content: <IntelligentAgents />
+	},
+	{
+		moduleId: '6',
+		title: 'Research Methods and Professional Practices',
+		background: 'rmpp-bg.png',
+		moduleCoverImage: 'rmpp-bg.png',
+		status: 'done',
+		content: <ResearchMethodsAndProfessionalPractices />
 	}
 ];
