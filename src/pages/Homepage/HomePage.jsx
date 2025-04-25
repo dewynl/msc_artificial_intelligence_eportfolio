@@ -16,12 +16,9 @@ const HomePage = () => {
   return (
     <div className={styles.homepageWrapperStyles}>
       <div className={styles.headerStyles}>
-        <SectionTitle className={h1Styles}>
-          Msc in Artificial Intelligence
-        </SectionTitle>
+        <SectionTitle className={h1Styles}>Msc in Artificial Intelligence</SectionTitle>
         <span className={styles.subtitleStyles}>
-          This is my e-portfolio based on the work carried out on the Msc
-          Artificial Intelligence.
+          This is my e-portfolio based on the work carried out on the Msc Artificial Intelligence.
         </span>
       </div>
       <AboutMeSection />

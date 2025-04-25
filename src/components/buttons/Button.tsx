@@ -1,5 +1,5 @@
-import { css } from "@emotion/css";
-import React from "react";
+import { css } from '@emotion/css';
+import React, { ReactNode } from 'react';
 
 const styles = css`
   display: inline-flex;
@@ -30,7 +30,7 @@ const styles = css`
   background-color: rgb(255, 51, 102);
   border-radius: 0px;
   font-weight: 700;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   padding: 16px 40px;
   font-size: 1rem;
   box-shadow: none;
@@ -38,15 +38,17 @@ const styles = css`
 `;
 
 interface ButtonsProps {
-  children: JSX.Element | string;
+  children: ReactNode;
   onClick: () => void;
 }
 
 const Button = ({ children, onClick }: ButtonsProps) => {
   return (
-    <button className={styles} onClick={onClick}>
-      {children}
-    </button>
+    <>
+      <button className={styles} onClick={onClick}>
+        {children}
+      </button>
+    </>
   );
 };
 

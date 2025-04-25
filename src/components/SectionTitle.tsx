@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { JSX, useEffect, useRef, useState } from 'react';
 import { cx, css } from '@emotion/css';
 
 const wrapperStyles = css`
@@ -22,14 +22,13 @@ const dividerStyles = css`
 interface H1Props extends React.HTMLProps<HTMLHeadingElement> {
   children: JSX.Element | string;
 }
-
-const SectionTitle = ({ children, ...props } : H1Props) => {
-  const h1Ref = useRef<any>();
+const SectionTitle = ({ children, ...props }: H1Props) => {
+  const h1Ref = useRef<HTMLHeadingElement>(null);
   const [dividerWidth, setDividerWidth] = useState('0px');
   useEffect(() => {
-    if (h1Ref) {
-      const clientWidth = h1Ref?.current?.clientWidth || 0;
-      setDividerWidth(`${ clientWidth * 0.6}px`);
+    if (h1Ref.current) {
+      const clientWidth = h1Ref.current.clientWidth || 0;
+      setDividerWidth(`${clientWidth * 0.6}px`);
     }
   }, [h1Ref]);
 
