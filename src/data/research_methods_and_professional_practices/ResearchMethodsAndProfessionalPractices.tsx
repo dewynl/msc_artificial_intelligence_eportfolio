@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { css } from '@emotion/css';
-import { getImagePath } from '../../utils/imageUtils';
 
 import {
   BookOpen,
@@ -369,7 +368,7 @@ const ResearchMethodsAndProfessionalPractices = () => {
             for fewer than 15 years, with only a few highly experienced drivers skewing the range.
           </p>
           <img
-            src={getImagePath('/exercise-7.1b-license-histogram.png')}
+            src={require('./images/exercise-7.1b-license-histogram.png')}
             alt="Histogram of license years"
             className={styles.exerciseGraph}
           />
@@ -392,7 +391,7 @@ const ResearchMethodsAndProfessionalPractices = () => {
             policyholders — especially among females.
           </p>
           <img
-            src={getImagePath('/exercise-7.4f-boxplot.png')}
+            src={require('./images/exercise-7.4f-boxplot.png')}
             alt="Boxplot grouped by gender and policy type"
             className={styles.exerciseGraph}
           />
@@ -414,7 +413,7 @@ const ResearchMethodsAndProfessionalPractices = () => {
             short-term weight reduction.
           </p>
           <img
-            src={getImagePath('/exercise-8.2b-boxplot.png')}
+            src={require('./images/exercise-8.2b-boxplot.png')}
             alt="Boxplot comparing Diet A and B"
             className={styles.exerciseGraph}
           />
@@ -437,7 +436,7 @@ const ResearchMethodsAndProfessionalPractices = () => {
             distribution between Brands A and B.
           </p>
           <img
-            src={getImagePath('/exercise-8.3d-stacked-bar.png')}
+            src={require('./images/exercise-8.3d-stacked-bar.png')}
             alt="Stacked bar chart of brand preferences by area"
             className={styles.exerciseGraph}
           />
@@ -459,7 +458,7 @@ const ResearchMethodsAndProfessionalPractices = () => {
             data.
           </p>
           <img
-            src={getImagePath('/exercise-8.4g-boxplot.png')}
+            src={require('./images/exercise-8.4g-boxplot.png')}
             alt="Boxplot of income comparison by gender"
             className={styles.exerciseGraph}
           />
@@ -481,7 +480,7 @@ const ResearchMethodsAndProfessionalPractices = () => {
             effective tool for predicting loan limits based on reported income within this sample.
           </p>
           <img
-            src={getImagePath('/exercise-9.1d-regression.png')}
+            src={require('./images/exercise-9.1d-regression.png')}
             alt="Scatterplot of income vs loan amount"
             className={styles.exerciseGraph}
           />
@@ -503,7 +502,7 @@ const ResearchMethodsAndProfessionalPractices = () => {
             some variation remains, highlighting the need for careful calibration in clinical use.
           </p>
           <img
-            src={getImagePath('/exercise-9.2d-sbp-regression.png')}
+            src={require('./images/exercise-9.2d-sbp-regression.png')}
             alt="Scatterplot of SBP measured in leg and arm"
             className={styles.exerciseGraph}
           />
@@ -526,7 +525,7 @@ const ResearchMethodsAndProfessionalPractices = () => {
             constraints.
           </p>
           <img
-            src={getImagePath('/exercise-9.3b-sbp-regression.png')}
+            src={require('./images/exercise-9.3b-sbp-regression.png')}
             alt="Scatterplot of SBP leg vs arm (expanded)"
             className={styles.exerciseGraph}
           />

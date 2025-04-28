@@ -13,7 +13,7 @@ export const headerStyles = css`
   height: 40vh;
   align-items: center;
   justify-content: center;
-  background-image: url('869.jpg');
+  background-image: url(${process.env.PUBLIC_URL}/869.jpg);
   background-color: lightgray;
   background-size: cover;
   background-position: center;
