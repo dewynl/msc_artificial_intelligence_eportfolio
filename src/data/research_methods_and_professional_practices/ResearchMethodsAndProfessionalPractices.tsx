@@ -966,6 +966,15 @@ const ResearchMethodsAndProfessionalPractices = () => {
           </li>
           <li>
             <a
+              href="https://vimeo.com/1079394744?share=copy"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Research Presentation Video (External Link)
+            </a>
+          </li>
+          <li>
+            <a
               href={require('./Transcript - Research Presentation - Challenges and Ethical Considerations in Developing Deep Learning-Based Text Summarization Systems.pdf')}
               download={
                 'Transcript - Research Presentation - Challenges and Ethical Considerations in Developing Deep Learning-Based Text Summarization Systems.pdf'
@@ -977,15 +986,6 @@ const ResearchMethodsAndProfessionalPractices = () => {
           <li>
             <a href={require('./Reflective Piece.pdf')} download={'Reflective Piece.pdf'}>
               Reflective Piece
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://vimeo.com/1079394744?share=copy"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Research Presentation Video (External Link)
             </a>
           </li>
         </ul>
