@@ -1,50 +1,116 @@
-# Getting Started with Create React App
+# MSc Artificial Intelligence E-Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the e-portfolio for my MSc in Artificial Intelligence at the University of Essex Online. It showcases my work, assignments, and projects completed throughout the program.
 
-## Available Scripts
+## 📖 Overview
 
-In the project directory, you can run:
+This e-portfolio is a React application built to demonstrate my knowledge and skills acquired during the MSc in Artificial Intelligence program. It includes:
 
-### `yarn start`
+- Detailed information about each completed module
+- Technical assignments and corresponding solutions
+- Projects and research work
+- Personal reflections on academic development
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🛠️ Technologies Used
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Frontend**: React, TypeScript, Emotion CSS
+- **Routing**: React Router
+- **UI Components**: Custom components with Lucide React icons
+- **Markdown Processing**: React Markdown with remark plugins
+- **Deployment**: GitHub Pages
 
-### `yarn test`
+## 🚀 Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `yarn build`
+- Node.js (v14 or newer)
+- Yarn package manager
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/dewynl/msc_artificial_intelligence_eportfolio.git
+cd msc_artificial_intelligence_eportfolio
+```
 
-### `yarn eject`
+2. Install dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+yarn install --ignore-engines
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This flag helps resolve dependency version conflicts that may arise with the TypeScript and ESLint versions.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+> Note: While the repository contains both `package-lock.json` and `yarn.lock` files, we're standardizing on Yarn as the preferred package manager for this project.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Running Locally
 
-## Learn More
+To start the development server:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+yarn start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This will launch the application at [http://localhost:3000](http://localhost:3000).
 
-## Github
-- This repo is hosted in [Github](https://github.com/dewynl/msc_artificial_intelligence_eportfolio).
-- This portfolio is available online at: https://dewynl.github.io/msc_artificial_intelligence_eportfolio/
+## 🔍 Project Structure
+
+```
+msc_artificial_intelligence_eportfolio/
+├── public/            # Static files and images
+├── src/
+│   ├── components/    # Reusable UI components
+│   ├── data/          # Module content and static data
+│   ├── pages/         # Main page components
+│   ├── utils/         # Utility functions
+│   ├── App.tsx        # Main application component
+│   └── index.tsx      # Entry point
+└── package.json       # Dependencies and scripts
+```
+
+## 📦 Building for Production
+
+To create a production build:
+
+```bash
+yarn build
+```
+
+This generates optimized files in the `build` directory.
+
+## 🌐 Deployment
+
+The project is configured for deployment to GitHub Pages. To deploy:
+
+```bash
+yarn deploy
+```
+
+This builds the project and pushes it to the `gh-pages` branch, making it available at: https://dewynl.github.io/msc_artificial_intelligence_eportfolio/
+
+## 🧪 Testing
+
+Run tests with:
+
+```bash
+yarn test
+```
+
+## 🔧 Additional Scripts
+
+- `yarn format` - Format code using Prettier
+
+## 👨‍💻 Author
+
+- **Dewyn Liriano** - MSc Artificial Intelligence student from the Dominican Republic
+
+## 📄 License
+
+This project is for educational purposes.
+
+## 🔗 Links
+
+- **Portfolio**: [https://dewynl.github.io/msc_artificial_intelligence_eportfolio/](https://dewynl.github.io/msc_artificial_intelligence_eportfolio/)
+- **GitHub Repository**: [https://github.com/dewynl/msc_artificial_intelligence_eportfolio](https://github.com/dewynl/msc_artificial_intelligence_eportfolio)
