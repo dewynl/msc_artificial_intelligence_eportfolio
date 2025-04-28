@@ -1,6 +1,7 @@
 # Knowledge Representation and Reasoning
 
 ## Learning Outcomes
+
 1. Critique the need for formal approaches to knowledge representation and reasoning.
 2. Review critically properties of a knowledge-based system.
 3. Appraise critically modelling techniques for knowledge representation and reasoning.
@@ -11,7 +12,6 @@
 KRR is a fascinating subfield of Artificial Intelligence (AI) that delves into the very essence of "thinking" for machines. It's about how information about the world can be encoded in a way that computers can understand and utilize to solve complex problems.
 
 Knowledge Representation it's like creating a dictionary for computers. KRR devises formal languages and structures to capture facts, relationships, and concepts about the world. From simple rules to intricate ontologies, the goal is to build a knowledge base that computers can understand.
-
 
 ## Knowledge Representation: A Historical Analysis and Its Relationship with Reasoning (Discussion Forum)
 
@@ -28,6 +28,7 @@ This collaborative interaction has highlighted the multifaceted nature of Knowle
 [Summary Post](https://www.my-course.co.uk/mod/forum/discuss.php?d=212629)
 
 ### Reference
+
 Ancient civilizations and knowledge representation: Brachman, R. J., & Levesque, H. J. (1985). Knowledge representation in five paradigms. AI Magazine, 1(4), 10-30.
 
 Medieval logicians and formal languages: Guarino, N. (1998). Formal ontology in information systems. In N. Guarino (Ed.), Formal ontology in information systems (pp. 3-18). Springer.
@@ -36,7 +37,7 @@ AI and expert systems: Russell, S. J., & Norvig, P. (2016). Artificial intellige
 
 Knowledge sharing and discovery: Staab, S., & Studer, R. (Eds.). (2004). Handbook of ontologies (2nd ed.). Springer
 
-Cruz-Uribe, E. (2010) The Death of Demotic Redux*: Pilgrimage, Nubia and the Preservation of Egyptian Culture.
+Cruz-Uribe, E. (2010) The Death of Demotic Redux\*: Pilgrimage, Nubia and the Preservation of Egyptian Culture.
 
 DeBellis, M. (2021) A Practical Guide to Building OWL Ontologies Using Protégé 5.5 and Plugins. Available from: https://www.researchgate.net/publication/351037551_A_Practical_Guide_to_Building_OWL_Ontologies_Using_Protege_55_and_Plugins [Accessed 15 December 2023].
 
@@ -45,14 +46,15 @@ Loprieno, A. and Müller, M. (2012) Ancient Egyptian and Coptic, in The Afroasia
 Malik, N., Hijam, D. & Sharan, A. (2021) Ontology based knowledge representation: Case study from agriculture domain, International Journal of Knowledge-Based and Intelligent Engineering Systems 25(1): 97–108. DOI: https://doi.org/10.3233/KES-210055.
 
 ## Data & Information
+
 In the realm of knowledge representation and reasoning, the distinction between data and information is crucial. While often used interchangeably, they carry distinct roles:
 
 - **Data**: The raw, unprocessed material forming the foundation. Think of it as individual bricks, numbers, symbols, or characters awaiting meaning. Data may be stored and transmitted within systems but holds no inherent significance on its own.
 
 - **Information**: The processed and contextualized understanding derived from data. Imagine the bricks arranged into a complex structure, forming a meaningful picture. Information emerges from applying operations, analysis, and interpretation to data, giving it context and relevance.
 
-
 ## Knowledge Representation
+
 In the world of Knowledge Representation and Reasoning (KRR), understanding the interplay between knowledge and its representation is fundamental.
 
 - **Knowledge**: This isn't simply information. It's the deeper understanding derived from processing and integrating information. It's the "how" and "why" behind the "what," the connections and insights gleaned from data. Imagine data as scattered pieces, information as organized blocks, and knowledge as the completed edifice - a structure with purpose and meaning.
@@ -62,6 +64,7 @@ In the world of Knowledge Representation and Reasoning (KRR), understanding the 
 Knowledge representation (KR) is the art of capturing and expressing knowledge in a way computers can understand. Imagine it as building a bridge between the human mind and the digital world.
 
 ## Reasoning
+
 The course text offers a technical definition of reasoning as the manipulation of symbols representing propositions to arrive at new ones. Reasoning sits at the heart of Artificial Intelligence (AI). The very question of "Can machines think?" posed by pioneers like Turing and McCarthy hinged on whether machines could reason like humans.
 
 Graham-Lengrand offers a more succinct perspective: reasoning is "the art of establishing truth." This resonates with the idea of using logic and knowledge to uncover deeper understandings.
@@ -69,6 +72,7 @@ Graham-Lengrand offers a more succinct perspective: reasoning is "the art of est
 By understanding these varied perspectives, we gain a richer appreciation of reasoning's role. It's not just about manipulating symbols, but about the profound ability to use logic and knowledge to draw conclusions, establish truth, and ultimately, approach the elusive concept of "thinking" machines.
 
 ## Why do we need KRR?
+
 Internal Efficiency: Complex systems, like AI algorithms, operate based on internal representations of knowledge (symbolic structures, algorithms, etc.). KRR provides essential tools and frameworks for building these internal representations in a way that efficiently generates intelligent behavior. These representations act as the hidden drivers of the system's actions, analogous to the chess-playing computer whose moves "appear" driven by intentions like protecting the queen, but are actually driven by underlying algorithms interacting with its knowledge base.
 
 Also, we often need to understand and interact with complex systems like AI. KRR allows us to interpret their behavior not by understanding the nitty-gritty details of their internal workings, but by analyzing the outcomes and attributing them to intentional states like beliefs and desires. This "intentional stance" helps us bridge the gap between the system's internal representation and its output, making it easier to interact with and predict its behavior.
@@ -76,20 +80,23 @@ Also, we often need to understand and interact with complex systems like AI. KRR
 Therefore, KRR plays a dual role: within the system, it provides efficient knowledge structures for intelligent behavior, and outside the system, it helps humans understand and interact with those intelligent systems.
 
 ### References
+
 Dennett, D. C. (1971). "Intentional systems in cognitive science". Brain Research, 15(1): 173-202.
 
 Bostrom, N. (2008). "What is artificial intelligence?". In: Black, J. (ed.), Philosophy of mind: A guide for the twenty-first century. Oxford University Press.
 
 ## Ontologies
+
 Ontologies play a crucial role as "specifications of conceptualizations." This means they formalize how specific domains understand and categorize concepts, relationships, and entities. Historically, the term derived from philosophy, reflecting on the nature of existence and being. However, AI research pioneered by McCarthy (1987) repurposed it as a tool for constructing knowledge models within computer systems. Today, ontologies find diverse applications in KRR, ranging from medical systems and research to the Semantic Web.
 
 Their role in the Semantic Web is particularly noteworthy. This ambitious project envisions an interconnected web of knowledge, where machines can understand and reason with information represented in a standardized way. Ontologies become essential here, providing the shared vocabulary and structure for machines to interpret and utilize knowledge across different domains and sources. In essence, they act as the bridge between data and meaningful understanding, enabling the true potential of intelligent systems to reason and solve problems effectively.
 
 ### References
+
 McCarthy, J. (1987). "Circumscription: An artificial intelligence approach to formal reasoning". Artificial Intelligence, 30(1-2), 87-129.
 
-
 ## Set Theory
+
 ![Ven Diagram](./venn-diagram.png)
 
 Set theory is a branch of mathematics that deals with the properties of collections of objects, called sets. Sets are often represented by Venn diagrams, which are pictures that show the relationships between different sets.
@@ -97,6 +104,7 @@ Set theory is a branch of mathematics that deals with the properties of collecti
 Set theory is a powerful tool that can be used to solve a wide variety of problems in mathematics, logic, and computer science. It is an essential part of the foundation of modern mathematics.
 
 ## ZFC Axioms
+
 Set theory, once plagued by paradoxes, found stability through axioms, focusing on relationships and properties over the nature of sets. These axioms ensure consistency, plausibility, and resemblance to the intuitive "naive" set theory.
 
 **Key Axioms**:
@@ -113,6 +121,7 @@ Set theory, once plagued by paradoxes, found stability through axioms, focusing 
 - These axioms form the foundation of modern set theory, ensuring a robust and consistent framework for studying sets and their relationships.
 
 ## Truth Tables
+
 Truth tables are tools used to analyze and evaluate logic statements. Developed in 1881 by Christine Ladd and popularized by Wittgenstein, they offer a clear way to examine how logical operations like AND, OR, XOR, XNOR, and conditionals behave under different truth values.
 
 Each statement (proposition) is assigned a truth value (True or False).
@@ -141,26 +150,29 @@ A truth table can show how "**P AND Q**" (it is both sunny and raining) evaluate
 | False | True | False |
 | False | False | False |
 
-
 This helps clarify that "**P AND Q**" is only true when both **P** and **Q** are true.
 
 Truth tables offer a clear and systematic way to analyze and understand logical statements, making them valuable tools in various fields like mathematics, computer science, and philosophy.
 
 ## Propositional Logic
+
 Propositional logic, also known as sentential logic, analyzes how to combine and manipulate statements (propositions) to form more complex ones. It explores the logic behind these combinations and the resulting properties.
 
 Working with symbols (P, Q, etc.) like in math is often easier than handling lengthy statements themselves.
 
 **Key Operators**:
+
 - **AND**: Both statements must be true for the overall statement to be true.
 - **OR**: At least one statement must be true for the overall statement to be true.
 - **NOT**: Reverses the truth value of a statement.
 
 Rules of Inference:
+
 - **Modus Ponens**: If P implies Q, and P is true, then Q is true.
 - **Modus Tollens**: If P implies Q, and Q is false, then P is false.
 
 ## FOL & Logic Quantifiers
+
 Propositional logic lays the foundation, but First-Order Logic (FOL) opens up new possibilities for representing and reasoning about the world. It goes beyond basic statements (propositions) to consider relationships and properties of objects.
 
 **Key Differences:**
@@ -168,6 +180,7 @@ Propositional logic lays the foundation, but First-Order Logic (FOL) opens up ne
 **Atomic Formulas**: While propositions are indivisible units, FOL allows atomic formulas expressing relationships. Imagine a simple statement like "It rained yesterday." In FOL, we could represent this as Rain(Yesterday), showing the relation "Rain" holds for the object "Yesterday".
 
 **Variables and Quantification**: FOL introduces variables, making statements more general. Instead of saying "Rain(Monday)", we could use Rain(X) where X represents any day of the week. This allows quantification:
+
 - **Universal Quantifier (∀)**: "For all" instances. Like: ∀X Rain(X) meaning it rains on every day.
 - **Existential Quantifier (∃)**: "There exists" some instance. Like: ∃X Rain(X) meaning it rains on at least one day.
 
@@ -179,22 +192,27 @@ Imagine a rule: "Students must pass all exams to graduate."
 - FOL: Graduate(Student) ⇔ ∀Exam Passed(Student, Exam) This states a student graduates only if they pass all exa (∀Exam).
 
 **Benefits of FOL:**
+
 - Expresses complex relationships and rules.
 - Handles variables for generality and flexibility.
 - Enables reasoning and proof systems for drawing conclusions.
 
 ## Semantic Nets
+
 Semantic nets are graphical structures like mind maps, used to represent knowledge as interconnected nodes (concepts) and arcs (relationships). They were first explored by Quillian (1968) and find applications in various fields.
 
 **Advantages:**
+
 1. **Easy inheritance**: Semantic nets naturally depict inheritance relationships between concepts, making them intuitive for representing taxonomic hierarchies like "cat is a mammal."
 2. **Visual appeal**: The graphical layout provides a clear visual representation of connections, aiding human understanding and knowledge organization.
 
 **Limitations:**
+
 - **Precision**: Compared to logic-based representations (like predicate logic), semantic nets offer less precision in expressing complex relationship.
 - **Multiple inheritance**: Representing concepts with multiple parents can be cumbersome in traditional semantic nets due to their focus on binary relationships.
 
-## Frames 
+## Frames
+
 Developed by Minsky in 1975, frames offer a knowledge representation method similar to the familiar object-oriented programming paradigm. They serve as an alternative to semantic nets and predicate logic.
 
 **Structure**:
@@ -215,10 +233,12 @@ Developed by Minsky in 1975, frames offer a knowledge representation method simi
 - **Reasoning capabilities**: Associated languages allow inferencing and drawing conclusions based on frame relationships.
 
 **Limitations**:
+
 - **Complexity**: Designing and managing complex frame systems can be challenging.
 - **Efficiency**: Implementing frames using traditional methods can be less efficient than other representations.
 
 ## Horn Clauses
+
 Horn clauses are a specific type of formula in First-Order Logic (FOL) with unique properties that make them valuable in logic programming languages like Prolog. They contribute to efficient theorem proving and offer a concise way to represent knowledge.
 
 **Key Characteristics**:
@@ -246,10 +266,12 @@ Equations can be transformed into Horn clauses (e.g., "maternal-grandmother(X) =
 Quantifiers can be adjusted to fit the Horn clause format.
 
 **Types of Horn clauses:**
+
 - **Positive/Definite**: Contains one positive literal (e.g., P ← Q ∧ R).
 - **Negative**: No positive literals (all negated) or no literals at all (rare).
 
 ## Features of Logic Programming Languages
+
 First proposed in the 1950s, differ from numeric manipulation languages like Fortran and data processing languages like COBOL by specializing in symbolic manipulation. This means they focus on processing symbols, logic, and relationships rather than just numbers.
 
 Several key features characterize good logic programming languages:
@@ -264,12 +286,12 @@ Several key features characterize good logic programming languages:
 
 These features make logic programming languages powerful tools for symbolic reasoning, problem-solving, and knowledge representation, particularly in domains like artificial intelligence.
 
-
 ## Modeling
 
 Modeling is a tool to abstract, represent, and understand complex real-world systems. It involves creating a simpler version of reality focused on specific aspects while ignoring irrelevant details.
 
 Purposes of Modeling:
+
 - Reduction of complexity: Make difficult systems easier to understand and analyze.
 - Simulation: Experiment with systems in ways not possible in reality.
 - Conceptualization: Formalize and clarify our understanding of complex concepts.
@@ -316,7 +338,7 @@ Scientific method is implemented: Observation, research, hypothesis, testing, an
 
 - **Ontologies**: Define concepts and relationships for conceptual models.
 - **RDF**: Describes resources using URLs/URIs for unique identification.
-Ontologies created with tools like Protégé, supported by existing ontologies like WordNet and DBpedia.
+  Ontologies created with tools like Protégé, supported by existing ontologies like WordNet and DBpedia.
 
 ## Semantic Web, Ontologies, and SWRL
 
@@ -331,12 +353,12 @@ Ontologies created with tools like Protégé, supported by existing ontologies l
 - **Monte Carlo Simulation (MCS)**: Generates random inputs, performs calculations, aggregates results for analysis.
 - **Bayes Theorem: Calculates probability of event A given event B (conditional **probability). Useful for real-world applications.
 
-
 # Knowledge Elicitation and Formalism
 
 Our understanding of the world progresses through three distinct stages: data, information, and knowledge. Data acts as the foundation, consisting of raw, unprocessed facts like "the temperature outside is 5 degrees Celsius." Adding context and interpretation transforms this data into information. In our example, understanding this temperature as "cold" creates meaningful information. Finally, we move to knowledge when we utilize this information to draw conclusions and take action. Recognizing "cold" and choosing warm clothes demonstrates the application of knowledge. As Debenham stated, "knowledge is the explicit functional associations between items of information and/or data." This highlights the crucial role of meaningful connections in transforming raw data into actionable understanding.
 
 ## Types of Knowledge
+
 The realm of knowledge engineers encompasses three key types:
 
 - **Declarative Knowledge**: This factual cornerstone deals with "what is," holding statements like "a light bulb needs electricity to glow."
@@ -344,6 +366,7 @@ The realm of knowledge engineers encompasses three key types:
 - **Meta-Knowledge**: This type goes beyond, asking "what do I know about what I know?" It helps understand how experts leverage knowledge, such as preferring planes or trains for long journeys compared to footpaths or bicycles for shorter trips.
 
 ## Knowledge Engineering
+
 Transforming human knowledge into usable computer systems requires a structured approach. Knowledge engineering outlines five key steps:
 
 1. **Knowledge Acquisition**: Gathering knowledge from diverse sources like experts, documents, databases, and even the internet.
@@ -353,6 +376,7 @@ Transforming human knowledge into usable computer systems requires a structured 
 5. **Explanation**: Increasingly important, this step allows the system to explain its reasoning and conclusions, offering transparency and building trust with users.
 
 ## Knowledge Acquisition: Sources
+
 Building a smart system starts with acquiring knowledge from various sources. This text highlights several valuable resources:
 
 - Procedure Manuals: Step-by-step instructions and detailed descriptions found in user manuals offer insights into business processes.
@@ -361,15 +385,14 @@ Building a smart system starts with acquiring knowledge from various sources. Th
 - Human Expertise: Experts, non-experts, and even various actors within a system can contribute valuable knowledge for building a KBS.
 - Expert Systems: For systems designed to mimic human experts, knowledge acquisition heavily relies on extracting knowledge from those experts through discussions and interactions.
 
-
 ## Knowledge Acquisition: Techniques
 
 Building a knowledge-based system involves capturing valuable information from various sources. This text focuses on several key techniques:
 
 1. **Interviews**:
-    - **Structured Interviews**: Standardized approach with pre-defined questions, ensuring consistency and ease of analysis across interviewees.
-    - **Unstructured Interviews**: Open-ended discussions allowing for flexible exploration of knowledge, but potentially missing key details.
-    - **Thinking Out Loud/Event Recall**: Encourages reflection on past experiences and solutions, but might not comprehensively cover all relevant aspects.
+   - **Structured Interviews**: Standardized approach with pre-defined questions, ensuring consistency and ease of analysis across interviewees.
+   - **Unstructured Interviews**: Open-ended discussions allowing for flexible exploration of knowledge, but potentially missing key details.
+   - **Thinking Out Loud/Event Recall**: Encourages reflection on past experiences and solutions, but might not comprehensively cover all relevant aspects.
 2. **Questionnaires**: Structured sets of pre-defined questions distributed to targeted individuals for efficient data collection.
 3. **Repertory Grid Technique**: Explores personal and interpersonal meaning systems, particularly useful in clinical domains.
 4. **Observation**: Critically observing system actors in action to understand their processes and interactions, providing direct insights into their knowledge and behavior.
@@ -379,6 +402,7 @@ Building a knowledge-based system involves capturing valuable information from v
 Once we've gathered valuable knowledge, the next step is to structure it in a way that allows computers to understand and utilize it. This critical process, known as formalization, aims to represent the acquired knowledge within a Knowledge-Based System (KBS) efficiently and effectively.
 
 ## The Five Roles of Knowledge Representation
+
 Understanding how knowledge is represented in intelligent systems is crucial. This text by Davis et al. (1993) highlights five key roles that knowledge representation plays:
 
 1. **Surrogate**: Representing things in the world inside a system, raising questions about identity and accuracy. Perfect representation is impossible, but we strive for close enough to avoid misleading inferences.
@@ -394,6 +418,7 @@ Understanding how knowledge is represented in intelligent systems is crucial. Th
 These roles often have conflicting demands, but keeping them all in mind helps us design more effective KR systems. By understanding these different perspectives, we can make better choices about how to represent knowledge and build intelligent systems that are accurate, efficient, and understandable.
 
 ## Formalism: The Process
+
 Formalizing knowledge, the process of structuring it for computers to understand, involves a journey in four key steps:
 
 1. **Scoping**: This initial stage sets the stage. It defines the specific task at hand and the desired outcome of the knowledge representation process. What problem are we trying to solve? What knowledge do we need to capture to achieve that goal? Defining these boundaries ensures we gather and structure the right information.
@@ -404,22 +429,20 @@ Formalizing knowledge, the process of structuring it for computers to understand
 
 4. **Evaluation**: The final step ensures we've accurately captured and represented the knowledge. Collaborating with domain experts is crucial at this stage. They provide valuable insights to verify the captured knowledge reflects real-world understanding and addresses the intended task effectively.
 
-
 ## Formalism & Elicitation Techniques
 
 Formulating knowledge for computers requires effective techniques to draw it out and structure it meaningfully. Here are some of the key tactics for knowledge elicitation and formalization:
 
 1. **Hierarchy Generation**:
-    - Laddering (Corbridge et al., 1994): Ask "why" questions repeatedly to progressively reach higher levels of abstraction, building a hierarchy of concepts and their relationships.
-    - Goal Trees and Decision Networks: Visualize decision-making processes and potential outcomes, mapping out various paths and their implications.
+   - Laddering (Corbridge et al., 1994): Ask "why" questions repeatedly to progressively reach higher levels of abstraction, building a hierarchy of concepts and their relationships.
+   - Goal Trees and Decision Networks: Visualize decision-making processes and potential outcomes, mapping out various paths and their implications.
 2. **Sorting Techniques**:
-    - Comparative Sorting: Present the expert with concepts and ask them to compare and group them based on similarities or differences, revealing underlying knowledge about categories, properties, and priorities.
+   - Comparative Sorting: Present the expert with concepts and ask them to compare and group them based on similarities or differences, revealing underlying knowledge about categories, properties, and priorities.
 3. **Matrix-Based Techniques**:
-    - Decision Tables: Construct grids listing problems in rows and possible solutions in columns, revealing experts' thought processes and preferred solutions for various scenarios.
+   - Decision Tables: Construct grids listing problems in rows and possible solutions in columns, revealing experts' thought processes and preferred solutions for various scenarios.
 4. **Limit-Information and Constraint Processing**:
-    - Limited Time or Information: Restrict the information or time available to the expert, forcing them to prioritize and reveal key knowledge efficiently.
-    - Constraint-Based Techniques: Impose specific constraints on the knowledge representation, guiding the expert's input and ensuring consistency.
-
+   - Limited Time or Information: Restrict the information or time available to the expert, forcing them to prioritize and reveal key knowledge efficiently.
+   - Constraint-Based Techniques: Impose specific constraints on the knowledge representation, guiding the expert's input and ensuring consistency.
 
 ## Formalism: Language
 
@@ -437,8 +460,8 @@ Formal languages play a crucial role in knowledge representation because they:
 - **Enable automated reasoning**: The logical structure allows computers to manipulate and draw inferences from the knowledge, mimicking human reasoning.
 - **Facilitate knowledge sharing**: By using a common language, different systems can exchange and understand each other's knowledge, promoting collaboration and information flow.
 
-
 ## KRR Languages
+
 The world of knowledge representation has a diverse set of tools at its disposal, each with its own strengths and weaknesses. Some charachteristics of some key languages:
 
 - Predicate logic: The workhorse of logic, allowing complex expressions and reasoning about objects and their properties. Think of it as building intricate sentences with well-defined rules.
@@ -466,43 +489,44 @@ Key benefits of using ontologies in agriculture:
 Use cases examples:
 
 1. **Supply Chain Management**:
-    - Traceability: Track product movement from farm to consumer, ensuring food safety and transparency.
-    - Quality control: Define and monitor quality parameters throughout the supply chain.
-    - Resource management: Optimize resource allocation based on crop growth cycles and equipment usage.
 
-    *Example Ontology*:
-    ![Supply Chain](./supply-chain-ontology.png)
+   - Traceability: Track product movement from farm to consumer, ensuring food safety and transparency.
+   - Quality control: Define and monitor quality parameters throughout the supply chain.
+   - Resource management: Optimize resource allocation based on crop growth cycles and equipment usage.
+
+   _Example Ontology_:
+   ![Supply Chain](./supply-chain-ontology.png)
 
 2. **Farm Equipment Optimization**:
-    - Match equipment to crops: Identify the optimal equipment for specific crops and tasks.
-    - Predictive maintenance: Schedule maintenance based on equipment usage and sensor data.
-    - Resource optimization: Utilize equipment efficiently and minimize operational costs.
 
-    *Example Ontology*:
-    ![Supply Chain](./equipment-maintenance.png)
+   - Match equipment to crops: Identify the optimal equipment for specific crops and tasks.
+   - Predictive maintenance: Schedule maintenance based on equipment usage and sensor data.
+   - Resource optimization: Utilize equipment efficiently and minimize operational costs.
+
+   _Example Ontology_:
+   ![Supply Chain](./equipment-maintenance.png)
 
 Why it works:
 
-Ontologies provide a common language for different stakeholders in the agricultural industry, facilitating communication and collaboration. They enable efficient data management, analysis, and decision-making, leading to improved productivity, sustainability, and transparency. 
+Ontologies provide a common language for different stakeholders in the agricultural industry, facilitating communication and collaboration. They enable efficient data management, analysis, and decision-making, leading to improved productivity, sustainability, and transparency.
 
 Challenges exist, including complexity, resistance to change, and resource needs. Careful planning, communication, and phased implementations are crucial.
 
 ### References
 
+_The Organization Ontology_ (no date) _The organization ontology_. Available at: https://www.w3.org/TR/vocab-org/ (Accessed: 10 January 2024).
 
-*The Organization Ontology* (no date) *The organization ontology*. Available at: https://www.w3.org/TR/vocab-org/ (Accessed: 10 January 2024).
+Kulvatunyou, B. and Ameri, F. (2020) _Modeling a supply chain reference ontology based on a top-level ontology_, _NIST_. Available at: https://www.nist.gov/publications/modeling-supply-chain-reference-ontology-based-top-level-ontology (Accessed: 12 January 2024).
 
-Kulvatunyou, B. and Ameri, F. (2020) *Modeling a supply chain reference ontology based on a top-level ontology*, *NIST*. Available at: https://www.nist.gov/publications/modeling-supply-chain-reference-ontology-based-top-level-ontology (Accessed: 12 January 2024). 
+_Main page_ (no date) _Protege Wiki_. Available at: https://protegewiki.stanford.edu/wiki/Main_Page (Accessed: 15 January 2024).
 
-*Main page* (no date) *Protege Wiki*. Available at: https://protegewiki.stanford.edu/wiki/Main_Page (Accessed: 15 January 2024). 
+Stone, J. and Rahimifard, S. (2018) _Resilience in agri-food supply chains: A critical analysis of the literature and synthesis of a novel framework_, _Supply Chain Management: An International Journal_. Available at: https://www.emerald.com/insight/content/doi/10.1108/SCM-06-2017-0201/full/html (Accessed: 13 January 2024).
 
-Stone, J. and Rahimifard, S. (2018) *Resilience in agri-food supply chains: A critical analysis of the literature and synthesis of a novel framework*, *Supply Chain Management: An International Journal*. Available at: https://www.emerald.com/insight/content/doi/10.1108/SCM-06-2017-0201/full/html (Accessed: 13 January 2024). 
-
-Grubic, T. and Fan, I.-S. (2010) *Supply chain ontology: Review, analysis and synthesis*, *Computers in Industry*. Available at: https://www.sciencedirect.com/science/article/abs/pii/S0166361510000552 (Accessed: 15 January 2024). 
+Grubic, T. and Fan, I.-S. (2010) _Supply chain ontology: Review, analysis and synthesis_, _Computers in Industry_. Available at: https://www.sciencedirect.com/science/article/abs/pii/S0166361510000552 (Accessed: 15 January 2024).
 
 Elsaleh, T., Enshaeifar, S., Rezvani, R., Acton, S.T., Janeiko, V. and Bermudez-Edo, M. (2020). IoT-Stream: A Lightweight Ontology for Internet of Things Data Streams and Its Use with Data Analytics and Event Detection Services. *Sensors*, 20(4), p.953. doi:https://doi.org/10.3390/s20040953.
 
-Denis, N. *et al.* (2020) *Agriculture supply-chain optimization and Value Creation*, *McKinsey & Company*. Available at: https://www.mckinsey.com/industries/agriculture/our-insights/agriculture-supply-chain-optimization-and-value-creation (Accessed: 14 January 2024)
+Denis, N. _et al._ (2020) _Agriculture supply-chain optimization and Value Creation_, _McKinsey & Company_. Available at: https://www.mckinsey.com/industries/agriculture/our-insights/agriculture-supply-chain-optimization-and-value-creation (Accessed: 14 January 2024)
 
 [Case Study File](./Case%20Study%20Review%20Ontology%20Development%20for%20Agriculture%20Domain.pdf)
 
@@ -514,6 +538,7 @@ Denis, N. *et al.* (2020) *Agriculture supply-chain optimization and Value Creat
 - **Non-logic-based**: More intuitive and easier to grasp, like semantic networks and frame-based representations. However, lack formal semantics and might lead to inconsistencies.
 
 **Description Logic (DL):**
+
 - Popular logic-based approach offering good balance between expressivity and efficient reasoning.
 - Models domains with concepts (classes), roles (properties), and individuals.
 - Uses constructors to build complex descriptions from simple ones.
@@ -528,6 +553,7 @@ Denis, N. *et al.* (2020) *Agriculture supply-chain optimization and Value Creat
 - Reasoning engine: Draws inferences from the knowledge base, ensuring consistency and discovering new knowledge.
 
 **ALC DL:**
+
 - A simplified and complete subset of DLs.
 - Uses conjunction, disjunction, negation, and the three main DL components for knowledge representation.
 
@@ -565,6 +591,7 @@ Thanks to this stimulating discussion and insightful feedback, I feel equipped t
 [Summary Post](https://www.my-course.co.uk/mod/forum/discuss.php?d=212608)
 
 ### Reference
+
 Slimani, T. (2015) Ontology Development: A Comparing Study on Tools, Languages and Formalisms, Indian Journal of Science and Technology 8(24). DOI: https://doi.org/10.17485/IJST/2015/V8I1/54249.
 
 Horridge, M., & Bechhofer, S. (2011). The OWL 2 Web Ontology Language Primer (Second Edition). W3C Recommendation. Retrieved from https://www.w3.org/TR/owl2-primer
@@ -608,6 +635,7 @@ The results were promising. I was able to perform complex searches that went bey
 Overall, this experiment demonstrated the potential of ontologies to significantly improve information retrieval in libraries. However, I also identified some areas for improvement, such as the need for additional metadata and more user testing. I believe that with further development and refinement, ontology-driven search engines can become valuable tools for libraries, empowering them to better serve their communities and foster a love of learning.
 
 # Reflection
+
 Delving into the realm of knowledge and reasoning representation has been a profoundly inspiring experience. While propositional logic concepts held a faint echo from my early computer science days, this module transformed them into potent tools for understanding knowledge organization and reasoning itself. The historical journey, particularly the evolution from ancient pictograms to modern AI, resonated deeply. It illuminated the timeless human pursuit of comprehending and structuring knowledge, while bridging the gap between philosophical inquiry and technological advancement.
 
 While some concepts like sets and truth tables felt familiar, venturing into the highly abstract ZFC Axioms presented a formidable challenge. Their exploration of infinity and mathematical object existence demanded a multifaceted approach. A firm grasp of foundational set theory served as a springboard, while actively seeking connections to real-world scenarios helped demystify them. Engaging with online communities and mentors further solidified my understanding and navigated the inherent complexities.

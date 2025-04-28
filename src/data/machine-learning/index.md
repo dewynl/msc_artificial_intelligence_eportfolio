@@ -1,20 +1,22 @@
 ---
-title: ' Machine Learning' 
-tags: [' machine-learning' , ' artificial-intelligence' , ' 4th-industrial-revolution' ]
+title: ' Machine Learning'
+tags: [' machine-learning', ' artificial-intelligence', ' 4th-industrial-revolution']
 date: 2023-10-25
-path: ' research/machine-learning' 
+path: ' research/machine-learning'
 excerpt: This module is like a deep dive into the world of machine learning, where we get our hands dirty with real-world data. We start with the basic math stuff and gradually move on to different learning models and techniques. We won't just be stuck in theory—there are practical examples using software to keep things interesting. The focus is on using machine learning for data analysis, and we'll learn how to put these cool models into action. They even throw in the latest and greatest methods for using these models in real-world applications. By the end, we'll be all set to create our own systems that use machine learning in smart ways.
 priority: 1
 cover: './cover1.png'
 ---
 
 # Learning Outcomes
+
 - Learn about the key paradigms and algorithms in machine learning.
 - Get an understanding of data analytics based on machine learning and using modern programming tools, such as Python or R.
 - Experience how machine learning and data analytics can be used in real-world applications.
 - Acquire the ability to gather and synthesise information from multiple sources to aid in the systematic analysis of complex problems using machine learning tools and algorithms.
 
 # 4th Industrial Revolution (Discussion Forum)
+
 Coined by Klaus Schwab, the 4th Industrial Revolution represents a transformative era characterized by the widespread integration of artificial intelligence, the Internet of Things, robotics, and other cutting-edge technologies. This revolution is reshaping industries, economies, and societies, impacting not only production processes but also the nature of work, communication, and governance. Scholars analyze its implications for innovation, socio-economic structures, and global competitiveness, emphasizing the need for adaptive policies and educational frameworks to navigate this rapidly evolving landscape.
 
 The **Fourth Industrial Revolution (4IR)** is a term used to describe the current era of technological change, which is characterized by the convergence of digital, physical, and biological technologies. It is also known as Industry 4.0, and is often seen as the next phase of the Industrial Revolution, following the mechanization of the 18th century, the mass production of the 20th century, and the use of electronics and information technology to automate production in the late 20th century.
@@ -35,6 +37,7 @@ As we conclude, it's clear that AI integration in safety-critical industries dem
 [Summary post](https://www.my-course.co.uk/mod/forum/discuss.php?d=192418)
 
 ## References
+
 Chanda, A., & Banerjee, T. (2021). The Boeing 737 MAX crisis: A case study in technology failure. *Business Horizons.*
 
 Bauer, A., & Heesen, W. (2018). Internet of Things in aviation: Applications, challenges, and future directions. *Journal of Air Transportation Management*.
@@ -46,6 +49,7 @@ Nicholas, J. (2019). The Boeing 737 MAX crisis: A cautionary tale for artificial
 Schwab, K. (2016). The Fourth Industrial Revolution. *World Economic Forum*.
 
 # Correlation and Regression
+
 Correlation is a measure of how much two things change together. For example, if we have data on the height and weight of people, we might find that taller people tend to weigh more. This means that height and weight are positively correlated.
 
 Regression is a way to use the relationship between two things to predict one thing from the other. For example, we could use the regression model to predict a person's weight based on their height.
@@ -84,9 +88,9 @@ In the example below, we changed the variables so data1 has 10 times more data p
 
 <div style=' flex: 50%; padding: 10px;' >
 
-- **data1**: mean=107.762 stdv=196.201  
-- **data2**: mean=158.036 stdv=196.696  
-- **Covariance**: 38577.514  
+- **data1**: mean=107.762 stdv=196.201
+- **data2**: mean=158.036 stdv=196.696
+- **Covariance**: 38577.514
 - **Pearson's correlation**: 0.999
 
 </div>
@@ -107,13 +111,14 @@ In the image below we have 10 times less datapoints than the one given by defaul
 - **data1**: mean=99.987 stdv=2.020
 - **data2**: mean=149.616 stdv=9.972
 - **Covariance**: 4.834
-- **Pearsons correlation**: 0.240 
+- **Pearsons correlation**: 0.240
 
 </div>
 </div>
 In general, with a larger number of data points, the correlation calculation would be more reliable and closer to the true underlying relationship. With a smaller number of data points, the calculated correlation might be less representative and could vary more due to random fluctuations. The difference between each case is the strength of the tendency for the variables to vary together.
 
 ## Linear Regression
+
 <div style=' display: flex;' >
 <div style=' flex: 50%; padding: 10px;' >
 
@@ -129,21 +134,21 @@ As you change the value to predict the speed (the argument passed to myfunc), yo
 
 The following table are shows the predictions in different times of the day:
 
-|   X    | Predicted Value  |
-|-------:|:----------------:|
-|   6.0  |    92.598234     |
-|  17.0  |   73.33406917    |
-|   9.0  |   87.34437086    |
-|   0.0  |   103.10596026   |
-|   6.0  |    92.598234     |
-|  11.0  |   83.84179544    |
-|   6.0  |    92.598234     |
-|   7.0  |   90.84694628    |
-|  14.0  |    78.5879323    |
-|   2.0  |   99.60338484    |
-
+|    X | Predicted Value |
+| ---: | :-------------: |
+|  6.0 |    92.598234    |
+| 17.0 |   73.33406917   |
+|  9.0 |   87.34437086   |
+|  0.0 |  103.10596026   |
+|  6.0 |    92.598234    |
+| 11.0 |   83.84179544   |
+|  6.0 |    92.598234    |
+|  7.0 |   90.84694628   |
+| 14.0 |   78.5879323    |
+|  2.0 |   99.60338484   |
 
 ## Multiple Linear Regression
+
 The coefficients of the linear regression model are the values that determine the relationship between the independent variables and the dependent variable. In this case, the coefficients are:
 
 - **Weight coefficient**: 0.00755095
@@ -157,15 +162,16 @@ This is because the linear regression model assumes that the relationship betwee
 
 The following table shows the predicted CO2 emissions for different combinations of weight and volume:
 
-| Weight (kg) | Volume (cm3)  | Predicted CO2 emission (g)  |
-|-------------|---------------|-----------------------------|
-|    2300     |     1300      |         107.2087328         |
-|    3300     |     1300      |        114.75968007         |
-|    2300     |     1500      |         108.7697843         |
-|    3300     |     1500      |        116.32073157         |
-|    2000     |     1000      |        102.60187136         |
+| Weight (kg) | Volume (cm3) | Predicted CO2 emission (g) |
+| ----------- | ------------ | -------------------------- |
+| 2300        | 1300         | 107.2087328                |
+| 3300        | 1300         | 114.75968007               |
+| 2300        | 1500         | 108.7697843                |
+| 3300        | 1500         | 116.32073157               |
+| 2000        | 1000         | 102.60187136               |
 
 ## Polynomial Regression
+
 <div style=' display: flex;' >
 <div style=' flex: 50%; padding: 10px;' >
 
@@ -174,7 +180,7 @@ The following table shows the predicted CO2 emissions for different combinations
 </div>
 <div style=' flex: 50%; padding: 10px;' >
 
-The code uses polynomial regression to model the relationship between the time of day (represented by 'x') and the speed of cars passing a tollbooth (represented by 'y'). It visualizes the data with a scatter plot and a cubic polynomial curve. The R-squared score is then calculated to assess the goodness of fit of the model. 
+The code uses polynomial regression to model the relationship between the time of day (represented by 'x') and the speed of cars passing a tollbooth (represented by 'y'). It visualizes the data with a scatter plot and a cubic polynomial curve. The R-squared score is then calculated to assess the goodness of fit of the model.
 
 </div>
 </div>
@@ -183,20 +189,21 @@ The degree of the polynomial is an important parameter in polynomial regression.
 
 The following table are shows the predictions in different times of the day:
 
-|   X    | Predicted Value  |
-|-------:|:----------------:|
-|   18.0 |    92.4867375    |
-|   20.0 |   97.76768833    |
-|   13.0 |   72.17820742    |
-|   17.0 |    88.8733127    |
-|   14.0 |   76.32434409    |
-|   17.0 |    88.8733127    |
-|   21.0 |   99.07136381    |
-|   1.0  |   99.54274393    |
-|   13.0 |   72.17820742    |
-|   14.0 |   76.32434409    |
+|    X | Predicted Value |
+| ---: | :-------------: |
+| 18.0 |   92.4867375    |
+| 20.0 |   97.76768833   |
+| 13.0 |   72.17820742   |
+| 17.0 |   88.8733127    |
+| 14.0 |   76.32434409   |
+| 17.0 |   88.8733127    |
+| 21.0 |   99.07136381   |
+|  1.0 |   99.54274393   |
+| 13.0 |   72.17820742   |
+| 14.0 |   76.32434409   |
 
 # Clustering
+
 Clustering, a pivotal concept in machine learning, involves the categorization of data points into groups based on their inherent similarities. The ability to effectively cluster data is crucial for uncovering patterns, making predictions, and gaining valuable insights. One powerful tool in this endeavor is the Jaccard Coefficient, renowned for measuring the similarity between sets. Unlike traditional metrics, Jaccard excels in scenarios where the focus is on the intersection of elements rather than their absolute values, making it particularly well-suited for analyzing categorical data.
 
 In this exercise, we harnessed the power of Jaccard Coefficient to analyze pathological test results for individuals named Jack, Mary, and Jim, we aimed to quantify the similarity between their health profiles. For this we need to also consider that there are values that are represented differently in the table but for our purposes, they are the same. Specifically A and N are equals, for our symmetric table, these will be both **0**. As for the Y and P values, these are both going to have the value of **1**.
@@ -204,19 +211,18 @@ In this exercise, we harnessed the power of Jaccard Coefficient to analyze patho
 **Original Table**:
 
 | Name | Gender | Fever | Cough | Test-1 | Test-2 | Test-3 | Test-4 |
-|------|--------|-------|-------|--------|--------|--------|--------|
-| Jack |   M    |   Y   |   N   |   P    |   N    |   N    |   A    |
-| Mary |   F    |   Y   |   N   |   P    |   A    |   P    |   N    |
-| Jim  |   M    |   Y   |   P   |   N    |   N    |   N    |   A    |
+| ---- | ------ | ----- | ----- | ------ | ------ | ------ | ------ |
+| Jack | M      | Y     | N     | P      | N      | N      | A      |
+| Mary | F      | Y     | N     | P      | A      | P      | N      |
+| Jim  | M      | Y     | P     | N      | N      | N      | A      |
 
 **Symmetric Table**:
 
 | Name | Gender | Fever | Cough | Test-1 | Test-2 | Test-3 | Test-4 |
-|------|--------|-------|-------|--------|--------|--------|--------|
-| Jack |   M    |   1   |   0   |   1    |   0    |   0    |   0    |
-| Mary |   F    |   1   |   0   |   1    |   0    |   1    |   0    |
-| Jim  |   M    |   1   |   1   |   0    |   0    |   0    |   0    |
-
+| ---- | ------ | ----- | ----- | ------ | ------ | ------ | ------ |
+| Jack | M      | 1     | 0     | 1      | 0      | 0      | 0      |
+| Mary | F      | 1     | 0     | 1      | 0      | 1      | 0      |
+| Jim  | M      | 1     | 1     | 0      | 0      | 0      | 0      |
 
 The Jaccard coefficients for the three pairs are as follows:
 
@@ -248,6 +254,7 @@ print(' (Jim, Mary):' , jim_mary)
 ```
 
 ## Clustering with Python (Group Project)
+
 For this assignment we were a team of 3. This reports aimed to make an analysis of the **AB_NYC_2019** dataset, which contains a lot of information encompassing listing activities and metrics for the year 2019. The report should get key insights that will not only address a substantive issue for Airbnb but also pave the way for strategic decision-making. As we navigate through the tasks of posing a compelling business analytic question, conducting in-depth data analysis, and crafting a concise yet informative analytical report, the goal is to provide the executive board members of Airbnb with actionable intelligence derived from the nuances of the dataset.
 
 This report aims to forecast Airbnb listing prices in New York City and identify the key factors that influence pricing. A comprehensive analytical approach was employed, merging quantitative and qualitative data analysis (DA). The key findings are as follows:
@@ -269,11 +276,13 @@ In this assignment, one of the findings that I found interesting and suggested i
 ![correlation_room_type](./correlation_room_type.jpg)
 
 **Recommendations**:
+
 - Improve price predictability by augmenting the dataset with additional and diverse variables such as property size, amenities, and age.
 - Once price predictability improves, multivariate models can forecast variable impacts in specific clusters, benefiting hosts with revenue-boosting recommendations and increasing Airbnb's commissions.
 - Develop sophisticated analytical tools to offer real-time, data-driven pricing recommendations to hosts, thereby elevating both profitability and stakeholder satisfaction.
 
 **Team Meetings**:
+
 - **Team Structure and Meetings**: The team adopted a structured weekly meeting schedule to discuss the assignment's progress. Each team member initially took an individual approach, creating their own implementations and generating ideas for measurement.
 
 - **Individual Contributions**: Team members took the initiative to independently work on the assignment, bringing diverse perspectives and ideas to the table.
@@ -291,11 +300,13 @@ The team maintained a productive pace throughout the meeting, which resulted in 
 [Written Report](./clustering/group3_report.docx)
 
 # Artificial Neural Networks (ANNs)
+
 Artificial neural networks (ANNs) are a type of machine learning algorithm that are inspired by the structure and function of the human brain. ANNs are made up of interconnected nodes, called neurons, which process information and communicate with each other. ANNs can be trained to perform a wide variety of tasks, including image recognition, natural language processing, and machine translation.
 
 In this unit, we worked on exercises where we simulated logical operators with perceptrons. Perceptrons are simple computational units that can be used to implement a variety of logical functions.
 
 ## Simple Perceptron
+
 A perceptron is a simple type of artificial neuron that can be used to perform linear classification tasks. It takes a set of inputs and produces a single output, which is determined by a weighted sum of the inputs and a threshold function. This code implements a simple perceptron with two inputs and one output.
 
 **How changes in the variables affect the outcomes**
@@ -309,34 +320,24 @@ The output of the perceptron will change as we experiment changing the values of
 Here are some examples of how the output of the perceptron would change as the values of the weights and the threshold changes:
 
 - **Example 1:** Let's say we have a perceptron with the following weights: `[0.5, 0.5]`
-    
-    This perceptron will be more sensitive to changes in both inputs equally. If we input the following values:
-    
-    `inputs = [4, 5]`
-    
-    The output of the perceptron will be `1`. This is because the weighted sum of the inputs is greater than or equal to the threshold value of `0`.
-    
+  This perceptron will be more sensitive to changes in both inputs equally. If we input the following values:
+  `inputs = [4, 5]`
+  The output of the perceptron will be `1`. This is because the weighted sum of the inputs is greater than or equal to the threshold value of `0`.
 - **Example 2:** Now, let's say we increase the value of the first weight to **1** `[1, 0.5]`:
-    
-    This perceptron will now be more sensitive to changes in the first input. If we input the same values as before:
-    
-    `inputs = [4, 5]`
-    
-    The output of the perceptron will now be `1`.
-    
-    This is because the weighted sum of the inputs is now greater than or equal to the threshold value of 0, even though the second input has a lower weight.
-    
+  This perceptron will now be more sensitive to changes in the first input. If we input the same values as before:
+  `inputs = [4, 5]`
+  The output of the perceptron will now be `1`.
+  This is because the weighted sum of the inputs is now greater than or equal to the threshold value of 0, even though the second input has a lower weight.
 - **Example 3:** Now, let's reduce the value of the first input to **2**:
-    
-    `inputs = [2, 5]`
-    
-    The weighted sum of the inputs is now less than the threshold value of **0**, even though the weights have not changed. Therefore, the output of the perceptron will now be **0**.
-    
+  `inputs = [2, 5]`
+  The weighted sum of the inputs is now less than the threshold value of **0**, even though the weights have not changed. Therefore, the output of the perceptron will now be **0**.
 
 ### Conclusion
+
 Perceptrons are a simple but powerful tool for performing linear classification tasks. By adjusting the weights and the threshold, we can train a perceptron to perform a variety of tasks, such as classifying data points into two different categories or predicting whether a data point belongs to a particular class.
 
 ## Perceptron AND Operator
+
 The provided Python code implements a simple perceptron, a fundamental unit in neural networks. The primary goal of the code is to train the perceptron to perform the logical **AND** operation on binary inputs. The perceptron is trained iteratively using a training loop, adjusting its weights based on the error in predictions until the total error becomes zero.
 
 We could easily do the same for the other logical operators, such as an **OR** operator. We would only need to update the output variable to `[0, 1,  1,  1]`.
@@ -349,23 +350,25 @@ If you decrease the learning rate, the model will learn the training data more s
 
 ## Multilayered Perceptron
 
-**Multilayer perceptron (MLP)**, also known as a feedforward neural network, is a type of artificial neural network (ANN) that consists of a set of interconnected neurons organized in layers. Each neuron in a layer is connected to all of the neurons in the next layer, and the weights of these connections are what the network learns during training. MLP's are typically used for supervised learning tasks, such as classification and regression. MLP's are able to learn complex relationships between the input and output data, even if those relationships are non-linear. 
+**Multilayer perceptron (MLP)**, also known as a feedforward neural network, is a type of artificial neural network (ANN) that consists of a set of interconnected neurons organized in layers. Each neuron in a layer is connected to all of the neurons in the next layer, and the weights of these connections are what the network learns during training. MLP's are typically used for supervised learning tasks, such as classification and regression. MLP's are able to learn complex relationships between the input and output data, even if those relationships are non-linear.
 
 This code implements a simple feedforward neural network in Python. It takes input data and predicts an output. The neural network is trained using a process called backpropagation, which updates the weights of the neural network to minimize the error between the predicted output and the desired output.
 
 **Updating variables**:
+
 - `epochs`: Increasing the number of epochs allows the neural network to train more thoroughly, which can lead to better performance. However, it also increases the training time.
 - `learning_rate`: Increasing the learning rate causes the neural network to update its weights more quickly, which can lead to faster training. However, it can also make the neural network more likely to overfit the training data.
 - `weights_0`: Changing the weights of the input layer affects the way that the neural network processes the input data, which can lead to changes in performance.
 - `weights_1`: Changing the weights of the output layer affects the way that the neural network produces its output, which can lead to changes in performance.
 
 ### References
+
 McCulloch, W. S., & Pitts, W. (1943). A logical calculus of the ideas immanent in nervous activity. The Bulletin of Mathematical Biophysics, 5(4), 115-133.
 
 Singh, J., & Banerjee, R. (2019). A study on single and multi-layer perceptron neural network. In 2019 3rd International Conference on Computing Methodologies and Communication (ICCMC)
 
-
 ## Gradient Cost Function
+
 The Mayo, 2017 article discusses the use of gradient descent to train a linear regression model. Gradient descent is an algorithm that iteratively updates the parameters of a model to minimize the cost function. The cost function is a measure of how well the model fits the data.
 
 The article also discusses the importance of choosing the right learning rate. The learning rate controls how big of a step to take in the direction of the gradient. If the learning rate is too high, the algorithm may overshoot the minimum of the cost function. If the learning rate is too low, the algorithm may take a long time to converge to the minimum.
@@ -377,9 +380,11 @@ Adjusting the iteration and learning rate values can have a significant impact o
 - **Learning Rate**: A higher learning rate means the algorithm takes bigger steps in figuring out the best values. This can make things faster, but if the rate is too high, the algorithm might miss the best result and not work well.
 
 # Convolutional Neural Networks (CNN)
+
 Convolutional neural networks, or CNNs, are a class of deep neural networks commonly used in image and video analysis. They're designed to automatically and adaptively learn spatial hierarchies of features from input data. The key innovation lies in their ability to capture local patterns through convolutional layers, making them particularly effective for tasks like image recognition and classification.
 
 ## Exercise
+
 To see how Convolutional Neural Networks works we did an exercise where we use CNN to classify images from the CIFAR-10 dataset. These were the steps followed:
 
 1. **Preprocessing**: The first step is to load and preprocess the data. This involves normalizing the images and converting the class labels to one-hot vectors. The pixel values of the images are normalized to the range [0, 1].
@@ -399,7 +404,7 @@ To make a prediction, the model is given an image as input. The model then extra
 To show the model in action, we iterated over the first **15** images in the test set to see what we would have as a result. Here is a table showing the predictions of the model for the first **15** images in the test set:
 
 | index | Predicted Class | Actual Class |
-| ---   | ---             | ---          |
+| ----- | --------------- | ------------ |
 | 0     | cat             | cat          |
 | 1     | ship            | ship         |
 | 2     | automobile      | ship         |
@@ -415,7 +420,6 @@ To show the model in action, we iterated over the first **15** images in the tes
 | 12    | cat             | dog          |
 | 13    | horse           | horse        |
 | 14    | truck           | truck        |
-
 
 There are a couple of misclassifications, like predicting `automobile` instead of `ship` for **Image 2**, and predicting `cat` instead of `automobile` for **Image 6**. But overall, it's getting many of them right. These discrepancies could be due to the complexity of the dataset or the need for further tuning of the model. It might be worth experimenting with different architectures, hyperparameters, or increasing the dataset size to see if performance can be improved.
 
@@ -436,6 +440,7 @@ For this unit, the exercise is to used the script provided to calculate the perf
 The AUC score is a measure of how well a classifier can distinguish between positive and negative cases. It is calculated by plotting the receiver operating characteristic (ROC) curve and calculating the area under the curve.
 
 The following parameters have a significant impact on AUC:
+
 - **Choice of classifier**: Some classifiers are better suited for certain types of data than others. For example, support vector machines (SVMs) are often used for high-dimensional data with a few features, while logistic regression is often used for lower-dimensional data with more features.
 - **Hyperparameter tuning**: Hyperparameters are parameters that control the learning process of a classifier. For example, the regularization parameter in SVMs controls how much the model should penalize complexity. Hyperparameter tuning can be done manually or using a grid search or random search algorithm.
 - **Feature selection**: Feature selection is the process of identifying and selecting the most important features for a given task. This can improve the performance of a classifier by reducing the amount of noise in the data.
@@ -445,17 +450,19 @@ The following parameters have a significant impact on AUC:
 The R2 error is a measure of how well a regression model explains the variation in the data. It is calculated by taking the one minus the proportion of the variance in the data that is unexplained by the model.
 
 The following parameters have a significant impact on R2 error:
+
 - **Choice of model**: Some regression models are better suited for certain types of data than others. For example, linear regression is often used for linear data, while polynomial regression is often used for non-linear data.
 - **Hyperparameter tuning**: Hyperparameters are parameters that control the learning process of a regression model. For example, the learning rate in stochastic gradient descent controls how quickly the model updates its parameters. Hyperparameter tuning can be done manually or using a grid search or random search algorithm.
 - **Data preprocessing**: Data preprocessing can improve the performance of a regression model by reducing the amount of noise in the data. For example, normalizing the data can improve the performance of models that are sensitive to the scale of the features.
 
 ## References
+
 Panesar, A. (2020). Evaluating Machine Learning Models. Apress eBooks, pp.189–205. https://doi.org/10.1007/978-1-4842-6537-6_7
 
 ‌Ghosh, Samadrita. “The Ultimate Guide to Evaluation and Selection of Models in Machine Learning.” Neptune.ai, 21 July 2022, https://neptune.ai/blog/ml-model-evaluation-and-selection
 
-
 # Legal and Ethical Views on ANN Applications (Discussion Forum)
+
 As we explore the landscape of AI authors, the discussion focuses on the transformative potential and inherent risks in various fields. My first post highlighted the versatility of artificial neural network (ANN)-powered AI authors, from administrative tasks to creative endeavors, while acknowledging the risks of inaccuracies and biases. Referring to Hutson (2021) and other scholarly works, I emphasized the need for responsible use and careful content control.
 
 Ruth's contribution moved the discussion into the educational space and highlighted the growing use of AI tools by students. Her insights shed light on concerns about academic integrity, legal issues surrounding intellectual property, and the broader impact on employment, citing the Hollywood writers' strike as a pertinent example.
@@ -486,8 +493,8 @@ Beckett, L. (May 26, 2023) ‘Those who hate AI are insecure’: inside Hollywoo
 
 Cotton, D., Cotton, P., Reuben Shipway, J. (2023) Chatting and cheating: Ensuring academic integrity in the era of ChatGPT Innovations in Teaching International. DOI: https://doi.org/10.1080/14703297.2023.2190148
 
-
 # Final Submission (Group Project)
+
 For this assignment we were a team of 3. This assignment focuses on building a neural network model for image recognition using the CIFAR-10 dataset. The CIFAR-10 dataset contains 60,000 images of 10 different object classes, and is a popular benchmark for evaluating object recognition algorithms.
 
 In this report we discuss the key aspects of deep learning model development, including data preparation, model architecture, training paradigms, and evaluation metrics. We also reflect on the ethical implications of image recognition technology.
@@ -501,6 +508,7 @@ Our model achieved an overall accuracy of around 90% on the CIFAR-10 dataset, wi
 We gained valuable insights from our exploration of deep learning with CIFAR-10. We learned that data preprocessing is essential for image classification tasks, and that CNNs are a powerful tool for this task. We also learned about the importance of balancing precision and recall, and the need to carefully select optimization methods and training paradigms.
 
 **Team Meetings**:
+
 - **Team Structure and Meetings**: The team maintained the weekly meeting schedule from the previous project to discuss the assignment's progress.
 
 - **Individual Contributions**: We adopted the same approach as last time, where each team member generated an initial simple solution to the problem at hand. This method allowed everyone to engage with the subject, become comfortable with Python implementation, and brainstorm interesting ideas for us to explore.
@@ -511,12 +519,12 @@ We gained valuable insights from our exploration of deep learning with CIFAR-10.
 
 - **Team Presentation**: Topics for the final presentation video were assigned, and each team member prepared their segment. We scheduled a recording day to ensure everyone felt confident and satisfied with their presentation.
 
-
 [Link to transcript](./ann/Team_Presentation_Group_3_Transcript.pdf)
 
 [Link to solution code](./ann/Team_Presentation_Group_3_Code.ipynb)
 
 # Reflection
+
 This module was really eye-opening for me. I had a general idea of what machine learning is and how it was being used, but this module helped me understand more in depth not just what machine learning is, but also how it is implemented and how everything works on the back end in some of the most popular paradigms and algorithms.
 
 I found the concept of the 4th Industrial Revolution to be really interesting and intriguing. The concerns behind human privacy and safety are topics that are always top of mind for me, which is why I decided to talk about the Boeing 737 Max incident and its MCAS failure. Improperly regulated automated systems can cause devastating and irreparable issues like human losses. This is why this topic is so important to me personally.
