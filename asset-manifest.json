@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/msc_artificial_intelligence_eportfolio/static/css/main.073c9b0a.css",
-    "main.js": "/msc_artificial_intelligence_eportfolio/static/js/main.bce30e92.js",
+    "main.js": "/msc_artificial_intelligence_eportfolio/static/js/main.56ac6309.js",
     "static/js/787.79bd1db8.chunk.js": "/msc_artificial_intelligence_eportfolio/static/js/787.79bd1db8.chunk.js",
     "static/media/Team_Presentation_Group_3_Transcript.pdf": "/msc_artificial_intelligence_eportfolio/static/media/Team_Presentation_Group_3_Transcript.9a2ea3aeb7ed40658e08.pdf",
     "static/media/Leveraging ontologies for efficient information retrieval in libraries.pdf": "/msc_artificial_intelligence_eportfolio/static/media/Leveraging ontologies for efficient information retrieval in libraries.048876bc2edd524b6061.pdf",
@@ -14,13 +14,21 @@
     "static/media/supply-chain-ontology.png": "/msc_artificial_intelligence_eportfolio/static/media/supply-chain-ontology.82a30932c17e6a1630e5.png",
     "static/media/equipment-maintenance.png": "/msc_artificial_intelligence_eportfolio/static/media/equipment-maintenance.10e3fd4a7fbd242da355.png",
     "static/media/Intelligent Research Assistant.png": "/msc_artificial_intelligence_eportfolio/static/media/Intelligent Research Assistant.96f046a661c6ef21b1aa.png",
+    "static/media/exercise-7.4f-boxplot.png": "/msc_artificial_intelligence_eportfolio/static/media/exercise-7.4f-boxplot.56931b3b55fd23378f13.png",
     "static/media/user-diagram.png": "/msc_artificial_intelligence_eportfolio/static/media/user-diagram.f1dbb530c515b1f03476.png",
     "static/media/5.png": "/msc_artificial_intelligence_eportfolio/static/media/5.40380dd2a85c8000b3c7.png",
     "static/media/sequence-diagram.png": "/msc_artificial_intelligence_eportfolio/static/media/sequence-diagram.5c252f3d708ce747ffa5.png",
     "static/media/correlation_room_type.jpg": "/msc_artificial_intelligence_eportfolio/static/media/correlation_room_type.db9f2c331c93efda0e45.jpg",
+    "static/media/exercise-9.1d-regression.png": "/msc_artificial_intelligence_eportfolio/static/media/exercise-9.1d-regression.afe69e062ef18a8dbfcf.png",
+    "static/media/exercise-9.3b-sbp-regression.png": "/msc_artificial_intelligence_eportfolio/static/media/exercise-9.3b-sbp-regression.3df53bac4034332d4aa7.png",
+    "static/media/exercise-9.2d-sbp-regression.png": "/msc_artificial_intelligence_eportfolio/static/media/exercise-9.2d-sbp-regression.8f2bd87ee29711193476.png",
+    "static/media/exercise-7.1b-license-histogram.png": "/msc_artificial_intelligence_eportfolio/static/media/exercise-7.1b-license-histogram.6a053368bd45e1b711d4.png",
     "static/media/peer_report_code.ipynb": "/msc_artificial_intelligence_eportfolio/static/media/peer_report_code.e4414aa60fe5ff5a59b5.ipynb",
     "static/media/Challenges and Ethical Considerations in Developing Deep Learning-Based Text Summarization Systems.pdf": "/msc_artificial_intelligence_eportfolio/static/media/Challenges and Ethical Considerations in Developing Deep Learning-Based Text Summarization Systems.b4a33ceda7bdeb870b0a.pdf",
+    "static/media/exercise-8.3d-stacked-bar.png": "/msc_artificial_intelligence_eportfolio/static/media/exercise-8.3d-stacked-bar.8ea065973af67a1b3b50.png",
     "static/media/Transcript - Research Presentation - Challenges and Ethical Considerations in Developing Deep Learning-Based Text Summarization Systems.pdf": "/msc_artificial_intelligence_eportfolio/static/media/Transcript - Research Presentation - Challenges and Ethical Considerations in Developing Deep Learning-Based Text Summarization Systems.746826f0a0cb80ee0617.pdf",
+    "static/media/exercise-8.4g-boxplot.png": "/msc_artificial_intelligence_eportfolio/static/media/exercise-8.4g-boxplot.2a062081057f58f5ab0b.png",
+    "static/media/exercise-8.2b-boxplot.png": "/msc_artificial_intelligence_eportfolio/static/media/exercise-8.2b-boxplot.493cff3a0af5078d8f0b.png",
     "static/media/less_data_pearson.png": "/msc_artificial_intelligence_eportfolio/static/media/less_data_pearson.d32e5cf62259a23d496f.png",
     "static/media/Reflective Piece.pdf": "/msc_artificial_intelligence_eportfolio/static/media/Reflective Piece.eb393e9a83d7a7f15485.pdf",
     "static/media/polynomial_regression.png": "/msc_artificial_intelligence_eportfolio/static/media/polynomial_regression.a2f8757ab5fe3764d606.png",
@@ -29,11 +37,11 @@
     "static/media/linear_regression.png": "/msc_artificial_intelligence_eportfolio/static/media/linear_regression.f358b2e17a2de2c988c9.png",
     "index.html": "/msc_artificial_intelligence_eportfolio/index.html",
     "main.073c9b0a.css.map": "/msc_artificial_intelligence_eportfolio/static/css/main.073c9b0a.css.map",
-    "main.bce30e92.js.map": "/msc_artificial_intelligence_eportfolio/static/js/main.bce30e92.js.map",
+    "main.56ac6309.js.map": "/msc_artificial_intelligence_eportfolio/static/js/main.56ac6309.js.map",
     "787.79bd1db8.chunk.js.map": "/msc_artificial_intelligence_eportfolio/static/js/787.79bd1db8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.bce30e92.js"
+    "static/js/main.56ac6309.js"
   ]
 }
