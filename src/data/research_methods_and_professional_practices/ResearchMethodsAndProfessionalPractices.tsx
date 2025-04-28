@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { css } from '@emotion/css';
+import ZoomableImage from '../../components/ZoomableImage';
 
 import {
   BookOpen,
@@ -367,7 +368,7 @@ const ResearchMethodsAndProfessionalPractices = () => {
             below reveals a skewed distribution — most policyholders in this sample held licenses
             for fewer than 15 years, with only a few highly experienced drivers skewing the range.
           </p>
-          <img
+          <ZoomableImage
             src={require('./images/exercise-7.1b-license-histogram.png')}
             alt="Histogram of license years"
             className={styles.exerciseGraph}
@@ -390,7 +391,7 @@ const ResearchMethodsAndProfessionalPractices = () => {
             significantly more experience, while newer drivers are more common among third-party
             policyholders — especially among females.
           </p>
-          <img
+          <ZoomableImage
             src={require('./images/exercise-7.4f-boxplot.png')}
             alt="Boxplot grouped by gender and policy type"
             className={styles.exerciseGraph}
@@ -412,7 +413,7 @@ const ResearchMethodsAndProfessionalPractices = () => {
             0.05). These results supported the hypothesis that Diet A is more effective for
             short-term weight reduction.
           </p>
-          <img
+          <ZoomableImage
             src={require('./images/exercise-8.2b-boxplot.png')}
             alt="Boxplot comparing Diet A and B"
             className={styles.exerciseGraph}
@@ -435,7 +436,7 @@ const ResearchMethodsAndProfessionalPractices = () => {
             Area 1 showed stronger preference for Brand A, while Area 2 had a more balanced
             distribution between Brands A and B.
           </p>
-          <img
+          <ZoomableImage
             src={require('./images/exercise-8.3d-stacked-bar.png')}
             alt="Stacked bar chart of brand preferences by area"
             className={styles.exerciseGraph}
@@ -457,7 +458,7 @@ const ResearchMethodsAndProfessionalPractices = () => {
             importance of considering both central tendency and spread when analyzing income-related
             data.
           </p>
-          <img
+          <ZoomableImage
             src={require('./images/exercise-8.4g-boxplot.png')}
             alt="Boxplot of income comparison by gender"
             className={styles.exerciseGraph}
@@ -479,7 +480,7 @@ const ResearchMethodsAndProfessionalPractices = () => {
             higher incomes tend to secure larger loans. The linear model provides a simple yet
             effective tool for predicting loan limits based on reported income within this sample.
           </p>
-          <img
+          <ZoomableImage
             src={require('./images/exercise-9.1d-regression.png')}
             alt="Scatterplot of income vs loan amount"
             className={styles.exerciseGraph}
@@ -501,7 +502,7 @@ const ResearchMethodsAndProfessionalPractices = () => {
             SBP can provide a reasonably predictive estimate for arm SBP in many cases. However,
             some variation remains, highlighting the need for careful calibration in clinical use.
           </p>
-          <img
+          <ZoomableImage
             src={require('./images/exercise-9.2d-sbp-regression.png')}
             alt="Scatterplot of SBP measured in leg and arm"
             className={styles.exerciseGraph}
@@ -524,7 +525,7 @@ const ResearchMethodsAndProfessionalPractices = () => {
             strengthen the argument for using leg SBP as a proxy measurement under clinical
             constraints.
           </p>
-          <img
+          <ZoomableImage
             src={require('./images/exercise-9.3b-sbp-regression.png')}
             alt="Scatterplot of SBP leg vs arm (expanded)"
             className={styles.exerciseGraph}
