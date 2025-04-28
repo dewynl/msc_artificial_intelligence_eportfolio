@@ -18,7 +18,7 @@ import {
 } from 'lucide-react';
 
 const sectionStyle = css`
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   position: relative;
 `;
 
@@ -942,6 +942,55 @@ const ResearchMethodsAndProfessionalPractices = () => {
         </div>
       </section>
 
+      <div className={styles.sectionDivider}></div>
+
+      <section className={sectionStyle}>
+        <h2 className={headingStyle}>
+          <FileText size={28} />
+          Supporting Documents
+        </h2>
+
+        <p className={paragraphStyle}>Below are the supporting documents for this module:</p>
+
+        <ul className={styles.bulletList}>
+          <li>
+            <a
+              href={require('./Challenges and Ethical Considerations in Developing Deep Learning-Based Text Summarization Systems.pdf')}
+              download={
+                'Challenges and Ethical Considerations in Developing Deep Learning-Based Text Summarization Systems.pdf'
+              }
+            >
+              Research Paper - Challenges and Ethical Considerations in Developing Deep
+              Learning-Based Text Summarization Systems
+            </a>
+          </li>
+          <li>
+            <a
+              href={require('./Transcript - Research Presentation - Challenges and Ethical Considerations in Developing Deep Learning-Based Text Summarization Systems.pdf')}
+              download={
+                'Transcript - Research Presentation - Challenges and Ethical Considerations in Developing Deep Learning-Based Text Summarization Systems.pdf'
+              }
+            >
+              Research Presentation Transcript
+            </a>
+          </li>
+          <li>
+            <a href={require('./Reflective Piece.pdf')} download={'Reflective Piece.pdf'}>
+              Reflective Piece
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://vimeo.com/1079394744?share=copy"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Research Presentation Video (External Link)
+            </a>
+          </li>
+        </ul>
+      </section>
+
       {showBackToTop && (
         <button className={styles.backToTop} onClick={scrollToTop}>
           <ArrowUp size={20} />
@@ -1183,7 +1232,7 @@ const styles = {
   sectionDivider: css`
     height: 1px;
     background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
-    margin: 4rem 0 1rem;
+    margin: 2rem 0 1rem;
     width: 100%;
   `,
 
