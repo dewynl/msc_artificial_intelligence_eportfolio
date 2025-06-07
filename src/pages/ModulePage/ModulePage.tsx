@@ -3,6 +3,9 @@ import { css, cx } from '@emotion/css';
 import { useParams } from 'react-router-dom';
 import { modulesPageData } from '../../data/static-data';
 import { getImagePath } from '../../utils/imageUtils';
+import NotFound from '../../components/NotFound';
+import ErrorBoundary from '../../components/ErrorBoundary';
+import type { RouteParams, ModuleData } from '../../types';
 
 const wrapper = css`
   display: flex;
@@ -112,23 +115,47 @@ const moduleTitle = css`
   }
 `;
 
-const ModulePage = () => {
-  const { moduleId } = useParams();
+const ModulePage: React.FC = () => {
+  const { moduleId } = useParams<RouteParams>();
 
-  const moduleContent = modulesPageData.find(moduleData => moduleData.moduleId === moduleId);
+  const moduleContent: ModuleData | undefined = modulesPageData.find(
+    moduleData => moduleData.moduleId === moduleId,
+  );
+
+  // Handle invalid module ID
+  if (!moduleContent) {
+    return (
+      <NotFound
+        title="Module Not Found"
+        message={`The module "${moduleId}" doesn't exist or may have been moved. Please check the module ID and try again.`}
+      />
+    );
+  }
 
   const background = css`
-    background-image: url(${moduleContent?.background
-      ? getImagePath(moduleContent.background)
-      : ''});
+    background-image: url(${getImagePath(moduleContent.background)});
   `;
 
   return (
     <div>
       <div className={cx(moduleTitle, background)}>
-        <h1>{moduleContent?.title}</h1>
+        <h1>{moduleContent.title}</h1>
       </div>
-      <div className={wrapper}>{moduleContent?.content}</div>
+      <div className={wrapper}>
+        <ErrorBoundary
+          fallback={
+            <div style={{ padding: '40px', textAlign: 'center' }}>
+              <h2>Failed to load module content</h2>
+              <p>
+                There was an error loading the content for this module. Please try refreshing the
+                page.
+              </p>
+            </div>
+          }
+        >
+          {moduleContent.content}
+        </ErrorBoundary>
+      </div>
     </div>
   );
 };

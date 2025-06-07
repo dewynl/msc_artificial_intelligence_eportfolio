@@ -3,8 +3,9 @@ import MachineLearningBody from './machine-learning/MachineLearningBody';
 import KnowledgeRepresentation from './knowledge-representation/KnowledgeRepresentation';
 import IntelligentAgents from './intelligent-agents/IntelligentAgents';
 import ResearchMethodsAndProfessionalPractices from './research_methods_and_professional_practices/ResearchMethodsAndProfessionalPractices';
+import type { WorkExperience, ModuleData } from '../types';
 
-export const workExperience = [
+export const workExperience: WorkExperience[] = [
   {
     title: 'Software Engineer',
     company: 'FranklinCovey',
@@ -58,7 +59,7 @@ export const workExperience = [
   },
 ];
 
-export const modulesPageData = [
+export const modulesPageData: ModuleData[] = [
   {
     moduleId: '3',
     title: 'Machine Learning',

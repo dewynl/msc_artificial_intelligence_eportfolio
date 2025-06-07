@@ -3,12 +3,13 @@ import Modal from './Modal';
 import { css } from '@emotion/css';
 
 import { workExperience } from '../data/static-data';
+import type { WorkExperience } from '../types';
 
 interface WorkExperienceModalProps {
   onClose: () => void;
 }
 
-interface WorkExperienceProps {
+interface WorkExperienceCardProps {
   jobTitle: string;
   company: string;
   period: string;
@@ -90,7 +91,12 @@ const achievementsList = css`
   }
 `;
 
-const WorkExperience = ({ jobTitle, company, period, achievements }: WorkExperienceProps) => {
+const WorkExperienceCard = ({
+  jobTitle,
+  company,
+  period,
+  achievements,
+}: WorkExperienceCardProps) => {
   return (
     <div className={workExperienceWrapper}>
       <h6 className={jobTtile}>{jobTitle}</h6>
@@ -110,12 +116,12 @@ const WorkExperience = ({ jobTitle, company, period, achievements }: WorkExperie
   );
 };
 
-const WorkExperienceModal = ({ onClose }: WorkExperienceModalProps) => {
+const WorkExperienceModal: React.FC<WorkExperienceModalProps> = ({ onClose }) => {
   return (
     <Modal onClose={onClose} title="Work Experience">
       <div className={modalContentWrapper}>
-        {workExperience.map((experience, index) => (
-          <WorkExperience
+        {workExperience.map((experience: WorkExperience, index: number) => (
+          <WorkExperienceCard
             key={index}
             jobTitle={experience.title}
             company={experience.company}

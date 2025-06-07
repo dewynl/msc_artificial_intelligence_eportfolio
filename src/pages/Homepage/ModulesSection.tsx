@@ -4,13 +4,14 @@ import { css, cx } from '@emotion/css';
 import { useNavigate } from 'react-router-dom';
 import { modulesPageData } from '../../data/static-data';
 import { getImagePath } from '../../utils/imageUtils';
+import type { ModuleId, ModuleCardStatus } from '../../types';
 
 interface ModuleCardProps {
-  moduleId: string;
+  moduleId: ModuleId;
   coverImage: string;
   name: string;
-  status: 'todo' | 'in progress' | 'done';
-  onClick: (moduleId: string) => void;
+  status: ModuleCardStatus;
+  onClick: (moduleId: ModuleId) => void;
 }
 
 const moduleCardWrapper = css`
@@ -141,9 +142,9 @@ const moduleCardsWrapper = css`
   padding: 12px 0;
 `;
 
-const ModulesSection = () => {
+const ModulesSection: React.FC = () => {
   const navigate = useNavigate();
-  const handleModuleCardClick = (moduleId: string) => {
+  const handleModuleCardClick = (moduleId: ModuleId) => {
     navigate(`/module/${moduleId}`);
   };
 
