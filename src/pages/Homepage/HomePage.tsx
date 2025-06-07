@@ -12,7 +12,7 @@ const h1Styles = css`
   color: ${whites[1]};
 `;
 
-const HomePage = () => {
+const HomePage: React.FC = () => {
   return (
     <div className={styles.homepageWrapperStyles}>
       <div className={styles.headerStyles}>
